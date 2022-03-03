@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="AlphaTest" CullFace="0" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.334</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/nongchang_01" res_file="model/city_foliage_flower06_03_755b485a50e69e339db422b940d87d9a/82254e39fa03c79393aaa145a183244c.png" />
+  </TextureParameters>
+</Material>

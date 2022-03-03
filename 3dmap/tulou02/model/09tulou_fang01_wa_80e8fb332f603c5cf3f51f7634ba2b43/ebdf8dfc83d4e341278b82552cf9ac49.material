@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>0.8745 0.9020 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <SelfLightmapToggle>0</SelfLightmapToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/tulou02" res_file="model/09tulou_fang01_wa_80e8fb332f603c5cf3f51f7634ba2b43/f5f103a27d1a801d1ac2d566026da869.png" />
+  </TextureParameters>
+</Material>

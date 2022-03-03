@@ -1,0 +1,24 @@
+<Material Shader="C3/C3SimpleReflectWater" RenderQueueTag="Transparent" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Bump_T_Scale_Offset>5.0000 5.0000 0.0000 0.0000</Bump_T_Scale_Offset>
+    <StartColor>0.5991 0.9723 1.0000 0.4627</StartColor>
+    <MiddleColor>0.0000 0.5240 1.0000 0.3020</MiddleColor>
+    <EndColor>0.0000 0.5240 1.0000 0.5882</EndColor>
+    <Vec4Speed>2.0000 1.0000 0.0000 0.0000</Vec4Speed>
+    <LerpRange>0.4000 1.0000 0.0000 0.0000</LerpRange>
+    <AlphaRange>0.0000 3.8700 -0.2300 1.0000</AlphaRange>
+  </VectorParameters>
+  <FloatParameters>
+    <Direction>0.574</Direction>
+    <NormalFactor>0.85</NormalFactor>
+    <GradientNoise>0.22</GradientNoise>
+    <ReflectNoise>0.5</ReflectNoise>
+    <FresnelFactor>0.27</FresnelFactor>
+    <Speed>0</Speed>
+  </FloatParameters>
+  <TextureParameters>
+    <Depth_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/309afb485e02b1fcc109368721cf8914.png" />
+    <Bump_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/e1b9015440fe30bd63aa7ca14932720e.png" />
+    <Reflect_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/dd5a7c0d9a7beecd4585d45b68df8953.png" />
+  </TextureParameters>
+</Material>

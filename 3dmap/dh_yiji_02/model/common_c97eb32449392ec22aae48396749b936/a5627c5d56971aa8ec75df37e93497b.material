@@ -1,0 +1,15 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Specular="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>17.5</Smoothness>
+    <SpecularIntensity>1.09</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_c97eb32449392ec22aae48396749b936/c97eb32449392ec22aae48396749b936.png" />
+  </TextureParameters>
+</Material>

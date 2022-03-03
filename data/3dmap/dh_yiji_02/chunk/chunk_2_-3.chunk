@@ -1,0 +1,651 @@
+<Entity name="chunk_2_-3" type="Group" pos="10000.0000 0.0000 -15000.0000">
+  <Entity name="dhcz_bihua_01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="641.0004 1985.3000 2761.0000" rot="-0.40381 0.58142 0.58049 0.40238" scale="0.0264 0.0296 0.0296" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_99130b5657a9cda29a4ef9122f2eb446/18779cad9f3dac815b526e6e26bb4b5a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01753587 0.01753532" offset="0.74008420 0.87375380" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_bihua_04" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="662.5465 2258.9220 2757.0320" rot="-0.40381 0.58142 0.58049 0.40238" scale="0.0264 0.0296 0.0296" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_c97eb32449392ec22aae48396749b936/f0531ae21def9f050b48f17dd349f6.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.03329281 0.03104490" offset="0.47507240 0.13466190" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el02" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3209.0000 2107.0000 929.0009" rot="0.00000 0.14941 0.00000 0.98878" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ded1b06eb46381e8b5726473a9d4e5fa/c1ce44523db1e8d9ddced04ac126ca.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00949228 0.00952797" offset="0.91214400 0.79797050" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el03" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3006.0000 2029.0000 1144.0000" rot="0.00000 0.45535 0.00000 0.89031" scale="1.5566 1.5566 1.5566" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ded1b06eb46381e8b5726473a9d4e5fa/bf1a267433d0eb38a8947ea238f8614.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01372720 0.01380411" offset="0.76107820 0.95108880" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el02 (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1668.0000 1983.0000 883.9996" rot="0.00000 0.32892 0.00000 0.94436" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ded1b06eb46381e8b5726473a9d4e5fa/c1ce44523db1e8d9ddced04ac126ca.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00949225 0.00952794" offset="0.94259080 0.98512740" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huoba_01 (6)" sid="6872b5ba97be428683f6449e4910e866" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2973.7870 2853.6670 5036.2730" rot="-0.59117 0.38915 0.38543 0.59205" scale="0.6656 0.6656 0.6656" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9355083ad2a13d1e3697a4c41b7067a1/dad87f34ba72a1b98c2d381733d5ced.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00008796 0.00010627" offset="0.13285750 0.70046040" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (2)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3454.1000 2427.4000 995.4010" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00598913 0.00597668" offset="0.99235550 0.33929980" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (3)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2919.0000 2082.0000 563.0005" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00598914 0.00597669" offset="0.99209170 0.29079090" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (3)" sid="213d281b55c54e19a0b8fe62026604b0" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4944.6990 2352.4000 3105.4000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00598912 0.00597667" offset="0.31120450 0.15864130" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (3)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3988.6990 2352.4000 2997.4000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00598912 0.00597667" offset="0.30235260 0.15864130" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (3)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2697.6990 2187.4000 4190.4000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00598914 0.00597669" offset="0.12126180 0.99250080" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huopen_01 (3)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2206.0000 2187.4000 4476.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_a8b3de6df18f77b9ac66f21a147c570b/3b45ff6642d445e5e453c6287b841797.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00598914 0.00597669" offset="0.11240990 0.99250080" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huoba_01 (9)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2225.5000 2343.6000 2806.7000" rot="-0.17902 -0.67292 -0.69478 0.18003" scale="0.6656 0.6656 0.6656" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9355083ad2a13d1e3697a4c41b7067a1/dad87f34ba72a1b98c2d381733d5ced.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00008796 0.00010627" offset="0.13587360 0.70046040" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huoba_01 (11)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2125.1000 2272.8000 1130.8990" rot="-0.69928 0.10491 0.10491 0.69928" scale="0.6656 0.6656 0.6656" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9355083ad2a13d1e3697a4c41b7067a1/dad87f34ba72a1b98c2d381733d5ced.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00008795 0.00010626" offset="0.28215670 0.79864510" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_04 (1)" sid="951c06678de04a258a30144b9c072f66" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4329.0010 1024.0000 -45.9992" rot="-0.50271 0.49727 0.49727 0.50271" scale="1.4246 1.4246 1.4246" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ffb80d105b1cdf2f1cf0350d3a60cc11/7b34ec9db5cee8bfe91daf9bdd8f91f.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.04456413 0.04439750" offset="0.31030780 0.80286770" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_05 (2)" sid="704731b596bb4626abf53972bda63e32" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5346.8990 377.0001 426.9989" rot="-0.15164 0.69066 0.69066 0.15164" scale="1.7041 1.7041 1.7041" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_c02bc7e26cd39b4802f8625093575a7e/33dd10a1df7cca3cc792d994deaf4a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05649086 0.05650749" offset="0.62267880 0.14136090" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_05 (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1947.0000 1802.0000 951.0010" rot="-0.24240 0.66426 0.66426 0.24240" scale="0.6518 0.6518 0.6518" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_c02bc7e26cd39b4802f8625093575a7e/33dd10a1df7cca3cc792d994deaf4a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01977977 0.01979640" offset="0.69393110 0.81394960" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_05" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3431.0000 2150.0000 2577.0000" rot="-0.32780 0.62653 0.62653 0.32780" scale="0.6019 0.6019 0.6019" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_c02bc7e26cd39b4802f8625093575a7e/33dd10a1df7cca3cc792d994deaf4a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01803854 0.01805517" offset="0.82416110 0.71955090" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el01A (1)" sid="6334c4936ff54042a5c7a8b69b6361aa" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4102.2990 2166.6000 4727.9000" rot="0.00000 0.96443 0.00000 0.26433" scale="1.0000 0.8935 1.0550" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ad84619ab3970bae934d690b6ce9f859/5bbdfeae64c937ecf5d3ba521e303762.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.01692811 0.01669353" offset="0.78520570 0.14951060" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el01A (2)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4442.9990 2133.6000 3650.0000" rot="0.00000 -0.05050 0.00000 0.99872" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ad84619ab3970bae934d690b6ce9f859/5bbdfeae64c937ecf5d3ba521e303762.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01713416 0.01689959" offset="0.82126880 0.76066270" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_01 (3)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1722.0000 1734.0000 4461.0000" rot="-0.07280 0.70335 0.70335 0.07280" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_df0cbdff113a8fbe686d249bb302ae88/9a9f2cc9a31c3e58b79780604e9a85e8.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01993704 0.01992131" offset="0.69393080 0.71957720" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el01A (4)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2389.4000 1968.0000 4196.4000" rot="0.00000 0.98017 0.00000 -0.19817" scale="1.0820 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ad84619ab3970bae934d690b6ce9f859/5bbdfeae64c937ecf5d3ba521e303762.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01776797 0.01753340" offset="0.90016960 0.74050270" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Aiji_huoba_01 (7)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1586.9000 2272.8000 1330.3530" rot="-0.07007 0.70363 0.70363 0.07007" scale="0.6656 0.6656 0.6656" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9355083ad2a13d1e3697a4c41b7067a1/dad87f34ba72a1b98c2d381733d5ced.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00008794 0.00010625" offset="0.28215670 0.80471440" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_diaoxiang_dafo_01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4513.1100 2258.0000 1950.2010" rot="-0.05358 0.70507 0.70507 0.05358" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_234b9defdfa70bdbfcba60fc81f076f9/cb3219eafc35e0ed13dc82af2873dc1c.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03089044 0.03087920" offset="0.60422780 0.55115460" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el01B" sid="99572f8fa7db4f47b00c54320cfdec06" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3482.2310 1922.0000 170.0409" rot="-0.00623 -0.94590 -0.04965 0.32058" scale="0.9234 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ad84619ab3970bae934d690b6ce9f859/61c8f4c9b6ebd2c67b3b3e42abeb4de.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05037148 0.05291422" offset="0.55550590 0.89010690" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el01B (1)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2470.7330 1881.0000 1058.0140" rot="0.00975 -0.99966 -0.01715 0.01717" scale="0.7133 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ad84619ab3970bae934d690b6ce9f859/61c8f4c9b6ebd2c67b3b3e42abeb4de.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.04471870 0.04726145" offset="0.61602440 0.83607590" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_diban_04" sid="e4c71f6f50d84266a9ecfaa74d12b440" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4509.0000 2353.0000 1930.0000" rot="-0.70693 -0.01562 -0.01562 0.70693" scale="0.9402 0.9402 0.4370" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dhcz_diban_04_6e02e3d89dadf32acaaf3179014e40/6e02e3d89dadf32acaaf3179014e40.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02907361 0.02907576" offset="0.68647800 0.48465870" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_diban_04 (1)" sid="f76123bc6fc94322b007556326a25657" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4509.0000 2348.1000 1930.0000" rot="-0.65275 -0.27189 -0.27189 0.65275" scale="0.9402 0.9402 0.4370" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dhcz_diban_04_6e02e3d89dadf32acaaf3179014e40/6e02e3d89dadf32acaaf3179014e40.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02907363 0.02907578" offset="0.63320680 0.48477800" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el02 (2)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2057.4000 1989.9000 885.8002" rot="0.00000 0.82967 0.00000 0.55826" scale="0.6722 0.6722 0.6722" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ded1b06eb46381e8b5726473a9d4e5fa/c1ce44523db1e8d9ddced04ac126ca.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00540527 0.00544096" offset="0.56719310 0.92128180" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_11B (1)" sid="0894b3907b4e40b5a80913df559f4416" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4803.0000 2189.0000 4917.0000" rot="0.00000 -0.65845 0.00000 0.75262" scale="1.4000 1.4000 1.4000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_0d8275078ca4c5740705e3047c371709/4d7827659e3f84586c99101b70e750.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00141861 0.00143773" offset="0.13927790 0.99297620" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_11A" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3087.0000 2223.0000 3953.0000" rot="0.00000 0.84957 0.00000 0.52748" scale="1.1190 1.1190 1.1190" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_0d8275078ca4c5740705e3047c371709/ab2ee82c46a5697db93313e3196ca30.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00107698 0.00126302" offset="0.28295990 0.68875940" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_11B" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="962.9998 2025.6670 3059.0000" rot="0.00000 -0.61780 0.00000 0.78633" scale="1.4508 1.4508 1.4508" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_0d8275078ca4c5740705e3047c371709/4d7827659e3f84586c99101b70e750.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00157839 0.00159751" offset="0.13797820 0.43577130" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_11B (9)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1954.0000 2052.0000 4242.0000" rot="0.00000 -0.96343 0.00000 0.26797" scale="1.6992 1.6992 1.6992" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_0d8275078ca4c5740705e3047c371709/4d7827659e3f84586c99101b70e750.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00236022 0.00237934" offset="0.13797420 0.36678000" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_11B (8)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2093.8000 2073.4000 2536.1000" rot="0.00000 -0.96343 0.00000 0.26797" scale="1.6992 1.6992 1.6992" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_0d8275078ca4c5740705e3047c371709/4d7827659e3f84586c99101b70e750.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00236022 0.00237934" offset="0.13797420 0.36150270" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stairs_el02 (3)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1595.0000 1970.6000 4377.0000" rot="0.00000 0.32892 0.00000 0.94436" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ded1b06eb46381e8b5726473a9d4e5fa/c1ce44523db1e8d9ddced04ac126ca.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00949228 0.00952796" offset="0.92441470 0.79797050" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_pt_dimian_a" sid="328ef86cd2784f17b3a31c3fdaa3f3cc" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4511.0000 2385.0000 1934.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="0.8558 0.8558 0.8558" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_82f0282f1ac6d503d1e50ef673908dd9/d683e4de79aca12b83962017f9757f2d.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05629669 0.05637234" offset="0.13877340 0.55760200" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_pt_huawen" sid="5f79dae651d2476d927b24c056e7d177" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4511.0000 2385.0000 1934.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="0.8669 0.8669 0.8558" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_220675f864ab79d585de6c635e5b9b8d/6433bdcfae29aee2991bffbed6c78b0.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.04064945 0.04064563" offset="0.58304820 0.36218500" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_pt_quanquan" sid="c752a4db73d2422ea23667bb0337f946" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4511.0000 2385.0000 1934.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="0.8558 0.8558 0.8558" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_bc9215fbd07c77fad11be57a5fd9caa5/c6a449be97fdaf778f59e9dee343704f.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05464088 0.05468240" offset="0.19705810 0.48902940" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (2)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2081.0000 2040.0000 4267.0000" rot="-0.65999 -0.25379 -0.25379 0.65999" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00766547 0.00765644" offset="0.13361300 0.46638250" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (6)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4615.0000 1737.0000 257.0007" rot="-0.50117 0.49883 0.49883 0.50117" scale="1.0600 1.0600 1.0600" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00830226 0.00829323" offset="0.05846273 0.98984620" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (9)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2082.0000 2065.0000 1045.9990" rot="0.56645 -0.42550 -0.44176 -0.55040" scale="0.8737 0.8737 0.8737" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.00632465 0.00631561" offset="0.99146740 0.20313160" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (10)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="586.0001 2127.8000 1304.0010" rot="0.56645 -0.42550 -0.44176 -0.55040" scale="0.8737 0.8737 0.8737" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.00632466 0.00631563" offset="0.99146740 0.19394260" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (11)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4570.0000 2153.0000 4858.0000" rot="-0.59820 0.37703 0.37703 0.59820" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.00766547 0.00765644" offset="0.13361300 0.47690020" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (20)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1068.0000 2211.0000 3418.0000" rot="0.56645 -0.42550 -0.44176 -0.55040" scale="1.6295 1.6295 1.6295" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/9ba8c363528dc57b76442a0394164c4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01434572 0.01433669" offset="0.97606470 0.43140640" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jn_shideng" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3938.0000 2402.0000 1361.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_cb1fb9bbde69b750bb903eb6f4f6b099/b83243ac935d5289c9feb44f2a8a6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01097227 0.01098064" offset="0.79519030 0.88116630" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jn_shideng (1)" sid="28cca33ddb224bbbac96ccb4bd5705be" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5073.7000 2402.0000 1361.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_cb1fb9bbde69b750bb903eb6f4f6b099/b83243ac935d5289c9feb44f2a8a6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01097227 0.01098064" offset="0.79519030 0.90889920" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jn_shideng (2)" sid="24cb75b73a8e4455b592daa1ed04d523" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5073.0990 2402.0000 2492.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_cb1fb9bbde69b750bb903eb6f4f6b099/b83243ac935d5289c9feb44f2a8a6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01097228 0.01098066" offset="0.79519030 0.85343350" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jn_shideng (3)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3940.5000 2402.0000 2492.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_cb1fb9bbde69b750bb903eb6f4f6b099/b83243ac935d5289c9feb44f2a8a6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01097227 0.01098064" offset="0.79519030 0.89503280" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_foku__xiaofoxiang (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="330.7999 2341.2000 1250.8000" rot="-0.28774 0.64591 0.64591 0.28774" scale="4.3485 4.3485 3.7312" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/632ce9793efd3e91dff1d663d9e428.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00470317 0.00577254" offset="0.35334860 0.98080950" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_foku_01 (5)" sid="a434da25fbf9463493a450e52152f92a" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3940.0000 2139.0000 -295.9991" rot="0.00000 0.21623 0.00000 0.97634" scale="126.0006 126.0006 126.0006" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/f96bba663d415c878ac68119a19dba.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05144683 0.05145159" offset="0.53133030 0.20482510" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_foku_01 (9)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3470.9990 2529.0000 2933.0000" rot="0.00000 -0.25093 0.00000 0.96801" scale="173.8287 173.8287 173.8287" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/b5dd3cf3221492881480a2b770ff1da.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.06175328 0.06174894" offset="0.53734550 0.07494295" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_foku_01 (10)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2989.0000 2529.0000 2548.0000" rot="0.00000 0.92280 0.00000 0.38528" scale="149.2113 149.2111 149.2113" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/173af13e5f7fb20ba16da38a61b730.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.06409373 0.06407780" offset="0.07515363 0.07493828" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_foku_01 (13)" sid="ca61bf28ba014d768cfab67c5c6a27bc" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4454.9990 1576.0010 642.0013" rot="0.00000 -0.13749 0.00000 0.99050" scale="216.1609 216.1608 216.1609" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/1fce233fcd12cbcf91d6a57db895e31.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05081262 0.05081437" offset="0.80083920 0.20482630" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (21)" sid="14b08812d0854f43aefbf849d57a0e67" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4901.9930 2065.0200 5304.0040" rot="0.00000 0.89188 0.00000 0.45227" scale="107.3001 107.3000 107.3001" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/4d423376743d3db5c5e5317dad24f9.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.06118937 0.06097740" offset="0.38097350 0.14135190" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (29)" sid="127ad42f45954a33bfbd4a704a2ce36e" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="928.0175 1993.0470 3723.9990" rot="0.00000 0.26383 0.00000 0.96457" scale="169.1833 169.1833 169.1833" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/aef47f489d0a03e3a2cd82152ca56a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.04536069 0.04512227" offset="0.94412140 0.33737580" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (32)" sid="68703d069b4a4fe29957653431e5af20" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="555.9960 1758.9650 1218.0180" rot="0.00000 0.61821 0.00000 0.78601" scale="126.0031 126.0031 126.0031" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/b09a45876f499ba7dbe4b2847c67f8.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.07509839 0.07509013" offset="0.57558790 0.80803500" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (38)" sid="1633a37ba94149a292c392ed33b6a2e1" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1091.0060 1840.0200 267.9688" rot="0.00000 0.43505 0.00000 0.90041" scale="155.1098 155.1098 155.1098" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/be1dcb65cc834bd59454bef42704b.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05582448 0.05576254" offset="0.19705570 0.20481640" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (41)" sid="3e33c151a3764a8c8c84670a11301a10" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1928.0170 1867.9980 4779.0040" rot="0.00000 0.80755 0.00000 0.58981" scale="167.4111 167.4111 167.4111" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/e96f58946641e47b6aaa78495e187f4.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.06011183 0.06010214" offset="0.07516160 0.34378290" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (44)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2993.0080 1891.0450 3837.0120" rot="0.00000 0.50500 0.00000 0.86312" scale="115.1507 115.1507 115.1507" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/c9effbc0e093a326137b79725b5c90d3.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.04141806 0.04143724" offset="0.35966260 0.52387300" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (51)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1860.9760 2161.9930 1501.0010" rot="0.00000 -0.18471 0.00000 0.98279" scale="136.4793 145.6947 145.6947" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/a8152b06cf9c779e1c3021c8bae643.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.04822941 0.04822924" offset="0.36512470 0.25986420" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (53)" sid="0c6249b8010a4da1bf6393be68ef2a36" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5047.9890 1890.9960 3557.0070" rot="0.00000 0.06806 0.00000 0.99768" scale="173.3358 173.3359 173.3358" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/f3dc549ca831ac21d7653e35908ffd.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.06213822 0.06218044" offset="0.73016360 0.07506644" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Rock1_2 (58)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3044.0340 2057.0120 1467.9930" rot="0.00000 0.96298 0.00000 -0.26958" scale="130.4687 130.4683 130.4687" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/fbadb5888d89aba554dbea3ea55a2d7.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03738871 0.03739457" offset="0.69654880 0.40628710" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_12 (3)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="591.0057 2381.0350 3098.9990" rot="0.00000 -0.74068 0.00000 0.67186" scale="113.9938 113.9938 113.9938" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/bee7d9e0f0b888deec89699fc1e3d437.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02632630 0.02639336" offset="0.58680200 0.70701570" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Crystals_06" sid="1dc6463c30d84445b58e687b3175c165" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4022.0120 2058.3790 -602.0020" rot="-0.10306 -0.00976 0.03338 0.99407" scale="86.5860 86.5860 86.5860" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ca4abc33938a62c5c0f16926c4f13521/40d3bd5eb9c48c2ba96eec7d0a6c2ff.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02054722 0.02482624" offset="0.80350020 0.91832830" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Crystals_10" sid="55b41334d4d84294bc8cfa005de641c9" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4644.2780 2179.6680 4902.8810" rot="-0.23058 0.01672 -0.18211 0.95571" scale="148.9100 148.9100 148.9099" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ca4abc33938a62c5c0f16926c4f13521/48e735915a7058a3316e225aec1baaf5.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00719600 0.00721537" offset="0.66497070 0.50659960" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Crystals_011" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2528.8470 2316.9730 1969.4090" rot="0.00000 0.00000 0.00000 1.00000" scale="100.0000 100.0000 100.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ca4abc33938a62c5c0f16926c4f13521/c689fd8a8a7c5c836bf2759bbc8314a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00989566 0.00990910" offset="0.98733860 0.65817550" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Crystals_012" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="651.8456 2046.6610 2226.2700" rot="0.09212 -0.07836 -0.19310 0.97370" scale="100.0000 100.0000 100.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_ca4abc33938a62c5c0f16926c4f13521/3d431c6c27145cb14a46eb4c49deccd.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.00985090 0.00985097" offset="0.86429130 0.50399070" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Stal_07" sid="2dd6d90a3bd846c2ab6aab68d0779d94" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4448.9650 2373.0280 711.0107" rot="0.00000 -0.06099 0.00000 0.99814" scale="160.9038 160.9038 160.9038" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_4cd1d46242ba17d93ef36b6284001464/251e92df7e5e59333be21596efa14071.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03179450 0.03169499" offset="0.93517000 0.51678700" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="Stal_09" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2858.9840 2080.1570 864.5386" rot="0.00000 0.35720 0.00000 0.93403" scale="242.9800 242.9800 242.9800" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_4cd1d46242ba17d93ef36b6284001464/b5fe48c28ae6dd3126b499b21cd24d8.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02592877 0.02580146" offset="0.89284690 0.61520880" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_shadui_06" sid="e9e0e80c4ac440aabc60f190e8c39ffc" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5420.9990 2375.0000 2147.0000" rot="0.00672 -0.59571 -0.00308 0.80316" scale="152.2988 54.3210 152.2989" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_6ffe872416d8ccf48b9b41c2eab7274f/1f76999d9ccf1ac267d820287dad3f4c.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.01786596 0.01795856" offset="0.26689300 0.53591920" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_shadui_010" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3257.0010 2197.0000 4526.0000" rot="0.00000 -0.44501 0.00000 0.89553" scale="170.1334 45.8251 170.1334" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_6ffe872416d8ccf48b9b41c2eab7274f/55ae90457cfe9b52c6bcbd9f15d9224c.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02316466 0.02366609" offset="0.69392440 0.76487850" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_shadui_011" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3863.6000 2364.9010 2907.2010" rot="0.00326 0.04610 -0.00663 0.99891" scale="147.1804 52.4955 147.1805" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_6ffe872416d8ccf48b9b41c2eab7274f/5633e49d6c3e4f9bdf4c14e70771111.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02279487 0.02279499" offset="0.83357410 0.64405420" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_shadui_012" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="1984.4000 2088.5000 2137.7990" rot="0.00000 0.96767 0.00000 -0.25222" scale="181.7036 133.7756 181.7036" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_6ffe872416d8ccf48b9b41c2eab7274f/48bbf84852427a2659ba7d10ae3b2da.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02515294 0.02535188" offset="0.11240380 0.96428190" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_shadui_013" sid="f09da84816c54474873e024b7784ffcc" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2578.9990 2090.0000 956.7001" rot="-0.00376 0.86084 -0.00636 0.50883" scale="149.7602 53.4155 149.7602" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_6ffe872416d8ccf48b9b41c2eab7274f/38fb7b506216a28bb2544812cd3969d9.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02575521 0.02557240" offset="0.64394160 0.64404860" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_02 (21)" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3276.9990 2366.0000 2382.0000" rot="-0.61614 0.33980 0.35332 0.61651" scale="3.3658 3.3658 1.5770" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/995250b9f4de51ee5c682bb549ae281.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.00653628 0.00666515" offset="0.99147500 0.21233360" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_03" sid="b7ae31d1479144d28899df294109d5fa" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5086.0990 2198.0000 5135.3000" rot="-0.50477 0.51209 0.49716 0.48560" scale="4.5857 4.5857 2.1486" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/2cd1a9575dce70be881560af4a7e736d.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.01559627 0.01557973" offset="0.85143010 0.98423300" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_04" sid="bc5b2e9de61847ceb13f69d1083835e5" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3503.9990 2197.9000 4504.8000" rot="-0.37918 0.60869 0.59848 0.35714" scale="4.5857 4.5857 2.1486" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/c7a3a7d5b8104c1af1ebf5ce3c38c0e8.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01807783 0.01812181" offset="0.92941590 0.71955080" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_05" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2781.0000 2078.0000 3542.0000" rot="-0.08836 0.70281 0.70295 0.06406" scale="4.5857 4.5857 2.1486" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/ab597509b2c5071b55ebbd42d47dee8.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02363171 0.02346942" offset="0.96084420 0.64405290" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_06" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="768.0077 2064.1410 1373.9990" rot="-0.61502 0.42441 0.38574 0.54114" scale="4.9329 4.9329 2.3112" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/25568f98a4cbfdb9d2237d47553ce56d.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01910314 0.01852371" offset="0.85975650 0.76083760" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_shazi_07" sid="1dcf11e4d5604fa780b1acaac4299f9b" render_queue="2450" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2681.6310 2038.3000 -758.2291" rot="-0.70086 -0.17288 -0.17017 0.67079" scale="4.5981 4.5981 2.7132" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_19be26fd17d2a693904f2a5036c88a2e/a5aef214dddc6b76e3b287b1b931cdbb.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01821890 0.01787872" offset="0.92070530 0.74068680" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_lazhu_03" sid="8bede2aa77bd4b1491517ba891fa874a" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="6045.0000 1532.7010 642.9993" rot="-0.13423 0.69425 0.69425 0.13423" scale="122.6293 122.6292 122.6293" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_39b5822bed1977fa5f78ae0cdea6b08c/d73d742f4fcebd1637fecef85f8727.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.00044586 0.00046034" offset="0.31433510 0.99786480" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_lazhu_09" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="3378.4000 2362.8010 2381.3010" rot="-0.13424 0.69425 0.69425 0.13424" scale="60.9365 60.9365 60.9365" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_39b5822bed1977fa5f78ae0cdea6b08c/62753bf93867bd3024525db1f464d5ba.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="-0.00020241 -0.00019135" offset="0.99873640 0.27270250" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_lazhu_010" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="720.9000 2326.3410 1582.9010" rot="-0.40346 0.58071 0.58071 0.40346" scale="44.2689 44.2689 44.2689" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_39b5822bed1977fa5f78ae0cdea6b08c/acd916f1d372158c4b172b665179161.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="-0.00145731 -0.00137520" offset="0.86663030 0.36059920" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_lazhu_011" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="2474.8000 2272.5000 4749.7000" rot="-0.00789 0.70706 0.70706 0.00789" scale="68.3585 68.3585 68.3585" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_39b5822bed1977fa5f78ae0cdea6b08c/ae56d8e040a9a09d79bee1903fbceaf3.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="-0.00128138 -0.00129132" offset="0.86342730 0.36059900" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_fx_01 (2)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1278.9940 1734.0140 3794.9950" rot="-0.54417 0.45152 0.45152 0.54417" scale="100.0000 100.0000 100.0000" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_df0cbdff113a8fbe686d249bb302ae88/d4f84d43a1893a7e92735dddfae6520.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02446823 0.02444947" offset="0.61606480 0.69497040" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_diaoxiang_dafo_01 (1)" sid="f72ec69251ab4fc7b08d0093bda154a7" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1193.9840 511.0647 4472.9860" rot="-0.27853 0.59798 0.72541 0.19651" scale="312.5843 312.5845 312.5843" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_234b9defdfa70bdbfcba60fc81f076f9/8221b7dc3765c4ad136a1272e188012.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03256103 0.03258980" offset="0.48647390 0.69397180" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_12" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3510.0000 2047.0000 3619.0000" rot="0.00000 0.23829 0.00000 0.97120" scale="1.1436 1.1436 1.1436" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/b099e34ebb4cb145136b96aff66be0ae.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03090609 0.02954070" offset="0.74423270 0.69597970" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_12 (7)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="822.9996 1646.0000 605.0003" rot="0.00000 -0.38250 0.00000 -0.92396" scale="1.4281 1.4281 1.4281" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/b099e34ebb4cb145136b96aff66be0ae.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.03932551 0.03796011" offset="0.64676530 0.61518450" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Rock3_12 (8)" sid="68126edbf7fa4b5ca885960d20d7a805" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="645.9999 1596.0000 258.0002" rot="0.00000 -0.92141 0.00000 0.38858" scale="1.8072 1.8072 1.8072" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/b099e34ebb4cb145136b96aff66be0ae.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05054362 0.04917822" offset="0.63335060 0.44854970" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="map_m_rock_02_02__11_ (3)" sid="1f12b083f36241ea8b0d92923bed02de" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-1936.2400 -866.1083 -1464.2880" rot="-0.66912 0.22865 0.22865 0.66912" scale="3.7109 3.7109 2.4871" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_db1cb3dba9077c9a2c121ce2849182f1/3ed9b5d1fcc415e7a4b42cfc37efa6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05491778 0.05489291" offset="0.19648770 0.43200490" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_zhuzi (9)" sid="414d9ab5db244ea2a9c19a35888443c9" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2925.0000 2398.0000 5134.0000" rot="-0.68753 -0.16523 -0.16523 0.68753" scale="533.8868 502.9648 502.9648" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dh_yjxb_jin_zhuzi9_e9617c12980e6a2296bc48f8eb14015/e9617c12980e6a2296bc48f8eb14015.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.02879943 0.02880113" offset="0.25563120 0.88125800" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_zhuzi (15)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2295.0000 2079.0000 2767.0000" rot="-0.34618 0.61657 0.61657 0.34618" scale="354.8492 334.2964 334.2964" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dh_yjxb_jin_zhuzi9_e9617c12980e6a2296bc48f8eb14015/e9617c12980e6a2296bc48f8eb14015.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.01815469 0.01815638" offset="0.76128200 0.71955070" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_zhuzi (8)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="462.0003 2031.0000 2210.0000" rot="-0.55484 -0.43835 -0.43835 0.55484" scale="466.6983 409.6161 409.6161" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dh_yjxb_jin_zhuzi9_e9617c12980e6a2296bc48f8eb14015/e9617c12980e6a2296bc48f8eb14015.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02347218 0.02347387" offset="0.75154660 0.64405280" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_jin_zhuzi (7)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="886.0001 2031.0000 3306.0000" rot="-0.60363 -0.36828 -0.36828 0.60363" scale="466.6982 409.6162 409.6163" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/dh_yjxb_jin_zhuzi9_e9617c12980e6a2296bc48f8eb14015/e9617c12980e6a2296bc48f8eb14015.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.02347220 0.02347389" offset="0.72525200 0.64405280" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="Terrain_jin" sid="4d178809c1a54f1d81d4e8f0b0090d4d" type="Group" layer="_Floor" pos="5017.0000 839.9999 1788.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.0000 1.0000 1.0000" static="true">
+    <Component type="MAP" cell_type="terrain" lod_level="8" res_pack="data/3dmap/dh_yiji_02/terrain" res_file="terrain_jin.terrain">
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.26200540 0.26209860" offset="-0.01148298 0.69301650" />
+    </Component>
+  </Entity>
+  <Entity name="quicksand (4)" render_queue="3000" type="Effect" layer="_Map" pos="2972.0000 2971.0000 533.9996" rot="0.00000 0.00000 0.00000 1.00000" scale="1.4281 1.4281 1.4281">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="quicksand/quicksand.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="quicksand (5)" render_queue="3000" type="Effect" layer="_Map" pos="608.0002 2901.0000 572.0001" rot="0.00000 0.00000 0.00000 1.00000" scale="1.4281 1.4281 1.4281">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="quicksand/quicksand.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="quicksand (6)" render_queue="3000" type="Effect" layer="_Map" pos="2524.0000 2862.0000 4651.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.4281 1.4281 1.4281">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="quicksand/quicksand.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="quicksand (7)" render_queue="3000" type="Effect" layer="_Map" pos="4398.0000 3217.0000 4873.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.4281 1.4281 1.4281">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="quicksand/quicksand.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="light" render_queue="3000" type="Effect" layer="_Map" pos="1051.0000 2259.0000 1025.0000" rot="0.00000 -0.99667 0.00000 0.08151" scale="1.1013 1.1013 1.1013">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="light (9)" render_queue="3000" type="Effect" layer="_Map" pos="3960.0000 2629.0000 2511.0000" rot="-0.06206 -0.51136 -0.03407 -0.85645" scale="2.0485 2.0485 2.0485">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="light (10)" render_queue="3000" type="Effect" layer="_Map" pos="3962.4690 2623.6870 2495.6830" rot="-0.06206 -0.51136 -0.03407 -0.85645" scale="1.9243 1.9243 1.9243">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="light (11)" render_queue="3000" type="Effect" layer="_Map" pos="1675.2000 2233.4000 4228.7000" rot="0.07063 -0.98084 -0.13485 0.12155" scale="1.3756 1.3756 1.1373">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="light (12)" render_queue="3000" type="Effect" layer="_Map" pos="1663.0000 2220.0000 4235.0000" rot="0.07063 -0.98084 -0.13485 0.12155" scale="1.2049 1.2049 0.9961">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire" render_queue="3000" type="Effect" layer="_Map" pos="2914.4000 2067.0000 568.8004" rot="0.00000 -0.16903 0.00000 0.98561" scale="0.9400 0.9400 0.9400">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (1)" render_queue="3000" type="Effect" layer="_Map" pos="3457.4000 2435.2000 1005.3010" rot="-0.00059 -0.30535 -0.00071 0.95224" scale="0.7892 0.7892 0.7892">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (2)" render_queue="3000" type="Effect" layer="_Map" pos="4932.5990 2359.5000 3096.0000" rot="-0.00056 -0.35292 -0.00074 0.93565" scale="0.7892 0.7892 0.7892">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (3)" render_queue="3000" type="Effect" layer="_Map" pos="3998.5000 2359.5000 3004.5000" rot="-0.00083 0.10875 -0.00041 0.99407" scale="0.7892 0.7892 0.7892">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (4)" render_queue="3000" type="Effect" layer="_Map" pos="2160.3000 2361.6000 1124.1000" rot="-0.04891 0.56683 -0.11664 0.81407" scale="0.3708 0.3708 0.3708">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (5)" render_queue="3000" type="Effect" layer="_Map" pos="1539.1000 2358.0000 1323.1990" rot="0.02366 0.02290 -0.12425 0.99170" scale="0.3708 0.3708 0.3708">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (6)" render_queue="3000" type="Effect" layer="_Map" pos="2691.1000 2189.7000 4198.8000" rot="-0.00045 -0.47139 -0.00081 0.88192" scale="0.7892 0.7892 0.7892">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (7)" render_queue="3000" type="Effect" layer="_Map" pos="2200.8990 2191.3000 4476.4000" rot="-0.00074 -0.08102 -0.00056 0.99671" scale="0.7892 0.7892 0.7892">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (17)" render_queue="3000" type="Effect" layer="_Map" pos="2207.4550 2426.1740 2825.9470" rot="0.06757 -0.47005 0.03556 0.87933" scale="0.3623 0.3623 0.3623">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (18)" render_queue="3000" type="Effect" layer="_Map" pos="3940.2010 2615.7000 1364.3010" rot="-0.00056 -0.35292 -0.00074 0.93565" scale="0.6211 0.3902 0.6211">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="aiji_fire (19)" render_queue="3000" type="Effect" layer="_Map" pos="3940.2010 2615.7000 2490.3000" rot="-0.00056 -0.35292 -0.00074 0.93565" scale="0.6211 0.3902 0.6211">
+    <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+</Entity>

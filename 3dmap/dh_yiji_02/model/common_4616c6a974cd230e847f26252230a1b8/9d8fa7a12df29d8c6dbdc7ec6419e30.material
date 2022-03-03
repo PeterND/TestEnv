@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Transparent" CullFace="0" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>0.5943 0.2383 0.2383 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.2</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_4616c6a974cd230e847f26252230a1b8/4616c6a974cd230e847f26252230a1b8.png" />
+  </TextureParameters>
+</Material>

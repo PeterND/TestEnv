@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._posx.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._negx.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._posy.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._negy.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._posz.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._negz.png" />
+</MTex>

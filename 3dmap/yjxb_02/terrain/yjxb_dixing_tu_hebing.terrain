@@ -1,0 +1,9 @@
+<Terrain name="yjxb_dixing_tu_hebing" render_level="0" has_culldata="false">
+  <HMap>yjxb_dixing_tu_hebing_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="45.0000 45.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_39af062851b57551521ee87c5fd064be.png</Tex>
+    <Tex type="detail" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_28d622876c35490069f017df47e0546a.png</Tex>
+    <Tex type="detail" Tiling="15.0000 15.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_c6841c10a27676f2048bbb5a8228e7de.png</Tex>
+    <Tex type="detail" Tiling="20.0000 20.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_daeadb7ca633df77edb87f386e6c306f.png</Tex>
+  </Textures>
+</Terrain>

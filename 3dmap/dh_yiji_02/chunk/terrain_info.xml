@@ -1,0 +1,35 @@
+<Terrain_Info>
+  <Terrain name="dh_yiji_02" type="0" pipeline="data/3dmap/dh_yiji_02/custom.pipeline.xml">
+    <Entity name="MapExtend" type="Group">
+      <Entity name="MainCamera" type="Camera" cam_near_far="40 20000" cam_fov="60" cam_bg="4286558148" />
+      <Entity name="HeroLight" type="Light" res_type="1" pos="5460.0000 233.0000 -3586.0000" light_radius="700.0000" light_color="0.9623 0.9328 0.6763" light_intensity="0.5000" light_power="2" />
+      <Entity name="Point Light (1)" type="Light" res_type="1" pos="12897.0000 2277.0000 -14491.0000" light_radius="935.9999" light_color="0.9608 0.4912 0.4392" light_intensity="4.0000" light_power="2">
+        <Component type="SCRIPT" class="CLightTriggerEntity">
+          <Component class="CTrigger">
+            <Param t="4" k="offset" v="0 0 0" />
+            <Param t="4" k="size" v="548 594 569" />
+            <Param t="3" k="type" v="1" />
+          </Component>
+        </Component>
+      </Entity>
+      <Entity name="Point Light (2)" type="Light" res_type="1" pos="10757.0000 2277.0000 -12285.0000" light_radius="935.9999" light_color="0.9608 0.7979 0.4392" light_intensity="4.0000" light_power="2">
+        <Component type="SCRIPT" class="CLightTriggerEntity">
+          <Component class="CTrigger">
+            <Param t="4" k="offset" v="0 0 0" />
+            <Param t="4" k="size" v="548 594 569" />
+            <Param t="3" k="type" v="1" />
+          </Component>
+        </Component>
+      </Entity>
+      <Entity name="Point Light" type="Light" res_type="1" pos="14493.0000 2668.0000 -13236.0000" light_radius="935.9999" light_color="1.0000 1.0000 1.0000" light_intensity="4.0000" light_power="2">
+        <Component type="SCRIPT" class="CLightTriggerEntity">
+          <Component class="CTrigger">
+            <Param t="4" k="offset" v="0 0 0" />
+            <Param t="4" k="size" v="548 594 569" />
+            <Param t="3" k="type" v="1" />
+          </Component>
+        </Component>
+      </Entity>
+    </Entity>
+  </Terrain>
+</Terrain_Info>

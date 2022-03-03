@@ -1,0 +1,38 @@
+<Entity name="chunk_4_-6" type="Group" pos="20000.0000 0.0000 -30000.0000" static="true">
+  <Entity name="cloud_01 (69)" sid="75545350607c4beabac20f391fe1efbd" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="-800.0000 -947.9999 5344.0000" rot="-0.46188 0.25770 -0.71285 -0.46055" scale="0.3968 0.3968 0.3968">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_c928e9c5db2d59d77aec6f0c02b87321/a065f7420f4944aaf64949d116ee22.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.16565310 0.16183220" offset="0.60733000 0.26457080" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="cloud_01 (73)" sid="f5dbbb7a93a2491cb392d2438de5fc5a" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="-1642.9990 1143.0000 2951.9990" rot="0.34008 0.52631 -0.77835 -0.03892" scale="0.3681 0.3681 0.3681">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_c928e9c5db2d59d77aec6f0c02b87321/a065f7420f4944aaf64949d116ee22.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.15070700 0.14723080" offset="0.75573590 0.75197790" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="cloud_01 (77)" sid="03ae4a9e51e240e2b019adb18c5a17a4" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="-333.9996 595.0000 5079.0000" rot="0.61801 0.49943 -0.58271 0.17054" scale="0.3089 0.3089 0.3089">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_c928e9c5db2d59d77aec6f0c02b87321/a065f7420f4944aaf64949d116ee22.model">
+      <Lighting recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.13077870 0.12776220" offset="0.22184300 0.35159280" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_tielian_01__7__2" sid="4898f91606f2451ca53f77109a223da4" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="-20000.0000 0.0000 30000.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_8a9ec1da8f572836b79af6f9b5ee6b4e/c94d4e37f4242e2866cdecb8c6390c.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.15961570 0.15622250" offset="0.61302280 0.59340800" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="Object003" sid="348d84791b1e4c14978b87dfcd81258d" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-40000.0000 5060.0000 27420.0000" rot="-0.67533 -0.20960 -0.20960 0.67533" scale="1.3600 1.3600 3.8340">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_6d7c02273cac0a3b13e544fe16aba66a/b258d3175388bd96a918caf56a4996.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.12991970 0.12309860" offset="0.78114640 0.42937150" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="sg_gongmenbei_01_01_003" sid="a31dd67e43a649a3ba211a988fea57d7" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-40000.0000 5060.0000 27420.0000" rot="-0.68765 -0.16475 -0.16475 0.68765" scale="1.3600 1.3600 3.8340">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_1c6a3b1e7a6ffb4b43436f9648ce25fc/3ebd3f94edd1bc1f42f7f1b81faf2732.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.35758870 0.35215070" offset="-0.00017879 -0.00017608" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

@@ -1,0 +1,28 @@
+<Material Shader="C3/C3ReflectWater_wave" RenderQueueTag="Transparent" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Bump_T_Scale_Offset>5.0000 5.0000 0.0000 0.0000</Bump_T_Scale_Offset>
+    <ShoresideWave>0.1200 2.0000 0.1000 20.0000</ShoresideWave>
+    <StartColor>0.5991 0.9723 1.0000 0.4627</StartColor>
+    <MiddleColor>0.0000 0.5240 1.0000 0.5451</MiddleColor>
+    <EndColor>0.0000 0.5240 1.0000 0.5882</EndColor>
+    <Vec4Speed>2.0000 1.0000 0.0000 0.0000</Vec4Speed>
+    <LerpRange>0.4000 1.0000 0.0000 0.0000</LerpRange>
+    <AlphaRange>0.0260 5.0000 -0.2300 1.0000</AlphaRange>
+  </VectorParameters>
+  <FloatParameters>
+    <Direction>0.574</Direction>
+    <NormalFactor>0.85</NormalFactor>
+    <GradientNoise>0.22</GradientNoise>
+    <ReflectNoise>0.5</ReflectNoise>
+    <FresnelFactor>0.27</FresnelFactor>
+    <Speed>0</Speed>
+    <ShoresideWaveIntensity>100</ShoresideWaveIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Depth_T res_pack="data/3dmap/dh_yiji_02" res_file="model/dhxb_shui_shuiwen_03_585cb759a4e9a90f49ec8c2a95f3b/4153672a0242b0f3de7072d746a007f1.png" />
+    <Bump_T res_pack="data/3dmap/dh_yiji_02" res_file="model/dhxb_shui_shuiwen_03_585cb759a4e9a90f49ec8c2a95f3b/e1b9015440fe30bd63aa7ca14932720e.png" />
+    <Noise_T res_pack="data/3dmap/dh_yiji_02" res_file="model/dhxb_shui_shuiwen_03_585cb759a4e9a90f49ec8c2a95f3b/f014a7dfe200ce9e0060466d16f475a0.png" />
+    <Wave_T res_pack="data/3dmap/dh_yiji_02" res_file="model/dhxb_shui_shuiwen_03_585cb759a4e9a90f49ec8c2a95f3b/b5fb2f1329379d1aea98f8543c4a998e.png" />
+    <Reflect_T res_pack="data/3dmap/dh_yiji_02" res_file="model/dhxb_shui_shuiwen_03_585cb759a4e9a90f49ec8c2a95f3b/dd5a7c0d9a7beecd4585d45b68df8953.png" />
+  </TextureParameters>
+</Material>

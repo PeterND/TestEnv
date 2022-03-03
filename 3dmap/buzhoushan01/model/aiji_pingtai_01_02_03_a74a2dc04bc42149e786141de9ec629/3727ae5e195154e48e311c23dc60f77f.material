@@ -1,0 +1,18 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Specular="1" Emission="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>0.1</Smoothness>
+    <SpecularIntensity>2</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+    <EmissionIntensity>0.4</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/buzhoushan01" res_file="model/aiji_pingtai_01_02_03_a74a2dc04bc42149e786141de9ec629/d0568e1c9ba7d4b44d8666736f8db8be.png" />
+    <Emission_T res_pack="data/3dmap/buzhoushan01" res_file="model/aiji_pingtai_01_02_03_a74a2dc04bc42149e786141de9ec629/5fa09ad69addd0406460479d201f6f06.png" />
+  </TextureParameters>
+</Material>

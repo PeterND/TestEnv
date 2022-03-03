@@ -1,0 +1,23 @@
+<Material Shader="C3/C3DepthWater_Wave" RenderQueueTag="Transparent" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Water_T_Scale_Offset>5.0000 5.0000 0.0000 0.0000</Water_T_Scale_Offset>
+    <ShoresideWave>0.1300 1.0000 0.0800 13.5600</ShoresideWave>
+  </VectorParameters>
+  <FloatParameters>
+    <WaterSpeed>0.033</WaterSpeed>
+    <AlphaGradient>0.16</AlphaGradient>
+    <WaterGradient>0.17</WaterGradient>
+    <RippleIntensity>0.182</RippleIntensity>
+    <Brightness>1.19</Brightness>
+    <Glossiness>0.82</Glossiness>
+    <Transparency>0.75</Transparency>
+  </FloatParameters>
+  <TextureParameters>
+    <Gradient_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/4413d8562f0d79172578b00c1bbc7f54.png" />
+    <Depth_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/4153672a0242b0f3de7072d746a007f1.png" />
+    <Water_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/3db574821caef9f90d551162d3f00e2d.png" />
+    <Bump_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/e5a4e67bfef63fb90008b649bbe43a14.png" />
+    <Noise_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/f014a7dfe200ce9e0060466d16f475a0.png" />
+    <Wave_T res_pack="data/3dmap/common" res_file="model/common_4153672a0242b0f3de7072d746a007f1/b5fb2f1329379d1aea98f8543c4a998e.png" />
+  </TextureParameters>
+</Material>

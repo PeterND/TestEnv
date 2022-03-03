@@ -1,0 +1,20 @@
+<Entity name="chunk_1_-1" type="Group" pos="5000.0000 0.0000 -5000.0000" static="true">
+  <Entity name="dh_yjxb_foku_01 (4)" sid="0f1a7904008245d5ad3155c07f30fd3f" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2526.5160 -70.9995 1958.6560" rot="0.00000 0.57733 0.00000 0.81651" scale="710.0189 710.0187 710.0189">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_3f13a502ff708e9703ddd635cb279fe4/74861748edb5352236bce19a91eb3da6.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.17638980 0.17639730" offset="0.66948260 0.73169030" uv2_error="2" />
+    </Component>
+  </Entity>
+  <Entity name="dhxb_zhuzi_03 (19)" sid="efae7eb994e84261a1c5df4fcb3b07d6" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1002.0000 507.0004 5662.0000" rot="-0.70496 -0.05500 -0.05500 0.70497" scale="440.1693 440.1696 522.0516">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_9123ca3ce32c11ec27be69d4d631503b/b513b83bf772af2044b65840f354faae.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="0" scale="0.05088394 0.05094077" offset="0.94864240 0.48136770" uv2_error="3" />
+    </Component>
+  </Entity>
+  <Entity name="dh_yjxb_tielian (5)" sid="bfab296b4cff48e4b3fd27c4868926e4" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="898.5161 3986.0000 653.6564" rot="-0.69383 0.47738 -0.11884 0.52591" scale="49.7072 49.7073 49.7073">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/common" res_file="model/common_46bfa3e08c29ff9e786184d27ecf094b/65b84c5e8b58d59ac8182cccb855c1e.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="1" scale="0.12584550 0.12584490" offset="0.00121316 0.57524320" uv2_error="3" />
+    </Component>
+  </Entity>
+</Entity>

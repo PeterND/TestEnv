@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <SelfLightmapToggle>0</SelfLightmapToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/hunianshou01_z" res_file="model/dh_hpq_shitou_07_98554be94764270183c61cb6f77fd5/77e134851725bc30984e2a911dca9f6c.png" />
+  </TextureParameters>
+</Material>

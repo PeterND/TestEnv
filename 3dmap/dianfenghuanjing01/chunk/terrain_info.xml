@@ -1,0 +1,8 @@
+<Terrain_Info>
+  <Terrain name="dianfenghuanjing01" type="0" pipeline="data/3dmap/dianfenghuanjing01/custom.pipeline.xml">
+    <Entity name="MapExtend" type="Group">
+      <Entity name="HeroLight" type="Light" res_type="1" pos="0.0000 233.0000 63.9999" light_radius="700.0000" light_color="0.9882 1.0000 0.8667" light_intensity="0.5000" light_power="2" />
+      <Entity name="MainCamera" type="Camera" cam_near_far="30 100000" cam_fov="60" cam_bg="3231097" />
+    </Entity>
+  </Terrain>
+</Terrain_Info>

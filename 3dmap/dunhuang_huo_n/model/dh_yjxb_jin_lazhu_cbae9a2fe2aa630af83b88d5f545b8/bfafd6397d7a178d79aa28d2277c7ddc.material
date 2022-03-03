@@ -1,0 +1,16 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="AlphaTest" CullFace="0" Emission="1" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>0.8396 0.8351 0.8040 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.298</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+    <EmissionIntensity>0.43</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dunhuang_huo_n" res_file="model/dh_yjxb_jin_lazhu_cbae9a2fe2aa630af83b88d5f545b8/39b5822bed1977fa5f78ae0cdea6b08c.png" />
+    <Emission_T res_pack="data/3dmap/dunhuang_huo_n" res_file="model/dh_yjxb_jin_lazhu_cbae9a2fe2aa630af83b88d5f545b8/39b5822bed1977fa5f78ae0cdea6b08c.png" />
+  </TextureParameters>
+</Material>

@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <SelfLightmapToggle>0</SelfLightmapToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/hunianshou01_z" res_file="model/dh_yjxb_pt_zhuzi_01_01_3d25c11d60caa41be0fc6715ff2d2859/b1f0540b9cd3b5cb6787a69cac34ff0c.png" />
+  </TextureParameters>
+</Material>

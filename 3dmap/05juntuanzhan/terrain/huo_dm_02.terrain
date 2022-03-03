@@ -1,0 +1,9 @@
+<Terrain name="huo_dm_02" render_level="0" has_culldata="false">
+  <HMap>huo_dm_02_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_ad760f9a4a0a7652f5a3e3511ed2539f.png</Tex>
+    <Tex type="detail" Tiling="25.0000 25.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_d49a21f969aedd59ed7e086a169e8cb4.png</Tex>
+    <Tex type="detail" Tiling="50.0000 50.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_59c50f43d8ea06ad015ec0c7c22abaa2.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_e7b1c959f0d9d1803c741cb55040cd95.png</Tex>
+  </Textures>
+</Terrain>

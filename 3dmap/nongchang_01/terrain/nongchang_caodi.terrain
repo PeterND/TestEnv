@@ -1,0 +1,9 @@
+<Terrain name="nongchang_caodi" render_level="0" has_culldata="false">
+  <HMap>nongchang_caodi_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="25.0000 25.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_535bb5f943fa13edf8f5832067037569.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_d96387b86cbe654e99e582e297d397da.png</Tex>
+    <Tex type="detail" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_824276d06a964a52c4b8d387ffc8d336.png</Tex>
+    <Tex type="detail" Tiling="4.0000 4.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_d483e854e5e1d6ad4a760960a780ce0d.png</Tex>
+  </Textures>
+</Terrain>

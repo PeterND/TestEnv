@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>0.7264 0.7264 0.7264 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dunhuang_huo_n" res_file="model/dhcz_shiku_diaoxiang_02_36e680e3248f2fb6dde8df7616b852e/e59a80f4ae568f5d9c2a847bdaec7185.png" />
+  </TextureParameters>
+</Material>

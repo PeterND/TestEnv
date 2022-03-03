@@ -1,0 +1,8 @@
+<Entity name="chunk_0_-3" type="Group" pos="0.0000 0.0000 -15000.0000" static="true">
+  <Entity name="map_m_rock_02_02__11_ (3)" sid="1f12b083f36241ea8b0d92923bed02de" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="8063.7600 -866.1083 -1464.2880" rot="-0.66912 0.22865 0.22865 0.66912" scale="3.7109 3.7109 2.4871">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dh_yiji_02" res_file="model/common_db1cb3dba9077c9a2c121ce2849182f1/3ed9b5d1fcc415e7a4b42cfc37efa6a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dh_yiji_02" res_file="lightmap/lightmap.mtex" index="2" scale="0.05491778 0.05489291" offset="0.19648770 0.43200490" uv2_error="3" />
+    </Component>
+  </Entity>
+</Entity>

@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader_Specular_Normal" RenderQueueTag="AlphaTest" CullFace="0" UseNormalMap="0" AlphaTest="1" ZWrite="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.779</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_a9631abae7886dae427fed6fdb3d1026/a9631abae7886dae427fed6fdb3d1026.png" />
+  </TextureParameters>
+</Material>

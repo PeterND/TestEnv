@@ -1,0 +1,8 @@
+<Entity name="chunk_2_3" type="Group" pos="10000.0000 0.0000 15000.0000" static="true">
+  <Entity name="public_stone_rock_01_04 (23)" sid="5469b36a6418465791b0273080ef0c42" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="-2060.0000 -12683.0000 -3530.0000" rot="-0.35340 0.75133 -0.54482 -0.11742" scale="9.2540 9.2540 7.3079">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_ae5ce29279fb61b1e5d086ff4f278d77/76e79e57ed506e712d4c7def4df18ae.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.18272350 0.18654110" offset="0.41688230 0.23458830" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

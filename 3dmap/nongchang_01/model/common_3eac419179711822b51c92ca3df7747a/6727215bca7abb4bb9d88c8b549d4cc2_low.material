@@ -1,0 +1,24 @@
+<Material Shader="C3/C3SimpleReflectWater" RenderQueueTag="AlphaTest" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Bump_T_Scale_Offset>2.0000 1.5000 0.0000 0.0000</Bump_T_Scale_Offset>
+    <StartColor>1.0000 1.0000 1.0000 1.0000</StartColor>
+    <MiddleColor>0.2028 0.8710 1.0000 0.7490</MiddleColor>
+    <EndColor>0.0930 0.2355 0.3868 1.0000</EndColor>
+    <Vec4Speed>3.5300 0.5000 0.0000 0.0000</Vec4Speed>
+    <LerpRange>0.2320 0.8170 0.0000 0.0000</LerpRange>
+    <AlphaRange>0.0470 5.0000 0.0000 0.0000</AlphaRange>
+  </VectorParameters>
+  <FloatParameters>
+    <Direction>0.547</Direction>
+    <NormalFactor>0.209</NormalFactor>
+    <GradientNoise>0</GradientNoise>
+    <ReflectNoise>0.15</ReflectNoise>
+    <FresnelFactor>0.4</FresnelFactor>
+    <Speed>0.02</Speed>
+  </FloatParameters>
+  <TextureParameters>
+    <Depth_T res_pack="data/3dmap/nongchang_01" res_file="model/common_3eac419179711822b51c92ca3df7747a/95fcc4fc83183c415903ec4374a0e1c6.png" />
+    <Bump_T res_pack="data/3dmap/nongchang_01" res_file="model/common_3eac419179711822b51c92ca3df7747a/e1b9015440fe30bd63aa7ca14932720e.png" />
+    <Reflect_T res_pack="data/3dmap/nongchang_01" res_file="model/common_3eac419179711822b51c92ca3df7747a/3eac419179711822b51c92ca3df7747a.png" />
+  </TextureParameters>
+</Material>

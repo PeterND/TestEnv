@@ -1,0 +1,18 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Specular="1" Emission="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>16.4</Smoothness>
+    <SpecularIntensity>4.13</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+    <EmissionIntensity>1.05</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/common" res_file="model/common_530108abbbc62bce9cc2718adc40e319/9370e53851cf898235f3135d5302074b.png" />
+    <Emission_T res_pack="data/3dmap/common" res_file="model/common_530108abbbc62bce9cc2718adc40e319/530108abbbc62bce9cc2718adc40e319.png" />
+  </TextureParameters>
+</Material>

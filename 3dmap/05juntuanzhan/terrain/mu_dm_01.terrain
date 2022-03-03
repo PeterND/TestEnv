@@ -1,0 +1,9 @@
+<Terrain name="mu_dm_01" render_level="0" has_culldata="false">
+  <HMap>mu_dm_01_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="20.0000 20.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_476b05a22915b17b8642a5d4ff017206.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_739869ba8389c943dc4329adb289039d.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_eeae5617d86c3f433bf23e680a5bab0b.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_bd58a8005da21b6c08cb8857cbdbf615.png</Tex>
+  </Textures>
+</Terrain>

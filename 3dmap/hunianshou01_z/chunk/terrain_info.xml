@@ -1,0 +1,5 @@
+<Terrain_Info>
+  <Terrain name="hunianshou01_z" type="0" pipeline="data/3dmap/hunianshou01_z/custom.pipeline.xml">
+    <Entity name="MapExtend" type="Group" />
+  </Terrain>
+</Terrain_Info>

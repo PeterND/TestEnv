@@ -1,0 +1,16 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="AlphaTest" CullFace="0" Emission="1" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.713</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+    <EmissionIntensity>0.38</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/nongchang_01" res_file="model/grass_011_ec991c57a43b95cc85531a77c6ab04e/bff4b4740ed12184c801ea6bc3cfcf75.png" />
+    <Emission_T res_pack="data/3dmap/nongchang_01" res_file="model/grass_011_ec991c57a43b95cc85531a77c6ab04e/bff4b4740ed12184c801ea6bc3cfcf75.png" />
+  </TextureParameters>
+</Material>

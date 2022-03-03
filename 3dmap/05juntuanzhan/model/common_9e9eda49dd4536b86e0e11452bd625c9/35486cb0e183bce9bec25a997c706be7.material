@@ -1,0 +1,28 @@
+<Material Shader="C3/C3ReflectWater_wave" RenderQueueTag="Transparent" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Bump_T_Scale_Offset>2.0000 2.0000 0.0000 0.0000</Bump_T_Scale_Offset>
+    <ShoresideWave>0.1200 2.0000 0.1000 20.0000</ShoresideWave>
+    <StartColor>0.5274 0.8549 0.8790 0.7882</StartColor>
+    <MiddleColor>0.0000 0.5255 1.0000 1.0000</MiddleColor>
+    <EndColor>0.0000 0.5350 0.8230 1.0000</EndColor>
+    <Vec4Speed>2.0000 1.0000 0.0000 0.0000</Vec4Speed>
+    <LerpRange>0.5780 1.0000 0.0000 0.0000</LerpRange>
+    <AlphaRange>0.0760 4.8600 -0.2300 1.0000</AlphaRange>
+  </VectorParameters>
+  <FloatParameters>
+    <Direction>0.574</Direction>
+    <NormalFactor>0.85</NormalFactor>
+    <GradientNoise>0.22</GradientNoise>
+    <ReflectNoise>0.5</ReflectNoise>
+    <FresnelFactor>0.215</FresnelFactor>
+    <Speed>0</Speed>
+    <ShoresideWaveIntensity>100</ShoresideWaveIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Depth_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_9e9eda49dd4536b86e0e11452bd625c9/9e9eda49dd4536b86e0e11452bd625c9.png" />
+    <Bump_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_9e9eda49dd4536b86e0e11452bd625c9/e1b9015440fe30bd63aa7ca14932720e.png" />
+    <Noise_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_9e9eda49dd4536b86e0e11452bd625c9/f014a7dfe200ce9e0060466d16f475a0.png" />
+    <Wave_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_9e9eda49dd4536b86e0e11452bd625c9/b5fb2f1329379d1aea98f8543c4a998e.png" />
+    <Reflect_T res_pack="data/3dmap/05juntuanzhan" res_file="model/common_9e9eda49dd4536b86e0e11452bd625c9/dd5a7c0d9a7beecd4585d45b68df8953.png" />
+  </TextureParameters>
+</Material>

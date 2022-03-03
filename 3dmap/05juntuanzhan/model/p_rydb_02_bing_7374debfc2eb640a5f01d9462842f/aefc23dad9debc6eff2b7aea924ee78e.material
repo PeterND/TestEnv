@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader_Specular_Normal" RenderQueueTag="Geometry" CullFace="2" UseNormalMap="0" ZWrite="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/05juntuanzhan" res_file="model/p_rydb_02_bing_7374debfc2eb640a5f01d9462842f/941c83178f88c6b0f8d815818996707a.png" />
+  </TextureParameters>
+</Material>

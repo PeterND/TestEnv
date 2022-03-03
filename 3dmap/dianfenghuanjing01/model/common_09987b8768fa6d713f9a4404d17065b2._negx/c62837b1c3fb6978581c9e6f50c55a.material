@@ -1,0 +1,10 @@
+<Material Shader="c3standard_sky" RenderQueueTag="AlphaTest" CullFace="0">
+  <VectorParameters />
+  <FloatParameters>
+    <Speed>1.00</Speed>
+    <DetailToggle>0.0</DetailToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Cube_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._cubemap.mtex" />
+  </TextureParameters>
+</Material>

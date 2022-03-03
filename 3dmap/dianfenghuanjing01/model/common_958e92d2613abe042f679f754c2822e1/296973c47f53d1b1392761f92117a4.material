@@ -1,0 +1,24 @@
+<Material Shader="C3/CloudSea" RenderQueueTag="Transparent" CullFace="2">
+  <VectorParameters>
+    <GeneralVec4>0.0500 0.1000 0.0100 0.0000</GeneralVec4>
+    <Color_A>0.8962 0.8962 0.8962 1.0000</Color_A>
+    <Color_B>0.3019 0.3019 0.3019 1.0000</Color_B>
+    <Detail_T_Scale_Offset>3.0000 3.0000 0.0000 0.0000</Detail_T_Scale_Offset>
+    <Vec4NoiseScale>2.5000 1.4400 1.1000 0.0000</Vec4NoiseScale>
+  </VectorParameters>
+  <FloatParameters>
+    <GeneralFloatParam>0.73</GeneralFloatParam>
+    <alpha_ref>0</alpha_ref>
+    <DetailIntensity>0.75</DetailIntensity>
+    <OffsetYMulti>1</OffsetYMulti>
+    <CloudCover>0.332</CloudCover>
+    <Direction>0.556</Direction>
+    <Speed>1.21</Speed>
+    <DetailToggle>1</DetailToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Detail_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_958e92d2613abe042f679f754c2822e1/7f71d9c6a87f6b621a91fc629816e665.png" />
+    <Noise_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_958e92d2613abe042f679f754c2822e1/7f71d9c6a87f6b621a91fc629816e665.png" />
+    <PerlinNoise_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_958e92d2613abe042f679f754c2822e1/958e92d2613abe042f679f754c2822e1.png" />
+  </TextureParameters>
+</Material>

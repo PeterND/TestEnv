@@ -1,0 +1,665 @@
+<Scene name="sihaizhijian" map_version="2.1.1674">
+  <Component type="SCENE" pipeline="data/3dmap/sihaizhijian/custom.pipeline.xml" />
+  <Entity name="Light" type="Group" pos="0.0000 0.0000 0.0000">
+    <Entity name="HeroLight" type="Light" res_type="1" pos="0.0000 233.0000 63.9999" light_radius="800.0000" light_color="0.9882 1.0000 0.8667" light_intensity="0.2000" light_power="2" />
+  </Entity>
+  <Entity name="MapObj" type="Group" rot="0.00000 0.00000 0.00000 1.00000" static="true">
+    <Entity name="1" type="Group" rot="0.00000 0.00000 0.00000 1.00000">
+      <Entity name="Aiji_gongmen_01__2_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3949.0000 -2423.0000 -8498.0000" rot="-0.69477 0.13151 0.13151 0.69477" scale="0.4134 0.4134 0.4134">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_70e68dd901d443f64f0597365da463a6/2aa71c2d72bf1bdafdd969bfec3336.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.17207910 0.17207780" offset="0.56635230 0.22384050" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_gongmen_01__16_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="1423.4000 -2859.2000 -2756.5000" rot="-0.49717 0.50281 0.50281 0.49717" scale="0.5611 0.5611 0.5611">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_70e68dd901d443f64f0597365da463a6/9179361ed913a79d407c8ffb8f9a3a3.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.27255410 0.27254920" offset="-0.00073966 0.39121450" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__9_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4241.1000 80.0001 -4821.4000" rot="-0.56988 0.41861 0.41861 0.56988" scale="0.3826 0.3826 0.3826">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/f25b72abbec3c86e683053bf105e.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.10656940 0.10657360" offset="0.66521240 0.52480460" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__13_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4937.0000 90.0001 -4324.0000" rot="-0.56128 0.43008 0.43008 0.56128" scale="0.5715 0.5715 0.4565">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/6897329488f972d8a0b8abeb917c3c2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.09970393 0.09970768" offset="0.87716840 0.52497890" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__22_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2073.1000 -529.3997 -4235.3010" rot="-0.19027 0.68103 0.68103 0.19027" scale="0.7111 0.7111 0.9856">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/af5263f3a332285a2b3b3362e380f9f0.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.09401340 0.09401660" offset="0.90517020 0.22428270" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__31_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5770.1010 -147.9996 -5648.1000" rot="-0.47605 0.52286 0.52286 0.47605" scale="0.4799 0.4799 0.4799">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/342b224cbb4ceb9b7a61903a28225b1.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.06846789 0.06846773" offset="0.65175750 0.63532100" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__34_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="2717.6000 129.9100 -853.6699" rot="-0.58045 -0.40382 -0.40382 0.58045" scale="0.9815 0.9815 0.7519">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/18fb033c66eaaea51b772115eb251a6.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.12770560 0.12770350" offset="0.39225160 0.85099130" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__37_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3012.5000 -494.4591 -7617.3000" rot="-0.35288 0.61276 0.61276 0.35288" scale="0.7074 0.7074 0.7074">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/be7c4815f4c5d5e3ef9a538cef9ebd3.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.15950130 0.15950410" offset="0.39245410 0.55942060" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__40_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3967.5000 -425.0605 -8682.9000" rot="0.35224 0.61313 0.61313 -0.35224" scale="0.5689 0.5689 0.5689">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/75d45f4e44d7f74b46d7c856fd959cc1.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.10222120 0.10221990" offset="0.77320360 0.52514560" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__42_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4993.0000 -787.0192 -8402.7010" rot="-0.70408 -0.06536 -0.06536 0.70408" scale="0.8981 0.8981 0.8981">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/f1d883fcc93ff3ad1efdc03a4a2773ee.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.16516820 0.16516840" offset="0.73899810 0.22375680" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__44_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5012.2000 -308.9994 -6862.2010" rot="-0.70408 -0.06536 -0.06536 0.70408" scale="0.4398 0.4398 0.4398">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/9b37115b986055ad126fbaccfcf26f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.07182553 0.07182651" offset="0.90533380 0.32000430" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__48_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4257.5000 -170.9998 -6479.2010" rot="-0.14832 0.69138 0.69138 0.14832" scale="0.3693 0.3693 0.3693">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/9093eb1a38ff4eaa2445a2f29e31bdff.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.06419466 0.06419748" offset="0.24902950 0.93443050" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__54_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5148.0000 -101.1200 -2853.7000" rot="-0.50443 -0.49553 -0.49553 0.50443" scale="0.6290 0.6290 0.6780">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/c1266c1db979c7bfd5685f247ea2b2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.08842615 0.08842614" offset="0.00087865 0.91069540" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__59_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="784.0001 -590.1897 -2881.0000" rot="0.25755 0.65853 0.65853 -0.25755" scale="0.7979 0.7979 0.7979">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/cc4b9f99ff6df0c0f79dfaaff5a7e7c.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.07572022 0.07572787" offset="0.55466370 0.89095770" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Aiji_zhuzi_01_01__76_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="1388.0000 -2892.0000 -5489.9990" rot="-0.41529 0.57231 0.57231 0.41529" scale="1.4264 1.4264 1.4264">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/a4cfced43372a44aedfacaabaaa3dd.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.10929250 0.10929990" offset="0.79570290 0.39719640" uv2_error="0" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="shzj_skybox_02" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3960.0000 -4600.0000 -2000.0000" rot="0.13667 0.69377 0.69377 -0.13667" scale="15.5000 15.5000 15.5000">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/shzj_skybox_02_15d2cb55bb4e86dee9a6cc3faa4e8730/15d2cb55bb4e86dee9a6cc3faa4e8730.model">
+        <Lighting />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.39445550 0.39445600" offset="-0.00086786 -0.00163639" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_02 (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5735.0000 -2425.0000 -6978.0000" rot="-0.70709 -0.00476 -0.00476 0.70709" scale="1.4880 1.4880 1.4880">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_fd22e2fb6997994113890c534e38c188/69c3eb5aa457ada0edbfe89609a8ed5.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.13094620 0.13096100" offset="0.39174510 0.71971450" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_02" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3704.0000 -2410.0000 -6144.0000" rot="-0.22216 -0.67130 -0.67130 0.22216" scale="1.4880 1.4880 1.4880">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_fd22e2fb6997994113890c534e38c188/69c3eb5aa457ada0edbfe89609a8ed5.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.13094630 0.13096100" offset="0.24794140 0.80256990" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_pingtai_01_05" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3209.4000 728.0000 -2733.8000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.7710 1.7710 1.7710">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_pingtai_01_05_2f3c82f7d8140264a1bad558a61637/2f3c82f7d8140264a1bad558a61637.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.24774470 0.24774330" offset="0.00016585 0.66196420" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (49)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4160.6000 8.5236 -6499.0000" rot="0.69998 -0.10012 -0.10012 -0.69998" scale="0.4271 0.4271 0.4271">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01117534 0.01115524" offset="0.71027080 0.20639710" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5519.0000 452.1869 -5265.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.67904660 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (2)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3386.5000 786.5869 -4425.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278827 0.01277582" offset="0.69462260 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (3)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4718.0000 786.5869 -3422.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.64789460 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (4)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4593.5000 786.5869 -1731.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.63231850 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (5)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3029.0000 786.0000 -1098.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278829 0.01277583" offset="0.36964290 0.62587740" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (6)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1932.0000 786.0000 -1556.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277583" offset="0.36964290 0.64138820" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (7)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1810.0000 786.0000 -3743.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.22566570 0.97971840" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (8)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3205.5000 259.2368 -7735.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.61674240 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (9)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5008.0000 263.5000 -8145.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277583" offset="0.17893760 0.97971840" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (10)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4987.6000 260.9000 -7051.4000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.19451370 0.97971840" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01 (11)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4119.0000 264.2000 -6625.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.21008970 0.97971840" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_huopen_01" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4425.4000 452.1869 -5619.2000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_huopen_011_da159baedad191d755b63aa19bd3db2/da159baedad191d755b63aa19bd3db2.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01278828 0.01277582" offset="0.66347060 0.20639390" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="city_gate statue_02" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5653.0000 -713.0000 -6960.0000" rot="-0.47880 -0.52033 -0.52033 0.47880" scale="2.2049 2.2049 2.2049">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/city_gatestatue_02_8c25149796584d8495d78de8a199c83/8c25149796584d8495d78de8a199c83.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.11397240 0.11396720" offset="0.27158480 0.39318880" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="city_gate statue_02 (1)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3764.0000 -713.0000 -6082.0000" rot="0.23919 -0.66542 -0.66542 -0.23919" scale="2.2049 2.2049 2.2049">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/city_gatestatue_02_8c25149796584d8495d78de8a199c83/8c25149796584d8495d78de8a199c83.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.11397230 0.11396710" offset="0.27158480 0.50943190" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="shzj_long_01_01" render_queue="2000" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_21be5e5b87984282d9b84fb75c47774c/3c9e33d35667d5846068483e3b9fe7.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.14187230 0.14183710" offset="0.24811090 0.66205510" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="shzj_long_01_02" render_queue="2000" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_21be5e5b87984282d9b84fb75c47774c/315ed8776211c9d23b25f8966e80d6.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.08509744 0.08508407" offset="0.09137093 0.91069720" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="shzj_long_01_03" render_queue="2000" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_21be5e5b87984282d9b84fb75c47774c/77ab6e57ba56d1d038925f71c4f5513.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.12526830 0.12528030" offset="0.55497170 0.39769570" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (60)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-995.0000 -1084.0000 -258.0000" rot="-0.69920 0.10545 0.10545 0.69920" scale="2.9453 2.9453 2.9453">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.09440620 0.09438612" offset="0.55503340 0.63555620" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (61)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4260.0000 -1887.0000 1140.0000" rot="-0.69920 0.10545 0.10545 0.69920" scale="5.0179 5.0179 3.6684">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.07613085 0.07611076" offset="0.55507000 0.81314230" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (62)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="6557.0000 -2303.0000 2481.0000" rot="-0.43405 0.55821 0.55821 0.43405" scale="5.1903 5.1903 5.5204">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.17347600 0.17345590" offset="0.82134580 0.00111844" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (63)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1972.0000 -2303.0000 1206.0000" rot="-0.43405 0.55821 0.55821 0.43405" scale="3.3686 3.3686 3.5828">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.11155550 0.11153540" offset="0.68218820 0.39772320" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (67)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="302.2896 -2120.0000 -334.2135" rot="-0.16738 -0.68701 -0.68701 0.16738" scale="2.5300 2.5300 2.5300">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.04285892 0.04283883" offset="0.91594010 0.17590060" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4350.0000 -320.0000 -818.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="2.1286 2.1286 2.1286">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/1a136e51c3c9141a48a58ed2a11de73.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.02502556 0.02502476" offset="0.34193650 0.62585300" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (68)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5755.0000 -1953.0000 -382.0000" rot="-0.29258 -0.64374 -0.64374 0.29258" scale="3.2006 3.2006 2.8771">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05229076 0.05227067" offset="0.65207700 0.70618730" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (69)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="6662.0000 -1400.0000 -1800.0000" rot="0.67641 -0.20608 -0.20608 -0.67641" scale="3.2006 3.2006 2.8771">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05229076 0.05227067" offset="0.65207700 0.76082640" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (71)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="5825.0000 -653.0000 -3567.0000" rot="0.61897 -0.34187 -0.34187 -0.61897" scale="2.3459 2.3459 2.1088">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.03754073 0.03752064" offset="0.90682980 0.48357420" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (72)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="7372.0000 -3479.0000 -3769.0000" rot="0.61897 -0.34187 -0.34187 -0.61897" scale="3.3274 3.3274 4.5000">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.06626369 0.06624360" offset="0.17889970 0.91114970" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (73)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="7343.0000 -2210.0000 -5543.0000" rot="0.33732 0.62146 0.62146 -0.33732" scale="3.3274 3.3274 4.0771">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.06316314 0.06314304" offset="0.31545560 0.93481730" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02 (1)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="6212.0000 -831.0001 -5574.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="2.1286 2.1286 2.1286">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/1a136e51c3c9141a48a58ed2a11de73.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.02502556 0.02502476" offset="0.96146050 0.17593630" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (74)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="9520.0000 -1718.0000 -2410.0000" rot="0.53504 0.46231 0.46231 -0.53504" scale="3.4036 3.4036 3.0596">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05579382 0.05577373" offset="0.78356500 0.63563340" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (77)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-646.0000 -1888.0000 -2866.0000" rot="-0.16738 -0.68701 -0.68701 0.16738" scale="3.3800 3.3800 3.3800">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05824677 0.05822667" offset="0.72261560 0.63562850" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02 (2)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="8480.0000 -3240.0000 2960.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="5.1100 5.1100 5.1100">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/1a136e51c3c9141a48a58ed2a11de73.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.03384148 0.03384069" offset="0.27156460 0.62583540" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02 (3)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="1390.0000 -2540.0000 5330.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="7.0073 7.0073 7.0073">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/1a136e51c3c9141a48a58ed2a11de73.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.04750993 0.04750914" offset="0.65183320 0.81547500" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02 (4)" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="1220.0000 -185.0000 -2548.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="2.6200 2.6200 2.6200">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/1a136e51c3c9141a48a58ed2a11de73.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.03148897 0.03148817" offset="0.30789580 0.62584010" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (81)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2550.0000 -3329.0000 -4527.0000" rot="0.62215 0.33605 0.33605 -0.62215" scale="3.4730 3.4730 3.2420">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.10834340 0.10832330" offset="0.55500560 0.52543950" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_01 (82)" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="3660.0000 -4280.0000 4920.0000" rot="-0.41313 -0.57387 -0.57387 0.41313" scale="5.9547 5.9547 4.5627">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/65a135bb7b263974111e285d5839419.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.17190680 0.17188670" offset="0.39300190 0.22463380" uv2_error="0" />
+      </Component>
+    </Entity>
+  </Entity>
+  <Entity name="Terrain" type="Group" rot="0.00000 0.00000 0.00000 1.00000" static="true">
+    <Entity name="Aiji_pingtai_01_01 (5)" render_queue="3000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3203.0000 632.8000 -2717.0000" rot="-0.70689 -0.01735 -0.01735 0.70689" scale="3.5816 3.5816 3.5816">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_pingtai_01_015_eab9b5a491e83afc1b5146737de5db89/eab9b5a491e83afc1b5146737de5db89.model">
+        <Lighting />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.01082560 0.01082560" offset="0.72435440 0.20641940" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_pingtai_01_02_02" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3200.0000 685.0000 -2718.0000" rot="-0.69098 0.15017 0.15017 0.69098" scale="1.7697 1.7697 1.7697">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_pingtai_01_02_02_46fa4e95e18b991b7aa511c155801c4/46fa4e95e18b991b7aa511c155801c4.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.04675858 0.04674522" offset="0.82126840 0.17524470" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_pingtai_01_04_04" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3208.1000 578.0000 -2721.0000" rot="-0.69043 0.15268 0.15268 0.69043" scale="2.3460 2.3460 2.3460">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/aiji_pingtai_01_04_04_b6fefe7fbf54fb94a1dc2ac3bc1f89ae/b6fefe7fbf54fb94a1dc2ac3bc1f89ae.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.22342180 0.22342210" offset="0.39171710 -0.00016349" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="shzj_yuanpan_02_01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4115.4000 266.6300 -7604.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="0.6886 0.6886 1.1386">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/shzj_yuanpan_02_01_28b95bdedfcfd6ac643c2ceda184371d/28b95bdedfcfd6ac643c2ceda184371d.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.02258380 0.02258378" offset="0.52362110 0.72083270" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="shzj_yuanpan_03_01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4117.0000 228.0000 -7604.0000" rot="-0.70711 0.00000 0.00000 0.70711">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/shzj_yuanpan_03_01_281a308a7133a2a897535bb791cfb6/281a308a7133a2a897535bb791cfb6.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05984886 0.05982882" offset="0.84004800 0.63283630" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_taijie02_01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4292.0000 643.9297 -4334.0000" rot="-0.63623 0.30857 0.30857 0.63623" scale="0.5452 0.5452 0.2362">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_f05e1fdfb456443d75a43c953d7d02b9/b195d1c4d48bc2f94e832ed5dd51498.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.05470021 0.05469178" offset="0.89962780 0.63532750" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_taijie02_01__3_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4810.0000 319.3504 -6204.0000" rot="-0.39030 0.58963 0.58963 0.39030" scale="0.5452 0.5452 0.2789">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_f05e1fdfb456443d75a43c953d7d02b9/2632ea7f5b91826b2d1cfda76a82f6ee.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.04341641 0.04341295" offset="0.86996250 0.17548890" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02__6_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5641.0000 -984.3256 -5434.0000" rot="-0.65869 -0.34197 -0.30881 0.59483" scale="1.3680 1.3680 1.3680">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/9318e56bbe68c3e73bd17be928467827.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.08425444 0.08425689" offset="0.90613070 0.39716940" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_01_02__19_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="4688.0000 -1408.0000 -6866.0000" rot="-0.36428 0.57683 0.61856 0.38981" scale="1.5868 1.5868 1.5868">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_ad930e84ce321e1ac20b86a8c86077ea/13e3b7b3377520cfbba744b91ebae4d8.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.07999803 0.08001602" offset="0.55443930 0.73125620" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_02__4_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="5330.0000 -762.9996 -5862.0000" rot="-0.31551 0.63281 0.63281 0.31551" scale="0.4116 0.4116 0.4116">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_fd22e2fb6997994113890c534e38c188/9f592fc01925fbfff499880d4b4e178.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.16201610 0.16202510" offset="0.39205420 0.39665170" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="Aiji_zhuzi_02__11_" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="3388.0000 -950.9993 -7937.0010" rot="-0.62741 -0.32613 -0.32613 0.62741" scale="0.4116 0.4116 0.4116">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/sihaizhijian" res_file="model/common_fd22e2fb6997994113890c534e38c188/37cdb7fd5c3096eb3195079151712.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/sihaizhijian" res_file="lightmap/lightmap.mtex" index="0" scale="0.20507880 0.20508020" offset="0.61530920 -0.00006306" uv2_error="0" />
+      </Component>
+    </Entity>
+  </Entity>
+  <Entity name="Effect" type="Group" rot="0.00000 0.00000 0.00000 1.00000">
+    <Entity name="aiji_circleplatform" render_queue="3000" type="Effect" layer="_Map" pos="3251.0000 735.0000 -2704.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="8.5969 8.5969 8.5969">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_circleplatform/aiji_circleplatform.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire" render_queue="3000" type="Effect" layer="_Map" pos="5515.0000 444.6000 -5265.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (1)" render_queue="3000" type="Effect" layer="_Map" pos="4435.0000 444.6000 -5620.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (2)" render_queue="3000" type="Effect" layer="_Map" pos="3412.0000 779.0000 -4411.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (3)" render_queue="3000" type="Effect" layer="_Map" pos="4743.5000 779.0000 -3408.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (4)" render_queue="3000" type="Effect" layer="_Map" pos="4619.0000 779.0000 -1717.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (4)" render_queue="3000" type="Effect" layer="_Map" pos="3038.0000 778.4131 -1096.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (5)" render_queue="3000" type="Effect" layer="_Map" pos="1929.0000 778.4131 -1558.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (5)" render_queue="3000" type="Effect" layer="_Map" pos="1835.5000 778.4131 -3729.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (6)" render_queue="3000" type="Effect" layer="_Map" pos="3226.7000 249.6000 -7734.9000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (6)" render_queue="3000" type="Effect" layer="_Map" pos="5021.3000 248.5000 -8125.5000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (7)" render_queue="3000" type="Effect" layer="_Map" pos="4977.9000 246.2000 -7046.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_fire (7)" render_queue="3000" type="Effect" layer="_Map" pos="4127.9000 251.0000 -6615.3000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_fire/aiji_fire.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="light" render_queue="3000" type="Effect" layer="_Map" pos="4121.0000 221.0000 -8201.0000" rot="0.00000 0.60402 0.00000 0.79697" scale="1.8520 1.8520 1.8520">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="light (1)" render_queue="3000" type="Effect" layer="_Map" pos="4619.0000 147.0000 -6139.0000" rot="0.00000 0.60402 0.00000 0.79697" scale="1.8520 1.8520 1.8520">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="light (2)" render_queue="3000" type="Effect" layer="_Map" pos="4953.0000 357.0000 -5218.0000" rot="0.00000 0.37912 0.00000 0.92535" scale="1.8520 1.8520 1.8520">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="light (3)" render_queue="3000" type="Effect" layer="_Map" pos="4113.0000 676.0000 -4492.0000" rot="0.00000 0.20281 0.00000 0.97922" scale="1.8520 1.8520 1.8520">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_1" render_queue="3000" type="Effect" layer="_Map" pos="1036.0000 441.0000 -3518.0000" rot="0.45179 0.54375 -0.45069 0.54507" scale="1.7846 1.7846 1.7846">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_1/smgx1_lightning1_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_2" render_queue="3000" type="Effect" layer="_Map" pos="3343.0000 765.0000 -307.0000" rot="0.00000 0.00000 -0.99913 -0.04161" scale="1.6100 1.6100 1.6100">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_2/smgx1_lightning1_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_2 (1)" render_queue="3000" type="Effect" layer="_Map" pos="7172.0000 25.0000 -3575.0000" rot="-0.35051 -0.12297 -0.74271 -0.55714" scale="2.5200 2.5200 2.5200">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_2/smgx1_lightning1_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_2 (2)" render_queue="3000" type="Effect" layer="_Map" pos="3846.0000 350.0000 -5161.0000" rot="-0.49230 -0.00484 0.65244 -0.57614" scale="1.9200 1.9200 1.9200">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_2/smgx1_lightning1_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_3" render_queue="3000" type="Effect" layer="_Map" pos="7200.0000 142.0000 1373.0000" rot="-0.39096 -0.03123 -0.80467 -0.44574" scale="2.5200 2.5200 2.5200">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_3/smgx1_lightning1_3.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_4" render_queue="3000" type="Effect" layer="_Map" pos="278.0000 326.0000 -41.0000" rot="0.00000 0.00000 -0.81659 0.57722" scale="2.1542 2.1542 2.1542">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_4/smgx1_lightning1_4.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_5" render_queue="3000" type="Effect" layer="_Map" pos="2408.0000 412.0000 1023.0000" rot="0.00000 0.00000 -0.79316 0.60902" scale="2.1301 2.1301 2.1301">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_5/smgx1_lightning1_5.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_5 (1)" render_queue="3000" type="Effect" layer="_Map" pos="7656.0000 94.0000 -2343.0000" rot="-0.24939 -0.18495 -0.76354 -0.56623" scale="2.1301 2.1301 2.1301">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_5/smgx1_lightning1_5.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning2_1" render_queue="3000" type="Effect" layer="_Map" pos="-278.0000 59.0000 -2451.0000" rot="0.35367 0.48306 -0.76960 0.22199" scale="2.0600 2.0600 2.0600">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning2_1/smgx1_lightning2_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning2_2" render_queue="3000" type="Effect" layer="_Map" pos="1975.0000 924.0000 -2641.0000" rot="0.29385 0.55705 -0.74504 0.21970" scale="2.0000 2.0000 2.0000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning2_2/smgx1_lightning2_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning2_2 (1)" render_queue="3000" type="Effect" layer="_Map" pos="4432.0000 924.0000 -2652.0000" rot="0.29385 0.55705 -0.74504 0.21970" scale="2.0000 2.0000 2.0000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning2_2/smgx1_lightning2_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning2_3" render_queue="3000" type="Effect" layer="_Map" pos="6100.0000 558.0000 -6124.0000" rot="0.45563 -0.52887 0.41097 0.58634" scale="1.6175 1.6175 1.6175">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning2_3/smgx1_lightning2_3.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_1" render_queue="3000" type="Effect" layer="_Map" pos="1659.0000 420.0000 -5002.0000" rot="0.25860 0.00000 0.00000 0.96599" scale="2.0000 2.0000 2.0000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_1/smgx1_lightning3_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_1 (1)" render_queue="3000" type="Effect" layer="_Map" pos="7042.0000 183.0000 -4218.0000" rot="-0.18052 0.00000 0.00000 0.98357" scale="2.0000 2.0000 2.0000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_1/smgx1_lightning3_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_1 (2)" render_queue="3000" type="Effect" layer="_Map" pos="3200.0000 420.0000 -8410.0000" rot="0.25860 0.00000 0.00000 0.96599" scale="2.0000 2.0000 2.0000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_1/smgx1_lightning3_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_1 (3)" render_queue="3000" type="Effect" layer="_Map" pos="4890.0000 420.0000 3030.0000" rot="0.25860 0.00000 0.00000 0.96599" scale="2.6012 2.6012 2.6012">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_1/smgx1_lightning3_1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_2" render_queue="3000" type="Effect" layer="_Map" pos="2601.0000 303.0000 -6193.0000" rot="0.05126 -0.19863 0.24458 0.94768" scale="1.5559 1.5559 1.5559">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_2/smgx1_lightning3_2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_circleplatform" render_queue="3000" type="Effect" layer="_Map" pos="4120.0000 -1189.0000 -7608.0000" rot="1.00000 0.00000 0.00000 0.00000" scale="3.0741 8.6190 3.0741">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_circleplatform/aiji_circleplatform.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_atersurface" render_queue="3000" type="Effect" layer="_Map" pos="4457.0000 516.0000 -7697.0000" rot="0.00000 -0.03620 0.00000 0.99934" scale="6.5664 6.5664 6.5664">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="smgx1_atersurface/smgx1_atersurface.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="aiji_circleplatform (1)" render_queue="3000" type="Effect" layer="_Map" pos="3140.0000 310.0000 -2890.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="57.9600 21.9900 57.9600">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="aiji_circleplatform/aiji_circleplatform.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning3_3" render_queue="3000" type="Effect" layer="_Map" pos="5403.0000 1143.0000 -5534.0000" rot="0.00000 0.00000 -0.57000 0.82165" scale="1.3870 1.3870 1.3870">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning3_3/smgx1_lightning3_3.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_lightning1_5 (2)" render_queue="3000" type="Effect" layer="_Map" pos="2736.0000 412.0000 -7754.0000" rot="0.26412 0.34398 -0.71469 0.54877" scale="1.7169 1.7169 1.7169">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/" res_file="smgx1_lightning1_5/smgx1_lightning1_5.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+  </Entity>
+  <Entity name="Important" type="Group" rot="0.00000 0.00000 0.00000 1.00000">
+    <Entity name="3003" render_queue="2000" type="Model" res_type="none" res_id="0" pos="6198.0000 -191.8500 -3836.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.0413 1.0413 1.0413">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3003 (1)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4038.0000 -191.8500 -5412.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.0413 1.0413 1.0413">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3003 (2)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3852.0000 453.0000 -125.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.0413 1.0413 1.0413">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (1)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3389.4000 789.0500 -4427.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (1)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4720.9000 789.0500 -3424.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (2)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4596.4000 789.0500 -1733.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (2)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3031.9000 788.4631 -1110.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (3)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="1812.9000 788.4631 -3745.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (4)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="5010.9000 265.9631 -8147.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (5)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4996.5000 274.3000 -7056.7000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3005 (5)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4121.9000 282.1000 -6627.3000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.5022 2.5022 2.5022">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3005/3005.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3003 (3)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="2284.0000 -501.0000 -7854.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.9896 1.9896 1.9896">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3003 (4)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="843.9999 -782.0000 -3966.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2294 2.2294 2.2294">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3003 (5)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="6452.0000 -65.0000 -816.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.0413 1.0413 1.0413">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3003/3003.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3079" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3500.0000 212.0000 -2370.0000" rot="0.28728 0.00000 0.00000 0.95785" scale="1.3231 1.3231 1.3231">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3079/3079.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3079 (1)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4277.0000 -518.0000 -7756.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="0.6652 0.6652 0.6652">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3079/3079.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3079 (2)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3485.0000 -720.0000 -6046.0000" rot="0.22391 0.00000 0.00000 0.97461" scale="1.3231 1.3231 1.3231">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3079/3079.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3079 (3)" render_queue="2000" type="Model" res_type="none" res_id="0" pos="2280.0000 -1500.0000 -680.0000" rot="-0.28133 0.00000 0.00000 0.95961" scale="1.3231 1.3231 1.3231">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3079/3079.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+  </Entity>
+  <Entity name="Main Camera" type="Group" />
+</Scene>

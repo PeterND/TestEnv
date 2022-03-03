@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._posx.png" />
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._negx.png" />
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._posy.png" />
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._negy.png" />
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._posz.png" />
+  <Tex res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._negz.png" />
+</MTex>

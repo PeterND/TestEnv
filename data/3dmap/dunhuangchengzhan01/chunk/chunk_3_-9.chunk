@@ -1,0 +1,20 @@
+<Entity name="chunk_3_-9" type="Group" pos="15000.0000 0.0000 -45000.0000" static="true">
+  <Entity name="dhcz_cjd_qiang_01 (4)" sid="4e6b86fa4ea3474388d3e7c6ddb29c7c" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="10220.0000 -5520.6000 9050.0000" rot="0.66020 0.25325 0.25325 -0.66020" scale="9.3899 9.3899 9.3899">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/dhcz_cjd_qiang_011_2ad8fb78f4f527dc7895a62284f23f/2ad8fb78f4f527dc7895a62284f23f.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="1" scale="0.12179260 0.12176620" offset="0.86342420 0.85689260" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_shiqiang_01__8_" sid="eccdcf836c1743f49ba6950706639592" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-4659.9610 -9789.8440 10850.0000" rot="0.20239 0.67753 0.67752 -0.20239" scale="0.0100 0.0100 0.0100">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_12387a64cece3c2ed244af00d8684211/8b4aef40a918ee24ec7b10f5b4a92d4c.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.19480540 0.19483270" offset="0.29010740 0.54167000" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_yj_fangzi_03" sid="cba12bcf494c4866a36d050c5d653157" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2120.0010 -5430.0000 27580.0000" rot="-0.65328 -0.27060 -0.27060 0.65328" scale="0.0200 0.0200 0.0200">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_9e1719cbe06d01a6c22e042b1cd5d977/7e421430352ce4f1c3b9b7f572ca2e9.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.33555050 0.33554860" offset="0.00079375 0.00079375" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

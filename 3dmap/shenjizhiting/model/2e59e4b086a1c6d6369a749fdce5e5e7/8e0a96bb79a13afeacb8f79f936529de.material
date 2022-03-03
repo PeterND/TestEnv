@@ -1,0 +1,10 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>0.5880 0.5880 0.5880 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters />
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/shenjizhiting" res_file="model/2e59e4b086a1c6d6369a749fdce5e5e7/e125c86ec669d2b366d9bfddd4e2f249.png" />
+  </TextureParameters>
+</Material>

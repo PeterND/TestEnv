@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_posx.png" />
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_negx.png" />
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_posy.png" />
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_negy.png" />
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_posz.png" />
+  <Tex res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_0d15424b99b9e09c361339373a5d29c3_negx/0d15424b99b9e09c361339373a5d29c3_negz.png" />
+</MTex>

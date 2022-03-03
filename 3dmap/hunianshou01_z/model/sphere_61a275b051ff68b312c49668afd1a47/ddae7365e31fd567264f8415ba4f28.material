@@ -1,0 +1,12 @@
+<Material Shader="c3standard_sky" RenderQueueTag="AlphaTest" CullFace="0">
+  <VectorParameters />
+  <FloatParameters>
+    <DetailIntensity>0.54</DetailIntensity>
+    <Speed>0.50</Speed>
+    <DetailToggle>1.0</DetailToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Cube_T res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._cubemap.mtex" />
+    <DetailCube_T res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/9327f64b1d4d7dc72f450cb3eb0ba696._cubemap.mtex" />
+  </TextureParameters>
+</Material>

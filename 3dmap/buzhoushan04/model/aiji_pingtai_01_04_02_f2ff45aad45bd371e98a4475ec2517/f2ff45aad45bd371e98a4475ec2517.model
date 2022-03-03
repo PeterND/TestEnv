@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/buzhoushan04" res_file="model/aiji_pingtai_01_04_02_f2ff45aad45bd371e98a4475ec2517/e78a86532c446064e126f3fea0f51dd8.mesh">
+    <Material res_pack="data/3dmap/buzhoushan04">model/aiji_pingtai_01_04_02_f2ff45aad45bd371e98a4475ec2517/7c2c6ff349aad45816e5a2ee49dbce4.material</Material>
+  </Mesh>
+</Model>

@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <SelfLightmapToggle>0</SelfLightmapToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/tulou02" res_file="model/rock_yfs_03__4__1_de27c6155f19c54be06d83da355c90/004f7e3ac570df558a8ec0120c326cd3.png" />
+  </TextureParameters>
+</Material>

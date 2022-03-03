@@ -1,0 +1,6 @@
+<Scene name="dh_yiji_02" map_version="2.1.1466">
+  <Component type="CHUNK_SYSTEM" res_pack="data/3dmap/dh_yiji_02/chunk" minx="-2" maxx="10" miny="-9" maxy="1" chunksize="5000">
+    <TerrainInfo res_pack="data/3dmap/dh_yiji_02/chunk" res_file="terrain_info.xml" />
+  </Component>
+  <Component type="SCENE" pipeline="data/3dmap/dh_yiji_02/custom.pipeline.xml" />
+</Scene>

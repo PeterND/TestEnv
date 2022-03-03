@@ -1,0 +1,57 @@
+<Entity name="chunk_2_0" type="Group" pos="10000.0000 0.0000 0.0000">
+  <Entity name="public_stone_rock_01_02_1" sid="ca718d9c0cc54cd4947e22c174571304" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2810.0000 610.0000 -730.0000" rot="-0.29344 0.64335 0.64335 0.29344" scale="0.6931 0.6931 0.6931" static="true" tag="C3HighLevel">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_ae5ce29279fb61b1e5d086ff4f278d77/f318e7d6c34ea56fbadf5981edb65c5a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.06602634 0.06453960" offset="0.30603310 0.47966840" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="plant01_green__3" sid="7787a3a503ed462f98435f8153b10313" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="1635.0920 1415.3770 -2019.7870" rot="-0.63829 0.25592 0.29882 0.66166" scale="0.5134 0.5134 0.5134" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_d2e87f85919ad733e48001e2e0fa1275/34ccf72e9ef7266af42e878e4942813d.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.09550028 0.09297463" offset="-0.00019100 0.69899210" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="syzb_damen01_hyh_5" sid="331cbd5f7f584d09aa30cc350ef8cd6c" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="7570.0010 -14880.0000 679.9993" rot="0.27628 0.65090 0.65090 -0.27628" scale="22.4047 19.3992 19.3992" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_522d87ce4ab89e5d1bf00ba653717409/b270d4c638e2a3829bd532bf204484.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.18590670 0.18099800" offset="0.38229560 0.20347360" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="syzb_damen01_hyh_7" sid="0b82d7e9d86a4b7c9d4242dce2be1a73" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="-270.0005 -14880.0000 4969.9990" rot="0.00000 0.70711 0.70711 0.00000" scale="56.9080 49.2740 49.2740" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_522d87ce4ab89e5d1bf00ba653717409/383747d55c59bd96eb7e69a9dfea3c1f.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.16183870 0.15899210" offset="0.38234370 0.38543540" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="tree_green_llw_1__17_" sid="9b284f25b8ca4c14a837af93572d0b74" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="1327.9930 1563.3770 -1543.6880" rot="-0.68973 -0.14406 -0.26260 0.65921" scale="2.2450 2.2450 2.6854" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_d8134a4b99afe18df4b879f7ff554c75/df1256eb202f1416b562ce223b46c853.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.05254557 0.05116446" offset="0.72246100 0.89414420" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="smgx1_upsamwaterfall" render_queue="3000" type="Effect" layer="_Map" pos="3057.0010 740.0000 1291.0000" rot="0.00000 0.34905 0.00000 0.93711" scale="0.9642 0.9642 0.9642" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_upsamwaterfall/smgx1_upsamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="smgx1_misamwaterfall" sid="f5bc16bfdf844490aced3d3efea112b2" render_queue="3000" type="Effect" layer="_Map" pos="3028.9990 749.0000 1294.0000" rot="0.00000 0.44509 0.00000 0.89548" scale="1.4510 1.4510 1.4510" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="smgx1_upsamwaterfall (9)" sid="4b99c5c0671b445c8fd7152b9efbc731" render_queue="3000" type="Effect" layer="_Map" pos="2896.0010 624.0000 -915.0001" rot="0.00000 -0.26773 0.00000 0.96349" scale="1.2556 1.2556 1.2556" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_upsamwaterfall/smgx1_upsamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="smgx1_misamwaterfall (5)" sid="dd3e0faa860142568811347277163ec9" render_queue="3000" type="Effect" layer="_Map" pos="2905.0000 642.0000 -935.0003" rot="0.00000 -0.06750 0.00000 0.99772" scale="1.2285 1.0012 2.1863" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="smgx1_upsamwaterfall (6)" sid="9d5b7cd55adc4c2fa7fe1ca59ff39135" render_queue="3000" type="Effect" layer="_Map" pos="646.0007 1470.0000 -455.0000" rot="0.00000 -0.98716 0.00000 0.15975" scale="2.7767 2.1901 2.8887">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_upsamwaterfall/smgx1_upsamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="3079" sid="e6786f74ca604814aa411a84958dc7bd" render_queue="2000" type="Model" res_type="none" res_id="0" pos="-430.0003 -1150.0000 4900.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.4182 1.4182 1.4182">
+    <Component type="MAP" cell_type="c3_model" res_pack="/c3/map/" res_file="3079/3079.c3_model" motion="100">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+    </Component>
+  </Entity>
+</Entity>

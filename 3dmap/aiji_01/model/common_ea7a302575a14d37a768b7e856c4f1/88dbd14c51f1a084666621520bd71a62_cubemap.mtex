@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_posx.png" />
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_negx.png" />
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_posy.png" />
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_negy.png" />
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_posz.png" />
+  <Tex res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_negz.png" />
+</MTex>

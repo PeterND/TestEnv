@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._posx.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._negx.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._posy.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._negy.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._posz.png" />
+  <Tex res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_09987b8768fa6d713f9a4404d17065b2._negx/09987b8768fa6d713f9a4404d17065b2._negz.png" />
+</MTex>

@@ -1,0 +1,6 @@
+<Scene name="hunianshou01_z" map_version="[F:3134 E:9300]_2022-02-21T17:18:24">
+  <Component type="CHUNK_SYSTEM" res_pack="data/3dmap/hunianshou01_z/chunk" minx="-2" maxx="8" miny="-7" maxy="3" chunksize="5000" max_distance="7000 7500">
+    <TerrainInfo res_pack="data/3dmap/hunianshou01_z/chunk" res_file="terrain_info.xml" />
+  </Component>
+  <Component type="SCENE" pipeline="data/3dmap/hunianshou01_z/custom.pipeline.xml" />
+</Scene>

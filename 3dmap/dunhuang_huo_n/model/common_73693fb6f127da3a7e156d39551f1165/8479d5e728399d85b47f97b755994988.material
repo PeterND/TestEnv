@@ -1,0 +1,15 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Emission="1">
+  <VectorParameters>
+    <Diff_C>0.7547 0.7547 0.7547 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <EmissionIntensity>0.6</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dunhuang_huo_n" res_file="model/common_73693fb6f127da3a7e156d39551f1165/f4c3b6f2f51544f11e19bfe46f10d0cc.png" />
+    <Emission_T res_pack="data/3dmap/dunhuang_huo_n" res_file="model/common_73693fb6f127da3a7e156d39551f1165/73693fb6f127da3a7e156d39551f1165.png" />
+  </TextureParameters>
+</Material>

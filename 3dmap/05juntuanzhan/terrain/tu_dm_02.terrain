@@ -1,0 +1,9 @@
+<Terrain name="tu_dm_02" render_level="0" has_culldata="false">
+  <HMap>tu_dm_02_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_97440395c1684f0b509ae2e5efc29cc4.png</Tex>
+    <Tex type="detail" Tiling="26.0000 24.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_b1ad4d8a92c78acce95c611b6ded4187.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_c0a202a47e9690d8d90f353e4d12a3ae.png</Tex>
+    <Tex type="detail" Tiling="25.0000 25.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_daeadb7ca633df77edb87f386e6c306f.png</Tex>
+  </Textures>
+</Terrain>

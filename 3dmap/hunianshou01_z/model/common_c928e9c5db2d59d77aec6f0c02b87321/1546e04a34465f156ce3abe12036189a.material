@@ -1,0 +1,17 @@
+<Material Shader="C3/PieceCloud_LM" RenderQueueTag="Transparent">
+  <VectorParameters>
+    <Diff_C>0.8632 0.9866 1.0000 1.0000</Diff_C>
+    <Noise_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Noise_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <GeneralFloatParam>0.3</GeneralFloatParam>
+    <AlphaScale>0.8</AlphaScale>
+    <Frequency>0.44</Frequency>
+    <Direction>0.164</Direction>
+    <Speed>0.159</Speed>
+    <NoiseToggle>1</NoiseToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Noise_T res_pack="data/3dmap/hunianshou01_z" res_file="model/common_c928e9c5db2d59d77aec6f0c02b87321/c928e9c5db2d59d77aec6f0c02b87321.png" />
+  </TextureParameters>
+</Material>

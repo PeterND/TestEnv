@@ -1,0 +1,6 @@
+<Scene name="dunhuangchengzhan01" map_version="2.1.1628">
+  <Component type="CHUNK_SYSTEM" res_pack="data/3dmap/dunhuangchengzhan01/chunk" minx="-2" maxx="9" miny="-9" maxy="2" chunksize="5000">
+    <TerrainInfo res_pack="data/3dmap/dunhuangchengzhan01/chunk" res_file="terrain_info.xml" />
+  </Component>
+  <Component type="SCENE" pipeline="data/3dmap/dunhuangchengzhan01/custom.pipeline.xml" />
+</Scene>

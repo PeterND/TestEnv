@@ -1,0 +1,20 @@
+<Material Shader="C3/C3SimpleDepthWater" RenderQueueTag="Transparent" CullFace="2" Transparent="1">
+  <VectorParameters>
+    <Water_T_Scale_Offset>2.0000 2.0000 0.0000 0.0000</Water_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <WaterSpeed>0.029</WaterSpeed>
+    <AlphaGradient>0.23</AlphaGradient>
+    <WaterGradient>0.17</WaterGradient>
+    <RippleIntensity>0.414</RippleIntensity>
+    <Brightness>1.19</Brightness>
+    <Glossiness>1.8</Glossiness>
+    <Transparency>0.783</Transparency>
+  </FloatParameters>
+  <TextureParameters>
+    <Gradient_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/4413d8562f0d79172578b00c1bbc7f54.png" />
+    <Depth_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/309afb485e02b1fcc109368721cf8914.png" />
+    <Water_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/3db574821caef9f90d551162d3f00e2d.png" />
+    <Bump_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/e5a4e67bfef63fb90008b649bbe43a14.png" />
+  </TextureParameters>
+</Material>

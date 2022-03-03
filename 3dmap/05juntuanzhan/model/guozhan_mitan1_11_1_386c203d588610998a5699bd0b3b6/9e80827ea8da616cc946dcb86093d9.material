@@ -1,0 +1,18 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Specular="1" Emission="1">
+  <VectorParameters>
+    <Diff_C>1.0000 0.8920 0.7300 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>24.2</Smoothness>
+    <SpecularIntensity>12.7</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+    <EmissionIntensity>1</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/05juntuanzhan" res_file="model/guozhan_mitan1_11_1_386c203d588610998a5699bd0b3b6/3a67c2ed33457a00220a8f5f16e00437.png" />
+    <Emission_T res_pack="data/3dmap/05juntuanzhan" res_file="model/guozhan_mitan1_11_1_386c203d588610998a5699bd0b3b6/3a67c2ed33457a00220a8f5f16e00437.png" />
+  </TextureParameters>
+</Material>

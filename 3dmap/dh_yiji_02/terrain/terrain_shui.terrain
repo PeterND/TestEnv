@@ -1,0 +1,9 @@
+<Terrain name="Terrain_shui" render_level="0" has_culldata="false">
+  <HMap>Terrain_shui_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="5.0000 5.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_31985416412aa7c834bb07fd7c16b325.png</Tex>
+    <Tex type="detail" Tiling="5.0000 5.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_31985416412aa7c834bb07fd7c16b325.png</Tex>
+    <Tex type="detail" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_5fdd854114c087cda18b21aee6e16e70.png</Tex>
+    <Tex type="detail" Tiling="9.0000 9.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_30fcf1aee7fad96d9d4743de16cfaf52.png</Tex>
+  </Textures>
+</Terrain>

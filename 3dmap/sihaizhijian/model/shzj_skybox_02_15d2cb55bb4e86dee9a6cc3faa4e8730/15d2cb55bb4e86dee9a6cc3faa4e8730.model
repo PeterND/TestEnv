@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/sihaizhijian" res_file="model/shzj_skybox_02_15d2cb55bb4e86dee9a6cc3faa4e8730/73e92d857797dce3b4ecc5de707816.mesh">
+    <Material res_pack="data/3dmap/sihaizhijian">model/shzj_skybox_02_15d2cb55bb4e86dee9a6cc3faa4e8730/e48837b092fbd5d37580d546a5823ff9.material</Material>
+  </Mesh>
+</Model>

@@ -1,0 +1,9 @@
+<Terrain name="jtz_dm_01" render_level="0" has_culldata="false">
+  <HMap>jtz_dm_01_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="14.0000 14.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_daeadb7ca633df77edb87f386e6c306f.png</Tex>
+    <Tex type="detail" Tiling="22.0000 22.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_4705fbca8a0d9ebc73a8ead81860da43.png</Tex>
+    <Tex type="detail" Tiling="11.0000 11.0000" Offset="0.1800 0.1800" UVOrder="0">splatmap_d117d426c084554b876c7b3ccb449d10.png</Tex>
+    <Tex type="detail" Tiling="30.0000 30.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_004ae9079b41c6d7d47cdb51652d9804.png</Tex>
+  </Textures>
+</Terrain>

@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader_Glass" RenderQueueTag="Geometry" CullFace="2" ZWrite="1">
+  <VectorParameters>
+    <Diff_C>0.5756 0.8925 0.9890 0.8510</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <Reflection_Power>0.3</Reflection_Power>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/632cfe68f3897611f189c2e13d0cecac.png" />
+    <Reflection_Cube_T res_pack="data/3dmap/05juntuanzhan" res_file="model/gw3d_suanni_jian1_8177a861c98d32ad353b8c30383d8fb/84915e323a71fe5adf06e061d8db4a40._cubemap.mtex" />
+  </TextureParameters>
+</Material>

@@ -1,0 +1,18 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="0" Specular="1" Emission="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>2</Smoothness>
+    <SpecularIntensity>0.76</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+    <EmissionIntensity>0.71</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/sihaizhijian" res_file="model/city_gatestatue_02_8c25149796584d8495d78de8a199c83/afcc4a18ff0e751c42bd472116253e38.png" />
+    <Emission_T res_pack="data/3dmap/sihaizhijian" res_file="model/city_gatestatue_02_8c25149796584d8495d78de8a199c83/a54f3d26f08f2cd577451005b4ff5190.png" />
+  </TextureParameters>
+</Material>

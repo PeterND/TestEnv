@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/tulou01_3" res_file="model/bg_anh_foliage_te_b50_sm_old_1__47__86dcda88ecb3b7a833c6dd12d6b9222/3f2fcee12ea0707929599d4ab469013.mesh">
+    <Material res_pack="data/3dmap/tulou01_3">model/bg_anh_foliage_te_b50_sm_old_1__47__86dcda88ecb3b7a833c6dd12d6b9222/e95e2ab39aa7a97579c7d842d352ee41.material</Material>
+  </Mesh>
+</Model>

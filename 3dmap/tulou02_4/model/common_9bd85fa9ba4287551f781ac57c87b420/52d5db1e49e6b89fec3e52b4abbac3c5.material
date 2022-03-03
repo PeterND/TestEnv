@@ -1,0 +1,16 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" Emission="1">
+  <VectorParameters>
+    <Diff_C>1.0000 0.7700 0.5802 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <Emission_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Emission_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <EmissionIntensity>2.22</EmissionIntensity>
+    <SelfLightmapToggle>0</SelfLightmapToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/tulou02_4" res_file="model/common_9bd85fa9ba4287551f781ac57c87b420/9bd85fa9ba4287551f781ac57c87b420.png" />
+    <Emission_T res_pack="data/3dmap/tulou02_4" res_file="model/common_9bd85fa9ba4287551f781ac57c87b420/9bd85fa9ba4287551f781ac57c87b420.png" />
+  </TextureParameters>
+</Material>

@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/common" res_file="model/common_4cd1d46242ba17d93ef36b6284001464/815b7737b46fd5c949f9ac968dbc4c8a.mesh">
+    <Material res_pack="data/3dmap/common">model/common_4cd1d46242ba17d93ef36b6284001464/f52bbca83f5031bfb181e8317917475.material</Material>
+  </Mesh>
+</Model>

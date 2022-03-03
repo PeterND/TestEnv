@@ -1,0 +1,13 @@
+<Entity name="chunk_3_0" type="Group" pos="15000.0000 0.0000 0.0000">
+  <Entity name="syzb_damen01_hyh_5" sid="331cbd5f7f584d09aa30cc350ef8cd6c" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2570.0010 -14880.0000 679.9993" rot="0.27628 0.65090 0.65090 -0.27628" scale="22.4047 19.3992 19.3992" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_522d87ce4ab89e5d1bf00ba653717409/b270d4c638e2a3829bd532bf204484.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.18590670 0.18099800" offset="0.38229560 0.20347360" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="3079" render_queue="2000" type="Model" res_type="none" res_id="0" pos="3220.0000 -2780.0000 1620.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="1.8179 1.8179 1.8179">
+    <Component type="MAP" cell_type="c3_model" res_pack="/c3/map/" res_file="3079/3079.c3_model" motion="101">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+    </Component>
+  </Entity>
+</Entity>

@@ -1,0 +1,12 @@
+<Entity name="globalchunk" type="Group">
+  <Entity name="syzb_dibuyh_02 (1)" render_queue="3000" type="Model" layer="_Cloud" res_type="custom" res_id="0" pos="9220.0000 -3800.0000 -3600.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.1640 1.0000 1.0000" static="true" tag="C3HighLevel">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_958e92d2613abe042f679f754c2822e1/60ce952df14b295f5759542ac8779fbe.model">
+      <Lighting recv_shadow="true" />
+    </Component>
+  </Entity>
+  <Entity name="skybox_01 (1)" render_queue="2500" type="Model" res_type="custom" res_id="0" pos="9620.0000 0.0000 -4910.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="563.2039 563.2039 563.2039" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_aa8177486619a606843c19e711e69a/5292115c2023d66d5cc4c4e4e112f37c.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+    </Component>
+  </Entity>
+</Entity>

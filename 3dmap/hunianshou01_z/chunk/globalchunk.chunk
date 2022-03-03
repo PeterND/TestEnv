@@ -1,0 +1,7 @@
+<Entity name="globalchunk" type="Group">
+  <Entity name="Sphere" render_queue="2450" type="Model" res_type="custom" res_id="0" pos="18670.0000 -5074.4000 -8150.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="775.3739 775.3739 775.3739" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/61a275b051ff68b312c49668afd1a47.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+    </Component>
+  </Entity>
+</Entity>

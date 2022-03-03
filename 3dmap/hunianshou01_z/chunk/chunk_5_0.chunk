@@ -1,0 +1,26 @@
+<Entity name="chunk_5_0" type="Group" pos="25000.0000 0.0000 0.0000" static="true">
+  <Entity name="Map_longtou_hjx003" sid="6fd9922b437048a18d547e8ea3a5d429" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="7009.9980 90.0001 -2130.0000" rot="-0.64055 -0.07567 -0.08566 0.75936" scale="0.4476 0.2008 0.2008">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_ca11d5fe7344f79930687b6c11181c94/8a835ec9dc5d65232adf61b196cee4a.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.15645690 0.15353840" offset="0.17208050 0.71798770" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="public_stone_rock_01_04__2_" sid="c7859b4ba9014baeb699016689485861" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" pos="11212.3800 1067.1690 -3656.6370" rot="-0.31897 0.63108 0.63108 0.31897" scale="0.0878 0.0941 0.0941">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_ae5ce29279fb61b1e5d086ff4f278d77/4d13c6388cca57bcb6ab93b1aa92ab0.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.21666940 0.21115420" offset="0.22122000 0.50538900" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="sg_gongmen_01_01_01__1_" sid="58fb97b5e1bc4eb581d18f5a25b4d319" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="2690.0000 -409.9991 -6080.0000" rot="-0.68301 -0.18301 -0.18301 0.68301" scale="1.7213 1.7213 1.7213">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_6d7c02273cac0a3b13e544fe16aba66a/b2923180c1195335becc43ebe222a8b.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.14301670 0.13852470" offset="0.77426770 0.15812010" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="sg_gongmenbei_01_01__2_" sid="7ff1dbb8c243431bb2ae73119cf4e184" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="4224.5360 -514.0002 -5199.3750" rot="-0.68358 -0.18087 -0.18087 0.68358" scale="1.7268 1.7268 1.7268">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/hunianshou01_z" res_file="model/common_1c6a3b1e7a6ffb4b43436f9648ce25fc/a6d3752689743481585753e385bf527.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/hunianshou01_z" res_file="lightmap/lightmap.mtex" index="0" scale="0.04638891 0.04538705" offset="0.26662250 0.92605470" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/05juntuanzhan" res_file="model/swirl_tu__4_1fcc4ee78ccb24b6284bdb9216d5c4/9c4cd0644048906cf0b26114ce8fcab0.mesh">
+    <Material res_pack="data/3dmap/05juntuanzhan">model/swirl_tu__4_1fcc4ee78ccb24b6284bdb9216d5c4/14caf655aaeaaeb297a5fd4a51b34df.material</Material>
+  </Mesh>
+</Model>

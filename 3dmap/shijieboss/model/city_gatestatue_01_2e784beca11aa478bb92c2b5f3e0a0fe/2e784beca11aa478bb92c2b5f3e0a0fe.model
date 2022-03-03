@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/shijieboss" res_file="model/city_gatestatue_01_2e784beca11aa478bb92c2b5f3e0a0fe/c55fe59dce56fa108714cdd0b9a445aa.mesh">
+    <Material res_pack="data/3dmap/shijieboss">model/city_gatestatue_01_2e784beca11aa478bb92c2b5f3e0a0fe/1994d3d465a0eec134dcefbebc4197.material</Material>
+  </Mesh>
+</Model>

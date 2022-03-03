@@ -1,0 +1,318 @@
+<Scene name="tulou02_4" map_version="[F:3134 E:9300]_2022-02-21T20:26:23">
+  <Component type="SCENE" pipeline="data/3dmap/tulou02_4/custom.pipeline.xml" />
+  <Entity name="MapObj" render_queue="-1" type="Group" rot="0.00000 0.00000 0.00000 1.00000" static="true">
+    <Entity name="09tulou_mapobj_youhua" render_queue="-1" type="Group" pos="832.6537 -5092.5700 -991.8278" rot="0.00000 0.00000 0.00000 1.00000">
+      <Entity name="09tulou_denglong" render_queue="3000" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/09tulou_denglong_e8e0c26d15354ee5ba5b7c66fe8b203e/e8e0c26d15354ee5ba5b7c66fe8b203e.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.06623287 0.06619608" offset="0.81893430 0.37691850" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="bg_anh_foliage_te_b50_sm_old_1__47_" render_queue="2450" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/bg_anh_foliage_te_b50_sm_old_1__47__1ea453f2e1e43518b983a459498c9c1f/1ea453f2e1e43518b983a459498c9c1f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.09587114 0.09588668" offset="0.85913620 0.17029690" uv2_error="0" />
+        </Component>
+      </Entity>
+      <Entity name="Rock_yfs_03__4__1" render_queue="2000" type="Model" res_type="custom" res_id="0" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/rock_yfs_03__4__1_f65540ca96e2b3727ac3512a55c387d/f65540ca96e2b3727ac3512a55c387d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.49822870 0.49820180" offset="0.00124563 0.00124564" uv2_error="0" />
+        </Component>
+      </Entity>
+    </Entity>
+  </Entity>
+  <Entity name="Terrain" render_queue="-1" type="Group" rot="0.00000 0.00000 0.00000 1.00000" static="true">
+    <Entity name="tl_yunhai_01" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="1120.0000 -4460.0000 8710.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="94.6985 94.6985 94.6985">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/tl_yunhai_01_cfd3513f213a64a694e83b3f0b5c924/cfd3513f213a64a694e83b3f0b5c924.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="cloud_01 (9)" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="7960.0000 -2050.0000 -790.0000" rot="0.00004 -0.04433 0.99839 0.03534" scale="0.7541 1.0424 0.7541">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/53373dbef87fca38e7e33db086f78984.model">
+        <Lighting recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.22788830 0.22788510" offset="0.50107530 0.00035532" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="cloud_01 (10)" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="461.0000 -1636.0000 -1099.0000" rot="-0.16510 -0.48457 -0.10057 0.85312" scale="0.5562 0.7689 0.5562">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/53373dbef87fca38e7e33db086f78984.model">
+        <Lighting recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.16730910 0.16730580" offset="0.73053280 0.00065822" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="cloud_01 (11)" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="1189.0000 -2510.0000 -2616.0000" rot="-0.16499 -0.53777 -0.77194 0.29614" scale="0.5562 0.7689 0.5562">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/53373dbef87fca38e7e33db086f78984.model">
+        <Lighting recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.16730910 0.16730580" offset="0.50137820 0.22956430" uv2_error="0" />
+      </Component>
+    </Entity>
+    <Entity name="cloud_01" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="6120.1280 2016.5170 -8763.7620" rot="0.29418 -0.13223 0.03859 0.94577" scale="0.7455 0.7455 0.7455">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/ba6771754bb15779651d396fead67cf.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="syzb_dibuyh_02" render_queue="3000" type="Model" layer="_Cloud" res_type="custom" res_id="0" pos="1530.3000 -2011.0000 -2480.0000" rot="-0.70711 0.00000 0.00000 0.70711" scale="1.1990 1.1990 1.1990">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/syzb_dibuyh_02_8a38a141c84c5f2f590bc65adbcd16/8a38a141c84c5f2f590bc65adbcd16.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="09tulou_chaifen" render_queue="-1" type="Group" pos="2904.1000 -1923.0000 -2058.4000" rot="-0.00877 -0.99081 -0.03649 -0.12997" scale="0.2518 0.2518 0.2518">
+      <Entity name="09tulou_fang01" render_queue="-1" type="Group" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Entity name="09tulou_fang01_floor" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_68d3a34042bc41bb68ec9d03438fd3be/12f93e5d5488abb025ac304e5dbe547.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.02361769 0.02358389" offset="0.69858470 0.39923920" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang01_qiang" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_3df5dc2b293523baa4f812dd53fc6b23/f644e7a7b25726fb97e44d908cbf589.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.05075154 0.04994165" offset="0.67122280 0.32323600" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang01_wa" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_f5f103a27d1a801d1ac2d566026da869/ee4f7d76434ee3e29767df12c46ee0.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.05069941 0.05069551" offset="0.67122280 0.23037550" uv2_error="0" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="09tulou_fang02" render_queue="-1" type="Group" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Entity name="09tulou_fang02_denglong" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_9bd85fa9ba4287551f781ac57c87b420/7182ed4de6e25af6cb16a60ba0f470.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.01550418 0.01550131" offset="0.70057370 0.37329200" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang02_floor" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_68d3a34042bc41bb68ec9d03438fd3be/e771d1ed5372a693d0e21545ddb9cdf.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.10331120 0.10305480" offset="0.50216310 0.39919940" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang02_men" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/09tulou_fang02_men_c1a25f3545b397816d974a7b261c68c2/c1a25f3545b397816d974a7b261c68c2.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.01726359 0.01608794" offset="0.69858780 0.42552950" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang02_qiang01" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_3df5dc2b293523baa4f812dd53fc6b23/3d2f945edbdb92966daa49f583c574.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.07833453 0.07833453" offset="0.73133020 0.38694200" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang02_qiang03" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/09tulou_fang02_qiang03_fd40c2acea26c32fc7968b020902388/fd40c2acea26c32fc7968b020902388.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.15312730 0.15053250" offset="0.81889080 0.26118360" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang02_wa" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_f5f103a27d1a801d1ac2d566026da869/376043be69a05fde1ac9e9a8fbfe1ab8.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.12571100 0.12572920" offset="0.73130650 0.17028200" uv2_error="0" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="09tulou_fang03" render_queue="-1" type="Group" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Entity name="09tulou_fang03_denglong" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_9bd85fa9ba4287551f781ac57c87b420/fbaad543b60643385aede477d341bb7.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.00342435 0.00340098" offset="0.72488470 0.23039910" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang03_ding" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_f5f103a27d1a801d1ac2d566026da869/92a2fff328f128d701bda9c9150f0b8.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.03733651 0.03733788" offset="0.90038410 0.10481780" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang03_menpai" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/09tulou_fang03_menpai_84797451ff76168e2eafe3d7c4b35d/84797451ff76168e2eafe3d7c4b35d.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.04411148 0.04413068" offset="0.67122610 0.28394710" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang03_qiang" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_3df5dc2b293523baa4f812dd53fc6b23/58e89c9c54eb4bb839bf42735b33f50.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.02637017 0.02491165" offset="0.67123500 0.36523180" uv2_error="0" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="09tulou_fang04" render_queue="-1" type="Group" rot="-0.70711 0.00000 0.00000 0.70711">
+        <Entity name="09tulou_fang04_denglong" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_9bd85fa9ba4287551f781ac57c87b420/a228e944bdc38925a1aba18f28b22ca8.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.00563024 0.00562968" offset="0.71802130 0.28396640" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang04_ding" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_f5f103a27d1a801d1ac2d566026da869/505350736551e21bab0688cf4203a68.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.10126070 0.10132780" offset="0.89744080 0.00144408" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang04_qiang" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_3df5dc2b293523baa4f812dd53fc6b23/44a81dc5b28a06b5fada791e38f5a.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.07262146 0.07534730" offset="0.95741770 0.16198680" uv2_error="0" />
+          </Component>
+        </Entity>
+        <Entity name="09tulou_fang04_qiang02" render_queue="2000" type="Model" layer="_Floor" res_type="custom" res_id="0" rot="0.00000 0.00000 0.00000 1.00000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/09tulou_fang04_qiang02_2df49c584a74259ff690fd4168647f/2df49c584a74259ff690fd4168647f.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.08512376 0.08513897" offset="0.73132680 0.29889530" uv2_error="0" />
+          </Component>
+        </Entity>
+      </Entity>
+    </Entity>
+    <Entity name="cloud_01 (13)" render_queue="3000" type="Model" res_type="custom" res_id="0" pos="2392.0000 -1623.0000 -3510.0000" rot="0.91115 0.02839 0.30146 0.27950" scale="0.3514 0.2698 0.3514">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/tulou02_4" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/53373dbef87fca38e7e33db086f78984.model">
+        <Lighting recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/tulou02_4" res_file="lightmap/lightmap.mtex" index="0" scale="0.08785930 0.08785602" offset="0.60797270 0.39881170" uv2_error="0" />
+      </Component>
+    </Entity>
+  </Entity>
+  <Entity name="Effect" render_queue="-1" type="Group" pos="4081.7900 -81.5239 -3564.3870" rot="0.00000 0.00000 0.00000 1.00000">
+    <Entity name="smoke (22)" render_queue="3000" type="Effect" pos="1960.0000 -1850.0000 -1860.0000" rot="0.00000 0.16479 0.00000 0.98633" scale="15.8809 15.8809 12.2441">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="xuanzu_smoke/smoke.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_misamwaterfall (15)" render_queue="3000" type="Effect" pos="-6294.2640 -1240.9740 3476.0290" rot="0.02326 0.98961 0.10526 -0.09513" scale="1.3606 1.3606 1.3606">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_misamwaterfall (16)" render_queue="3000" type="Effect" pos="-4574.0980 -698.4764 4134.3870" rot="-0.07543 0.89503 0.09305 0.42963" scale="1.4886 3.0819 1.4886">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="light" render_queue="3000" type="Effect" pos="-1820.0000 -1890.0000 1930.0000" rot="0.00000 0.00000 0.53443 0.84521" scale="7.5882 3.6913 4.1988">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="light/light.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_atersurface (2)" render_queue="3000" type="Effect" pos="-3580.0000 18.0000 -150.0000" rot="0.00000 0.73715 0.00000 0.67573" scale="5.2189 5.2189 5.2189">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="smgx1_atersurface/smgx1_atersurface.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_screenspark" render_queue="3000" type="Effect" pos="-2070.0000 -1370.0000 4150.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.7263 2.7263 2.7263">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="smgx1_screenspark/smgx1_screenspark.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smoke (27)" render_queue="3000" type="Effect" pos="-1822.0000 -1850.0000 -2618.0000" rot="0.00000 0.16479 0.00000 0.98633" scale="15.8809 15.8809 12.2441">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="xuanzu_smoke/smoke.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_floapartregion" render_queue="3000" type="Effect" pos="-91.0000 5.0000 -1642.0000" rot="0.00000 0.51660 0.00000 0.85623" scale="4.1217 4.1217 4.1217">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/WangLing/" res_file="smgx1_3d_floapartregion/smgx1_3d_floapartregion.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_floapartregion (1)" render_queue="3000" type="Effect" pos="-2027.0000 5.0000 -1884.0000" rot="0.00000 0.19167 0.00000 0.98146" scale="4.1217 4.1217 4.1217">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/WangLing/" res_file="smgx1_3d_floapartregion/smgx1_3d_floapartregion.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_floapartregion (2)" render_queue="3000" type="Effect" pos="-3218.0000 5.0000 -876.0000" rot="0.00000 0.19167 0.00000 0.98146" scale="4.1217 4.1217 4.1217">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/xuanren/WangLing/" res_file="smgx1_3d_floapartregion/smgx1_3d_floapartregion.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smoke (28)" render_queue="3000" type="Effect" pos="910.0001 -2150.0000 -370.0000" rot="0.00000 0.16479 0.00000 0.98633" scale="15.8809 15.8809 12.2441">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/" res_file="xuanzu_smoke/smoke.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilnoup" render_queue="3000" type="Effect" pos="-1173.0000 -716.0000 1529.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="0.1328 0.1328 0.1328">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilnoup/smgx1_3d_eabuilnoup.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern" render_queue="3000" type="Effect" pos="784.9999 1718.0000 -111.0001" rot="0.00000 0.00000 0.00000 1.00000" scale="2.4872 2.4872 2.4872">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (1)" render_queue="3000" type="Effect" pos="-3078.0000 1346.0000 -793.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2611 2.2611 2.2611">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (2)" render_queue="3000" type="Effect" pos="-438.9999 2091.0000 -1227.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2611 2.2611 2.2611">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (3)" render_queue="3000" type="Effect" pos="2392.0000 1022.0000 1118.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2611 2.2611 2.2611">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (4)" render_queue="3000" type="Effect" pos="-820.0001 1834.0000 238.9999" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2611 2.2611 2.2611">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (5)" render_queue="3000" type="Effect" pos="-2617.0000 1388.0000 299.0002" rot="0.00000 0.00000 0.00000 1.00000" scale="2.2611 2.2611 2.2611">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (6)" render_queue="3000" type="Effect" pos="-5617.0000 1049.0000 2034.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="3.4717 3.4717 3.4717">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (7)" render_queue="3000" type="Effect" pos="-5338.0000 652.0000 2518.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.3900 2.3900 2.3900">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (8)" render_queue="3000" type="Effect" pos="-2803.0000 1140.0000 1983.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.3900 2.3900 2.3900">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (9)" render_queue="3000" type="Effect" pos="-2011.0000 159.0000 3561.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.6967 2.6967 2.6967">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilkmlatern (10)" render_queue="3000" type="Effect" pos="-173.0000 333.0000 2460.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="2.6967 2.6967 2.6967">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilkmlatern/smgx1_3d_eabuilkmlatern.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_eabuilnowhale" render_queue="3000" type="Effect" pos="-1461.0000 -1208.0000 1245.0000" rot="-0.03369 0.00000 0.00000 0.99943" scale="4.7159 4.7159 3.0583">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_eabuilnowhale/smgx1_3d_eabuilnowhale.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_fish" render_queue="3000" type="Effect" pos="-1461.0000 -500.0000 1650.0000" rot="0.00000 -0.16386 0.00000 0.98648">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_fish/smgx1_3d_fish.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_fish2" render_queue="3000" type="Effect" pos="-1910.0000 908.6241 1805.0000" rot="-0.11037 0.75302 -0.01693 -0.64845" scale="1.0247 0.9073 0.9073">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_fish2/smgx1_3d_fish2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_pingmu" render_queue="3000" type="Effect" pos="-1264.0000 2751.0000 -1658.0000" rot="0.34660 0.00000 0.00000 0.93801" scale="4.2672 2.2695 3.4829">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_pingmu/smgx1_3d_pingmu.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_square tulou1" render_queue="3000" type="Effect" pos="-1190.0000 -1689.0000 1530.0000" rot="0.00000 -0.12494 0.00000 0.99216" scale="0.2362 0.4701 0.2362">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_square tulou1/smgx1_3d_square tulou1.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_square tulou2" render_queue="3000" type="Effect" pos="-1190.0000 -1689.0000 1530.0000" rot="0.00000 -0.12494 0.00000 0.99217" scale="0.6472 0.3601 0.6472">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_square tulou2/smgx1_3d_square tulou2.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_square tulou3" render_queue="3000" type="Effect" pos="-1173.0000 -1570.0000 1529.0000" rot="0.00000 0.00000 0.00000 1.00000" scale="0.5117 0.5117 0.5117">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_square tulou3/smgx1_3d_square tulou3.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+    <Entity name="smgx1_3d_square tulou4" render_queue="3000" type="Effect" pos="-1173.0000 -1366.0000 1529.0000" rot="0.00000 0.00000 0.00000 1.00000">
+      <Component type="MAP" cell_type="c3_effect" res_pack="c3/3deffect/tulou/" res_file="smgx1_3d_square tulou4/smgx1_3d_square tulou4.c3_effect" />
+      <Component type="SCRIPT" class="CSceneEffect" />
+    </Entity>
+  </Entity>
+  <Entity name="Important" render_queue="-1" type="Group" rot="0.00000 0.00000 0.00000 1.00000">
+    <Entity name="3058 (3)" render_queue="-1" type="Model" res_type="none" res_id="0" pos="6167.6950 -2363.0000 -3087.6660" rot="0.00000 -0.93443 0.00000 0.35616" scale="-1.7360 1.7360 1.7360">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3058/3058.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="3058 (4)" render_queue="-1" type="Model" res_type="none" res_id="0" pos="873.4879 -2367.6000 -4303.0090" rot="0.00000 -0.48011 0.00000 0.87721" scale="-1.7662 1.7662 1.7662">
+      <Component type="MAP" cell_type="c3_model" res_pack="c3/map/" res_file="3058/3058.c3_model" motion="100">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+  </Entity>
+  <Entity name="Light" type="Group" />
+  <Entity name="Main Camera" type="Group" />
+</Scene>

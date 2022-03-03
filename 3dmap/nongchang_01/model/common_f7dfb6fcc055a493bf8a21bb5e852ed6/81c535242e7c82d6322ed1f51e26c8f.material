@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="0">
+  <VectorParameters>
+    <Diff_C>0.9057 0.9057 0.9057 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/nongchang_01" res_file="model/common_f7dfb6fcc055a493bf8a21bb5e852ed6/f7dfb6fcc055a493bf8a21bb5e852ed6.png" />
+  </TextureParameters>
+</Material>

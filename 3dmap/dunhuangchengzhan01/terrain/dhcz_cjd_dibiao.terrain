@@ -1,0 +1,9 @@
+<Terrain name="dhcz_cjd_dibiao" render_level="0" has_culldata="false">
+  <HMap>dhcz_cjd_dibiao_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="2.0000 2.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_3f1c534eae6961e3b8663ef24a22d7a4.png</Tex>
+    <Tex type="detail" Tiling="2.0000 2.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_5e9cece7f63778ab646b4438ff2f8e3a.png</Tex>
+    <Tex type="detail" Tiling="2.0000 2.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_3901e5a385c0611ce1d7343b01d7e235.png</Tex>
+    <Tex type="detail" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_f4e997a9137e9c28eb30b083f82f410d.png</Tex>
+  </Textures>
+</Terrain>

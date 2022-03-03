@@ -1,0 +1,16 @@
+<Entity name="chunk_4_-2" type="Group" pos="20000.0000 0.0000 -10000.0000">
+  <Entity name="public_stone_rock_01__1_" sid="4bdb91fd3f094ab79d92d800e85d45f4" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="285.9970 714.0005 3876.0000" rot="-0.42266 0.56688 0.56688 0.42266" scale="0.1921 0.1921 0.1921" static="true" tag="C3HighLevel">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_ae5ce29279fb61b1e5d086ff4f278d77/71919a9aa9c55e8bbc6453bc47aa20c5.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.03995218 0.03796008" offset="0.54465840 0.50622540" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="smgx1_upsamwaterfall (10)" sid="e47b6b24787e4aa99c7c6ed4a30ce139" render_queue="3000" type="Effect" layer="_Map" pos="32.9987 740.0000 3791.0000" rot="0.00000 0.73551 0.00000 0.67752" scale="0.9642 0.9642 0.9642" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_upsamwaterfall/smgx1_upsamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="smgx1_misamwaterfall (6)" sid="aeeb23297c8341d295ac35d4772922e2" render_queue="3000" type="Effect" layer="_Map" pos="89.0015 796.0000 3809.0000" rot="0.00000 0.63149 0.00000 0.77539" scale="1.4510 2.8000 1.4510" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+</Entity>

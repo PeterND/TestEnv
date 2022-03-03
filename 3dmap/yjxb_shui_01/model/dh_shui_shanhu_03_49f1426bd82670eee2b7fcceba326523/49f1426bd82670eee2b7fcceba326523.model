@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/yjxb_shui_01" res_file="model/dh_shui_shanhu_03_49f1426bd82670eee2b7fcceba326523/a6706eee32ffcc652a5092d7d6c0bb8.mesh">
+    <Material res_pack="data/3dmap/yjxb_shui_01">model/dh_shui_shanhu_03_49f1426bd82670eee2b7fcceba326523/9a8f5a2d55508661967095cb714ceb69.material</Material>
+  </Mesh>
+</Model>

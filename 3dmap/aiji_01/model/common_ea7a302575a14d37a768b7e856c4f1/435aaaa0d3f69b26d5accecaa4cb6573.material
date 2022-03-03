@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader_Reflect3" RenderQueueTag="Geometry" CullFace="0">
+  <VectorParameters>
+    <Diff_C>0.0943 0.0943 0.0943 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <ReflectIntensity_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</ReflectIntensity_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters />
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/c4d488ea34aaea43a523f06a6edaf987.png" />
+    <Reflection_Cube_T res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/88dbd14c51f1a084666621520bd71a62_cubemap.mtex" />
+    <ReflectIntensity_T res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/c4d488ea34aaea43a523f06a6edaf987.png" />
+  </TextureParameters>
+</Material>

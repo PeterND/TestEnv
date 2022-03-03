@@ -1,0 +1,23 @@
+<Material Shader="C3/CloudSea" RenderQueueTag="Transparent" CullFace="2">
+  <VectorParameters>
+    <GeneralVec4>0.0020 0.0020 0.0100 0.0000</GeneralVec4>
+    <Color_A>0.3831 0.6208 0.7736 1.0000</Color_A>
+    <Color_B>0.0091 0.5016 0.6415 1.0000</Color_B>
+    <Detail_T_Scale_Offset>3.0000 3.0000 0.0000 0.0000</Detail_T_Scale_Offset>
+    <Vec4NoiseScale>0.8300 0.8500 0.5000 0.0000</Vec4NoiseScale>
+  </VectorParameters>
+  <FloatParameters>
+    <GeneralFloatParam>0.02</GeneralFloatParam>
+    <alpha_ref>0</alpha_ref>
+    <DetailIntensity>1.43</DetailIntensity>
+    <OffsetYMulti>3.91</OffsetYMulti>
+    <CloudCover>0.011</CloudCover>
+    <Direction>0.506</Direction>
+    <Speed>-1.01</Speed>
+  </FloatParameters>
+  <TextureParameters>
+    <Detail_T res_pack="data/3dmap/tulou02_3" res_file="model/common_958e92d2613abe042f679f754c2822e1/1080eeae2feed41967960cdb2efed408.png" />
+    <Noise_T res_pack="data/3dmap/tulou02_3" res_file="model/common_958e92d2613abe042f679f754c2822e1/99626457cf58cfc6ec8d910d43303ba0.png" />
+    <PerlinNoise_T res_pack="data/3dmap/tulou02_3" res_file="model/common_958e92d2613abe042f679f754c2822e1/958e92d2613abe042f679f754c2822e1.png" />
+  </TextureParameters>
+</Material>

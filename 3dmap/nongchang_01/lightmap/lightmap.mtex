@@ -1,0 +1,5 @@
+<MTex gen_mipmap="true" lightmap_factor="4">
+  <Tex res_pack="data/3dmap/nongchang_01" res_file="lightmap/lightmap0.png" />
+  <Tex res_pack="data/3dmap/nongchang_01" res_file="lightmap/lightmap1.png" />
+  <Tex res_pack="data/3dmap/nongchang_01" res_file="lightmap/lightmap2.png" />
+</MTex>

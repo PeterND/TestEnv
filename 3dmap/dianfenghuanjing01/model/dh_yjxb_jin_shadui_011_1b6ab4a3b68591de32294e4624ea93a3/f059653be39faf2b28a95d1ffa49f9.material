@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="AlphaTest" CullFace="2" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>1.0000 0.9735 0.9104 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.001</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/dh_yjxb_jin_shadui_011_1b6ab4a3b68591de32294e4624ea93a3/36cbeb44c9049fd946f9c06678c8126b.png" />
+  </TextureParameters>
+</Material>

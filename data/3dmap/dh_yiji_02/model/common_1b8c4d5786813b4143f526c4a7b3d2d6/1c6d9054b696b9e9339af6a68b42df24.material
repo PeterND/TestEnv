@@ -1,0 +1,13 @@
+<Material Shader="C3/C3EmissionShader" RenderQueueTag="Transparent" CullFace="2" AlphaTest="1" ZWrite="1">
+  <VectorParameters>
+    <Diff_C>0.3774 0.3774 0.3774 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.202</alpha_ref>
+    <EmissionIntensity>0.95</EmissionIntensity>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dh_yiji_02" res_file="model/common_1b8c4d5786813b4143f526c4a7b3d2d6/56acf588c4539441441cd6830135c191.png" />
+  </TextureParameters>
+</Material>

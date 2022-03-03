@@ -1,0 +1,15 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="0" Specular="1">
+  <VectorParameters>
+    <Diff_C>0.8034 0.9623 0.9539 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>2.0000 2.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+    <Smoothness>0.5</Smoothness>
+    <SpecularIntensity>1</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/aiji_01" res_file="model/common_ea7a302575a14d37a768b7e856c4f1/fc61be83878405b97bbef66931f58f82.png" />
+  </TextureParameters>
+</Material>

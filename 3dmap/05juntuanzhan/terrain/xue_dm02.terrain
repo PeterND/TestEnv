@@ -1,0 +1,9 @@
+<Terrain name="xue_dm02" render_level="0" has_culldata="false">
+  <HMap>xue_dm02_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="8.0000 8.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_bba9f404065a7946f9326e9cf00b97b0.png</Tex>
+    <Tex type="detail" Tiling="4.0000 4.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_5a7a3ac8723b2a52c43d50b03ab61c40.png</Tex>
+    <Tex type="detail" Tiling="5.0000 5.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_114897e8462ed11108aefe89298497ff.png</Tex>
+    <Tex type="detail" Tiling="14.0000 14.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_4705fbca8a0d9ebc73a8ead81860da43.png</Tex>
+  </Textures>
+</Terrain>

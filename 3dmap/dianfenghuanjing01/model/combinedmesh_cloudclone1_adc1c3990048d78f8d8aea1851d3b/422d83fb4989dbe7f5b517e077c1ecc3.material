@@ -1,0 +1,18 @@
+<Material Shader="C3/PieceCloud" RenderQueueTag="Transparent">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Detail_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Detail_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <GeneralFloatParam>0.3</GeneralFloatParam>
+    <DetailIntensity>2</DetailIntensity>
+    <NoiseScale>0.8</NoiseScale>
+    <Frequency>0.69</Frequency>
+    <Direction>0.16</Direction>
+    <Speed>0.04</Speed>
+    <DetailToggle>1</DetailToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Detail_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/combinedmesh_cloudclone1_adc1c3990048d78f8d8aea1851d3b/386dd0582e9ab3845e0f0db02e66f925.png" />
+  </TextureParameters>
+</Material>

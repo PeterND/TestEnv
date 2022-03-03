@@ -1,0 +1,7 @@
+<Terrain_Info>
+  <Terrain name="dunhuangchengzhan01" type="0" pipeline="data/3dmap/dunhuangchengzhan01/custom.pipeline.xml">
+    <Entity name="MapExtend" type="Group">
+      <Entity name="HeroLight" type="Light" res_type="1" pos="0.0000 233.0000 63.9999" light_radius="1000.0000" light_color="0.9882 1.0000 0.8667" light_intensity="0.6000" light_power="2" />
+    </Entity>
+  </Terrain>
+</Terrain_Info>

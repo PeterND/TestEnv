@@ -1,0 +1,17 @@
+<Entity name="chunk_0_0" type="Group" pos="0.0000 0.0000 0.0000">
+  <Entity name="syzb_damen01_hyh_6" sid="f57ec49be57c406cb32335ecfe07c9b0" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="940.0002 -14880.0000 1129.9990" rot="-0.25442 0.65975 0.65975 0.25442" scale="22.4047 19.3992 19.3992" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dianfenghuanjing01" res_file="model/common_522d87ce4ab89e5d1bf00ba653717409/22d9bd25b799fe7fc446c987592fcf23.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dianfenghuanjing01" res_file="lightmap/lightmap.mtex" index="0" scale="0.20953800 0.20300380" offset="0.17515770 -0.00040601" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="smgx1_misamwaterfall (1)" sid="756feb00755247b6a093f03a46675636" render_queue="3000" type="Effect" layer="_Map" pos="6154.0010 477.0001 186.9998" rot="0.00000 -0.36331 0.00000 0.93167" scale="1.8938 4.0000 1.8938" tag="C3HighLevel">
+    <Component type="MAP" cell_type="c3_effect" res_pack="/c3/3deffect/" res_file="smgx1_misamwaterfall/smgx1_misamwaterfall.c3_effect" />
+    <Component type="SCRIPT" class="CSceneEffect" />
+  </Entity>
+  <Entity name="3081" sid="ca062598a50e40bab3d01d3ad95fd531" render_queue="2000" type="Model" res_type="none" res_id="0" pos="4270.0000 -1520.0000 739.9999" rot="0.00000 0.00000 0.00000 1.00000" scale="2.8633 2.8633 2.8633">
+    <Component type="MAP" cell_type="c3_model" res_pack="/c3/map/" res_file="3081/3081.c3_model" motion="100">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+    </Component>
+  </Entity>
+</Entity>

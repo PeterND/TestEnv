@@ -1,0 +1,14 @@
+<Entity name="chunk_-2_-2" type="Group" pos="-10000.0000 0.0000 -10000.0000" static="true">
+  <Entity name="dhcz_cjd_qiang_01 (7)" sid="a3478322866c4ec089c96bde6b2a1487" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="8890.0000 -5631.9000 -1720.0000" rot="0.37852 -0.59726 -0.59726 -0.37852" scale="9.6716 9.6716 9.6716">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/dhcz_cjd_qiang_011_2ad8fb78f4f527dc7895a62284f23f/2ad8fb78f4f527dc7895a62284f23f.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.12553080 0.12550440" offset="0.87132980 0.33735160" uv2_error="0" />
+    </Component>
+  </Entity>
+  <Entity name="dhcz_yj_fangzi_02" sid="9ac5b47321fa4234872e185b3c1a6a62" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="27120.0000 -5430.0000 -7420.0000" rot="-0.65328 -0.27060 -0.27060 0.65328" scale="0.0200 0.0200 0.0200">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_9e1719cbe06d01a6c22e042b1cd5d977/5eebbe87186ea05bdaa93bd89b1f4cc.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.28725140 0.28725090" offset="0.00089035 0.33781800" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

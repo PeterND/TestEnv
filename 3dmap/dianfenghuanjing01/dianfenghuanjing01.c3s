@@ -1,0 +1,6 @@
+<Scene name="dianfenghuanjing01" map_version="[F:3016 E:8846]_2021-12-24T14:36:00">
+  <Component type="CHUNK_SYSTEM" res_pack="data/3dmap/dianfenghuanjing01/chunk" minx="-1" maxx="4" miny="-4" maxy="1" chunksize="5000" max_distance="7000 7500">
+    <TerrainInfo res_pack="data/3dmap/dianfenghuanjing01/chunk" res_file="terrain_info.xml" />
+  </Component>
+  <Component type="SCENE" pipeline="data/3dmap/dianfenghuanjing01/custom.pipeline.xml" />
+</Scene>

@@ -1,0 +1,18 @@
+<Material Shader="C3/PieceCloud_LM" RenderQueueTag="Geometry">
+  <VectorParameters>
+    <Diff_C>0.7830 0.7830 0.7830 1.0000</Diff_C>
+    <Detail_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Detail_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <GeneralFloatParam>0.3</GeneralFloatParam>
+    <DetailIntensity>2</DetailIntensity>
+    <NoiseScale>0</NoiseScale>
+    <Frequency>0.29</Frequency>
+    <Direction>0.189</Direction>
+    <Speed>0.19</Speed>
+    <NoiseToggle>0</NoiseToggle>
+  </FloatParameters>
+  <TextureParameters>
+    <Detail_T res_pack="data/3dmap/tulou01_3" res_file="model/common_5845aa26db9883b563adf45e6cb368c1/840c30dc3ccc386c7c8abb314e84be89.png" />
+  </TextureParameters>
+</Material>

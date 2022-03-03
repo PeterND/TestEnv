@@ -1,0 +1,9 @@
+<Terrain name="hns_box001__13_019" render_level="0" has_culldata="false">
+  <HMap>hns_box001__13_019_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="3.0000 3.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_a13f3406dc0e935e93e120d1592d9496.png</Tex>
+    <Tex type="detail" Tiling="3.0000 3.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_a13f3406dc0e935e93e120d1592d9496.png</Tex>
+    <Tex type="detail" Tiling="3.0000 3.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_a13f3406dc0e935e93e120d1592d9496.png</Tex>
+    <Tex type="detail" Tiling="3.0000 3.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_a1cde5de2b846dee064a39b24fb81a02.png</Tex>
+  </Textures>
+</Terrain>

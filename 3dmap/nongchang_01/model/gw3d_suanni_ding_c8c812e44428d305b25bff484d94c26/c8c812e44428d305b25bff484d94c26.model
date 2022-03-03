@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/nongchang_01" res_file="model/gw3d_suanni_ding_c8c812e44428d305b25bff484d94c26/d893364fecb7ffb4b5fc35e583b167a1.mesh">
+    <Material res_pack="data/3dmap/nongchang_01">model/gw3d_suanni_ding_c8c812e44428d305b25bff484d94c26/a114b354b0e7338cba065fec9cc4ae1.material</Material>
+  </Mesh>
+</Model>

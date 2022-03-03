@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/tulou01_4" res_file="model/common_d0b489aa481d42bf4e42686df3d2e471/d0b489aa481d42bf4e42686df3d2e471.mesh">
+    <Material res_pack="data/3dmap/tulou01_4">model/common_d0b489aa481d42bf4e42686df3d2e471/254f4ee80cdaa20e521df9817217e87.material</Material>
+  </Mesh>
+</Model>

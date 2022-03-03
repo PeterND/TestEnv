@@ -1,0 +1,9 @@
+<Terrain name="terrain_yj_zhongjian" render_level="0" has_culldata="false">
+  <HMap>terrain_yj_zhongjian_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_007dbd998588f174d77225aedb358302.png</Tex>
+    <Tex type="detail" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_007dbd998588f174d77225aedb358302.png</Tex>
+    <Tex type="detail" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_7396e8c08badf7263dc38c19610c5e05.png</Tex>
+    <Tex type="detail" Tiling="20.0000 20.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_9f082b30dca9928bdcbe5fbd2e93681b.png</Tex>
+  </Textures>
+</Terrain>

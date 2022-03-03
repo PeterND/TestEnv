@@ -1,0 +1,8 @@
+<MTex gen_mipmap="true" cube="true">
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._posx.png" />
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._negx.png" />
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._posy.png" />
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._negy.png" />
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._posz.png" />
+  <Tex res_pack="data/3dmap/hunianshou01_z" res_file="model/sphere_61a275b051ff68b312c49668afd1a47/0fab1ecf4c5ce4a9d1f0862c1f7e22ee._negz.png" />
+</MTex>

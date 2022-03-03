@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/dh_yiji_02" res_file="model/bg_atm_loghill_oldbone01_19dda196b3c867aab77d2db368b9c72b/f2ae273a681f96b1ea77da2ceb333752.mesh">
+    <Material res_pack="data/3dmap/dh_yiji_02">model/bg_atm_loghill_oldbone01_19dda196b3c867aab77d2db368b9c72b/e8f9dcc2dd9dc9a5153643224146e0.material</Material>
+  </Mesh>
+</Model>

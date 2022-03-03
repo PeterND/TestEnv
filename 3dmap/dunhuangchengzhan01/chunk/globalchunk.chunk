@@ -1,0 +1,8 @@
+<Entity name="globalchunk" type="Group">
+  <Entity name="dhcz_yj_fangzi_04" instance_id="357922" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="17120.0000 -5407.3920 -17420.0000" rot="-0.65328 -0.27060 -0.27060 0.65328" scale="0.0200 0.0200 0.0200" static="true">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_9e1719cbe06d01a6c22e042b1cd5d977/ff6ed6aba5d5b37bb9866b7de2cd6e44.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.33371390 0.33371390" offset="0.33793540 0.00079742" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

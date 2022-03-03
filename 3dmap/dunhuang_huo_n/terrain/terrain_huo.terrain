@@ -1,0 +1,9 @@
+<Terrain name="terrain_huo" render_level="0" has_culldata="false">
+  <HMap>terrain_huo_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">splatmap_3.png</Tex>
+    <Tex type="detail" Tiling="25.0000 25.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_2.png</Tex>
+    <Tex type="detail" Tiling="64.0000 64.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_1.png</Tex>
+    <Tex type="detail" Tiling="32.0000 32.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_0.png</Tex>
+  </Textures>
+</Terrain>

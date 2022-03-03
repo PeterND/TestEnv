@@ -1,0 +1,8 @@
+<Entity name="chunk_-2_-8" type="Group" pos="-10000.0000 0.0000 -40000.0000" static="true">
+  <Entity name="dhcz_shiqiang_01__7_001" sid="62fd91c2997544648c382e5ae4b7bd42" render_queue="2000" type="Model" res_type="custom" res_id="0" pos="12847.7000 -9869.9430 10458.2600" rot="0.39376 0.58733 0.58732 -0.39376" scale="0.0100 0.0100 0.0130">
+    <Component type="MAP" cell_type="model" res_pack="data/3dmap/dunhuangchengzhan01" res_file="model/common_12387a64cece3c2ed244af00d8684211/59295056c74d7be84f6239eeacfdb416.model">
+      <Lighting cast_shadow="1" recv_shadow="true" />
+      <LightMap res_pack="data/3dmap/dunhuangchengzhan01" res_file="lightmap/lightmap.mtex" index="0" scale="0.18992660 0.18990550" offset="0.49422340 0.33801270" uv2_error="0" />
+    </Component>
+  </Entity>
+</Entity>

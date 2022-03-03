@@ -1,0 +1,68 @@
+<Pipeline>
+  <Setup>
+    <BasicSetup shadow_enabled="0" ambient_color="1.000000, 1.000000, 1.000000, 1.000000" />
+    <RenderTarget id="POST_EFFECT" depthBuf="false" numColBufs="1" format="RGBA8" />
+    <RenderTarget id="BLOOM_EFFECT" depthBuf="false" numColBufs="1" format="RGBA8" />
+  </Setup>
+  <CommandQueue>
+    <Stage enabled="true" id="Geometry">
+      <DrawGeometry context="" class="C3Sky" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Terrain" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Model_PreFloor" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Model_Floor" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Model" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Effect_Water" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Model_Water" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Effect_Floor" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Model_Role" order="" enabled="true" />
+      <DrawPassThroughs />
+      <DrawGeometry context="" class="C3Effect" order="" enabled="true" />
+      <DrawGeometry context="" class="C3Effect_Map" order="" enabled="true" />
+    </Stage>
+    <Stage enabled="true" id="prepare_effect">
+      <SwitchTarget target="POST_EFFECT" />
+    </Stage>
+    <Stage enabled="false" id="post_effect0">
+      <DrawPostEffect shader="saturation_tuning" sampler="src_dep:-&gt;c0" uniform_f="f:1.1" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="false" id="post_effect1">
+      <DrawPostEffect shader="color_tuning" sampler="src_dep:-&gt;c0" uniform_f="f:-1.0" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="false" id="post_effect2">
+      <DrawPostEffect shader="brightness_tuning" sampler="src_dep:-&gt;c0" uniform_f="bright_contrast_gamma:1.500000,1.000000,1.800000,0.000000" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="false" id="post_effect3">
+      <SwitchTarget target="BLOOM_EFFECT" />
+      <DrawPostEffect shader="bloom_power" sampler="tex0:-&gt;c0" BLEND_STATE="0" />
+      <SwitchTarget target="POST_EFFECT" />
+      <DrawPostEffect shader="bloom_blur_hori" sampler="tex0:BLOOM_EFFECT-&gt;c0" BLEND_STATE="0" />
+      <SwitchTarget target="BLOOM_EFFECT" />
+      <DrawPostEffect shader="bloom_blur_vert" sampler="tex0:POST_EFFECT-&gt;c0" BLEND_STATE="0" />
+      <SwitchTarget target="POST_EFFECT" />
+      <DrawPostEffect shader="bloom_c3" sampler="tex0:-&gt;c0;tex1:BLOOM_EFFECT-&gt;c0" uniform_f="bloom_color:1.0,1.0,1.0;bloom_weight:5.000000" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="false" id="post_effect4">
+      <DrawPostEffect shader="bloom_mip" sampler="src_dep:-&gt;c0" uniform_i="mip_levels:8" uniform_f="f:1.2" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="false" id="post_effect5">
+      <DrawPostEffect shader="simp_fog" sampler="src_dep:-&gt;d;src_color:-&gt;c0" uniform_f="fog_begin:0.700000;fog_color:0.500000,0.687500,0.772400;fog_end:0.975000;fog_power:20.000000" BLEND_STATE="0" />
+      <CopyTarget dst="" />
+    </Stage>
+    <Stage enabled="true" id="post_effect6">
+      <DrawPostEffect shader="height_fog" sampler="src_color:-&gt;c0;src_dep:-&gt;d" uniform_f="fog_color:0.492613,0.7623535,0.7735849;fog_heightbegin:12220;fog_heightend:-680;fog_heightpower:7.22;fog_depthbegin:0.8704;fog_depthend:0.978;fog_depthpower:5.46" BLEND_STATE="0" enabled="true" />
+      <CopyTarget dst="" enabled="true" />
+    </Stage>
+    <Stage enabled="false" id="post_effect7">
+      <DrawPostEffect shader="fringe_mask" sampler="src_dep:-&gt;c0" uniform_f="factor:1.000000;mask_color:0.000000,0.000000,0.000000;v_center:0.500000,0.500000" uniform_i="pct:50" BLEND_STATE="0" enabled="true" />
+      <CopyTarget dst="" enabled="true" />
+    </Stage>
+    <Stage enabled="true" id="end_effect">
+      <SwitchTarget target="" />
+    </Stage>
+  </CommandQueue>
+</Pipeline>

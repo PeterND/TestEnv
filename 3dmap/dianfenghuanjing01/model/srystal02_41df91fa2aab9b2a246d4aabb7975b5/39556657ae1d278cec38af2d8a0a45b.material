@@ -1,0 +1,21 @@
+<Material Shader="C3/C3StandardShader_Reflect_LM" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+    <ReflectIntensity_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</ReflectIntensity_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <Smoothness>0.5</Smoothness>
+    <SpecularIntensity>1</SpecularIntensity>
+    <SpecularDist_AugmentFactor>0</SpecularDist_AugmentFactor>
+    <Reflection_Power>0.5</Reflection_Power>
+  </FloatParameters>
+  <IntParameters>
+    <SpecularToggle>1</SpecularToggle>
+  </IntParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/9f6f977eb5b96c7a20fe96e57248423a.png" />
+    <Reflection_Cube_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/f4366eccc0049877148828fa24b087b4._cubemap.mtex" />
+    <ReflectIntensity_T res_pack="data/3dmap/dianfenghuanjing01" res_file="model/srystal02_41df91fa2aab9b2a246d4aabb7975b5/1fb9549cb7a2b17aafb034cb9a3c2062.png" />
+  </TextureParameters>
+</Material>

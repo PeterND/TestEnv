@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<Scene name="shenjizhiting" type="Group" prefab_guid="EA9F6BF46E46490C9BBF6AA74A490595">
+	<Component type="SCENE" ratio_scale="100" main_cam="" />
+  <Entity name="Light" type="Group">
+    <Entity name="HeroLight" type="Light" res_type="1" pos="0.0000 233.0000 63.9999" light_radius="1400.0000" light_color="0.9882 1.0000 0.8667" light_intensity="1.0000" />
+  </Entity>
+  <Entity name="Terrain" type="Group" pos="-1720.0000 0.0000 620.0000">
+    <Entity name="skybox_1024" type="Model" res_type="custom" res_id="0" pos="6500.0000 1174.0000 -6500.0000" rot="5.3280 -20.0783 -15.1979" scale="500 500 500">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/fa83e5175083dd9657c8be893d90129b/fa83e5175083dd9657c8be893d90129b.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+      </Component>
+    </Entity>
+    <Entity name="ground" type="Group" pos="10160.0000 -1260.0000 -10170.0000" rot="180.0000 -45.0000 180.0000" scale="0.3341 0.3341 0.3341">
+      <Entity name="Map_dbjb_ztw" type="Group" pos="2597.0000 1579.0000 150.0000" scale="0.8404 0.8404 0.8404">
+        <Entity name="Map_dbjb_01_ztw" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="16050.0000 2647.0000 0.0000" rot="-90.0010 0.0000 0.0000" scale="1.0000 1.0000 3.0693">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/34f16c403b1a8cbfb5544d07e79a19da/f10b85da2691944b7a0c9a63e82c6170.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1015863000000000 0.1015863000000000" offset="-0.0032473420000000 0.0506688200000000" uv2_error="3" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dbjb_02_ztw_llw" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="18660.0000 2705.0000 -30.0000" rot="-90.0010 0.0000 0.0000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/34f16c403b1a8cbfb5544d07e79a19da/70c79a085d159509f2baeb49c647955a.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1433039000000000 0.1433039000000000" offset="0.4490246000000000 -0.0274802100000000" uv2_error="3" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dbjb_03_ztw" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="18705.0000 2724.0000 -54.0000" rot="-90.0010 0.0000 0.0000" scale="1.0004 1.0004 1.0004">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/34f16c403b1a8cbfb5544d07e79a19da/2f1ce8058a27d6ae1bde89ddeda1dbe8.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0490279300000000 0.0490279300000000" offset="0.6290924000000000 0.4582656000000000" uv2_error="2" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dbjb_04_ztw" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="18693.0000 2727.0000 -65.0000" rot="-90.0010 0.0000 0.0000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/34f16c403b1a8cbfb5544d07e79a19da/0b1e783b2b2da1277006a28323337a41.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0174000700000000 0.0174000700000000" offset="0.2445929000000000 0.0379438500000000" uv2_error="2" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="zhuyaodimian" type="Group" pos="0.0000 -8.0000 0.0000">
+        <Entity name="yuanxingtaimian02" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="-5814.7350 4051.7000 117.5668" rot="-90.0010 0.0000 0.0000" scale="0.8400 0.8400 0.8400">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/f621180d6092baaf66b6f29b6e12f8bd/f621180d6092baaf66b6f29b6e12f8bd.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0553419800000000 0.0553419800000000" offset="0.9071925000000000 -0.0000892761900000" uv2_error="3" />
+          </Component>
+        </Entity>
+        <Entity name="Map_xsfb02" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="-16648.1800 8394.5000 23.4568" rot="-90.0010 0.0000 0.0000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/ad3afa5d7be7325486ffe16c7ff8c47f/ad3afa5d7be7325486ffe16c7ff8c47f.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0726483500000000 0.0726483500000000" offset="0.2386379000000000 0.7583945000000000" uv2_error="2" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="Map_dibiao_cxx" type="Group" pos="2690.0000 1560.0000 120.0000" scale="0.8447 0.8447 0.8447">
+        <Entity name="Object001" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="26780.0000 2627.5000 -20.0000" rot="-90.0010 0.0000 0.0000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/659b5c3964fca4c105ff32735637d66a/998498ce878313d7d82ba86d100be458.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.3975258000000000 0.3975258000000000" offset="0.2253266000000000 0.1838001000000000" uv2_error="3" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dibiao_cxx4" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="5630.0000 2525.0000 20.0000" rot="89.9990 0.0000 180.0000" scale="1.0070 1.0070 1.0070">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/6b4bc83ca76297c47b6d12f3cf7c9e63/6b4bc83ca76297c47b6d12f3cf7c9e63.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.2634196000000000 0.2634196000000000" offset="0.7386696000000000 0.4723721000000000" uv2_error="3" />
+          </Component>
+        </Entity>
+        <Entity name="Object002" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="2423.9200 2730.0000 0.0940" rot="-90.0010 0.0000 0.0000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/659b5c3964fca4c105ff32735637d66a/8bafad2e1c799277bf4b63801af46887.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1989370000000000 0.1989370000000000" offset="0.2356800000000000 0.0512570700000000" uv2_error="3" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="Map_dpst_zb" type="Group" pos="3850.0000 1818.8000 120.0000" scale="0.7579 0.7579 0.7579">
+        <Entity name="Map_dpst_04_zb" type="Model" res_type="custom" res_id="0" pos="18614.0000 320.0000 -394.0000" rot="-90.0010 0.0000 0.0000" scale="0.7000 0.7000 0.7000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/82c4c9c6ec062775579fa6286ab32b68/8e3c07dc4c08499667df99521326cf65.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0451183800000000 0.0451183800000000" offset="0.0890466500000000 0.0064293390000000" uv2_error="2" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dpst_03_zb" type="Model" res_type="custom" res_id="0" pos="18614.0000 320.0000 371.0000" rot="-90.0010 0.0000 0.0000" scale="0.7000 0.7000 0.7000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/82c4c9c6ec062775579fa6286ab32b68/03ee362f8dcdd19b829cd93f89b78c5e.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0563473600000000 0.0563473600000000" offset="0.8816428000000000 -0.0353790100000000" uv2_error="2" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dpst_02_zb" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="18615.0000 256.6600 0.1055" rot="-90.0010 0.0000 0.0000" scale="0.8876 0.8876 0.8876">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/82c4c9c6ec062775579fa6286ab32b68/373a263b3c8d035a62491f969668f046.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1721230000000000 0.1721230000000000" offset="0.2378329000000000 0.5649534000000000" uv2_error="2" />
+          </Component>
+        </Entity>
+        <Entity name="Map_dpst_04_zb (1)" type="Model" res_type="custom" res_id="0" pos="18926.0000 320.0000 4.0000" rot="89.9991 -89.1155 179.9999" scale="0.7000 0.7000 0.7000">
+          <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/82c4c9c6ec062775579fa6286ab32b68/8e3c07dc4c08499667df99521326cf65.model">
+            <Lighting cast_shadow="1" recv_shadow="true" />
+            <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0451183800000000 0.0451183800000000" offset="0.0558435300000000 0.0078583120000000" uv2_error="2" />
+          </Component>
+        </Entity>
+      </Entity>
+      <Entity name="podao" type="Model" layer="C3PluginMask" res_type="custom" res_id="0" pos="-5921.0000 4525.0000 126.0000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/d51dcb032e63b08171e110d3441aeb80/d51dcb032e63b08171e110d3441aeb80.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0393108100000000 0.0393108100000000" offset="0.2441469000000000 -0.0008312864000000" uv2_error="3" />
+        </Component>
+      </Entity>
+    </Entity>
+  </Entity>
+  <Entity name="MapObj" type="Group" pos="-1520.0000 0.0000 -5780.0000">
+    <Entity name="Map_sjt_zb" type="Group">
+      <Entity name="Map_sjt_02_zb_llw" type="Model" res_type="custom" res_id="0" pos="11005.7200 87.4395 -5415.5700" rot="89.9990 0.0000 -180.0000" scale="0.2848 0.2848 0.2848">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/2e59e4b086a1c6d6369a749fdce5e5e7/2e59e4b086a1c6d6369a749fdce5e5e7.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0232846100000000 0.0232846100000000" offset="0.2824162000000000 -0.0001370811000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_sjt_02_zb_llw (1)" type="Model" res_type="custom" res_id="0" pos="11532.9200 87.4327 -4848.8990" rot="-90.0010 22.5000 0.0000" scale="0.2848 0.2848 0.2848">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/2e59e4b086a1c6d6369a749fdce5e5e7/2e59e4b086a1c6d6369a749fdce5e5e7.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0232846100000000 0.0232846100000000" offset="0.9632865000000000 -0.0001370811000000" uv2_error="2" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="Map_stdb_zb" type="Model" res_type="custom" res_id="0" pos="5686.0000 -245.0000 445.9999" rot="-90.0010 0.0000 0.0000" scale="0.2520 0.2520 0.2520">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/82c4c9c6ec062775579fa6286ab32b68/34d298af09489e33bf9284ef1ea7ece4.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0438683800000000 0.0438683800000000" offset="0.5732849000000000 0.5143639000000000" uv2_error="3" />
+      </Component>
+    </Entity>
+    <Entity name="zhuz03" type="Group">
+      <Entity name="Map_zhuz03_ftj" type="Model" res_type="custom" res_id="0" pos="10444.0000 -26.0000 -2414.0000" rot="89.9990 -45.0000 0.0000" scale="0.5032 0.5872 0.4878">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0577046500000000 0.0577046500000000" offset="-0.0005924125000000 0.6246312000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_ftj (1)" type="Model" res_type="custom" res_id="0" pos="9724.0000 -33.0000 -1695.0000" rot="89.9990 -45.0000 0.0000" scale="0.5032 0.4834 0.4899">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0552173800000000 0.0552173800000000" offset="0.1765886000000000 -0.0004498054000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (1)" type="Model" res_type="custom" res_id="0" pos="7012.0000 -31.0000 -2767.0000" rot="-90.0010 45.0000 0.0000" scale="0.3000 0.3000 0.3000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0342454200000000 0.0342454200000000" offset="0.0592933100000000 0.3069866000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (2)" type="Model" res_type="custom" res_id="0" pos="7830.0000 -31.0000 -3585.0000" rot="-90.0010 45.0000 0.0000" scale="0.3000 0.3000 0.3000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0342454200000000 0.0342454200000000" offset="0.0568519000000000 0.6243446000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (3)" type="Model" res_type="custom" res_id="0" pos="9595.9000 5.3000 -4550.7000" rot="-90.0010 -16.4985 0.0000" scale="0.2543 0.1902 0.2179">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0245340300000000 0.0245340300000000" offset="0.0595103300000000 0.3404858000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_ftj (2)" type="Model" res_type="custom" res_id="0" pos="8901.0000 -1.0000 -885.9999" rot="89.9990 -45.0000 0.0000" scale="0.5032 0.4834 0.4899">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0552173800000000 0.0552173800000000" offset="-0.0005668775000000 0.6820233000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_ftj (3)" type="Model" res_type="custom" res_id="0" pos="10706.0000 5.7000 -3462.0000" rot="89.9990 12.8184 0.0000" scale="0.3345 0.3944 0.3904">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0412886700000000 0.0412886700000000" offset="0.0397705100000000 0.9534081000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_ftj (5)" type="Model" res_type="custom" res_id="0" pos="11527.0000 14.0000 -3831.0000" rot="89.9990 -48.0882 0.0000" scale="0.4517 0.5116 0.4379">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0517352000000000 0.0517352000000000" offset="0.6294081000000000 0.4028103000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_ftj (10)" type="Model" res_type="custom" res_id="0" pos="11905.2000 14.4000 -4496.9000" rot="89.9990 -9.4431 0.0000" scale="0.4517 0.5116 0.4379">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/d92678640a58774a025108b9ad89ab98.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0517352000000000 0.0517352000000000" offset="0.6294081000000000 0.5069497000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (4)" type="Model" res_type="custom" res_id="0" pos="8543.5000 -31.0000 -4304.5000" rot="-90.0010 45.0000 0.0000" scale="0.3000 0.3000 0.3000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0342454200000000 0.0342454200000000" offset="0.4179911000000000 -0.0007566229000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (5)" type="Model" res_type="custom" res_id="0" pos="9968.0000 17.0000 -5388.0000" rot="-90.0010 52.8985 0.0000" scale="0.2728 0.2568 0.2568">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0296452900000000 0.0296452900000000" offset="0.9627492000000000 0.0232707900000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz03_01 (6)" type="Model" res_type="custom" res_id="0" pos="10641.0000 17.0000 -5734.0000" rot="-90.0010 7.6530 0.0000" scale="0.2728 0.2568 0.2568">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/b7df6d8945502a0f16a820c6088b71a8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0296452900000000 0.0296452900000000" offset="0.0554898600000000 0.7925587000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="shibei (1)" type="Group" pos="7511.0000 -3775.0000 1805.0000" rot="180.0000 75.9354 180.0000">
+      <Entity name="shibei_01" type="Model" res_type="custom" res_id="0" pos="-328.0002 4161.0000 -2077.0000" rot="-90.0010 36.1308 0.0000" scale="0.6745 0.6745 0.6745">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/87bbf30cdf10a2343d69d5d3d3eee263.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0605706300000000 0.0605706300000000" offset="-0.0007442966000000 0.3069991000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_04" type="Model" res_type="custom" res_id="0" pos="-747.0000 4019.0000 -1280.0000" rot="-90.0010 28.5169 0.0000" scale="0.9425 0.9425 1.1893">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/fc7f5f2f54810e169dc2f97abeb4b32f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0386250300000000 0.0386250300000000" offset="0.5698560000000000 -0.0007578259000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05" type="Model" res_type="custom" res_id="0" pos="1781.0000 4033.0000 -3558.0000" rot="-90.0010 4.1694 0.0000" scale="1.6000 1.6000 1.6000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0568754900000000 0.0568754900000000" offset="-0.0010939910000000 0.8479203000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_06" type="Model" res_type="custom" res_id="0" pos="3847.0000 4054.0000 -3662.0000" rot="-90.0010 0.0000 0.0000" scale="0.9876 0.9876 1.6705">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/0c91927455f73f14fc18ce0cf719c77d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0379134500000000 0.0379134500000000" offset="0.7547814000000000 -0.0006461798000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_07" type="Model" res_type="custom" res_id="0" pos="4065.0000 3926.0000 -3342.0000" rot="-90.0010 -64.8613 0.0000" scale="1.6324 1.6324 2.6327">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/06d20a07f8913669c552518224e7823f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0277663900000000 0.0277663900000000" offset="0.8595643000000000 -0.0004554600000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08" type="Model" res_type="custom" res_id="0" pos="-42.0000 3862.0000 -2529.0000" rot="-90.0010 0.0000 0.0000" scale="0.8791 0.8791 0.8791">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0170750600000000 0.0170750600000000" offset="0.5703844000000000 0.0378491900000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_09" type="Model" res_type="custom" res_id="0" pos="648.0000 3917.0000 -4204.0000" rot="-90.0010 0.0000 0.0000" scale="1.3465 1.3465 1.3465">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/d636fcd807b1181e6acf29bbf3e78b69.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0201552700000000 0.0201552700000000" offset="0.7923816000000000 0.0343354300000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_10" type="Model" res_type="custom" res_id="0" pos="3271.0000 3963.0000 -3367.0000" rot="89.9990 20.7715 180.0000" scale="0.9990 0.9990 1.5034">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/dfbb4fb5c841023d44d473c4f82ef83d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0325575900000000 0.0325575900000000" offset="0.8269173000000000 -0.0004621540000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_11" type="Model" res_type="custom" res_id="0" pos="2735.0000 4040.0000 -4031.0000" rot="89.9990 -55.8105 -180.0000" scale="1.3300 1.3300 2.0150">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/a1cdf87ebb660533176dd91d666f51c6.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0410446200000000 0.0410446200000000" offset="0.7141951000000000 -0.0006835476000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08 (1)" type="Model" res_type="custom" res_id="0" pos="-36.0000 4162.0000 -2773.0000" rot="-138.4184 88.0995 129.8317" scale="0.5639 0.5906 2.1640">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0210927200000000 0.0210927200000000" offset="0.6375357000000000 -0.0002924536000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08 (2)" type="Model" res_type="custom" res_id="0" pos="2467.0000 4373.0000 -3716.0000" rot="-99.5086 -89.2805 -171.4115" scale="0.6277 0.6277 2.3495">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0225993400000000 0.0225993400000000" offset="0.8270792000000000 0.0324015000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_03 (2)" type="Model" res_type="custom" res_id="0" pos="-1183.0000 4019.0000 -825.0000" rot="89.9990 19.3977 -180.0000" scale="-1.3061 1.3061 1.5485">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/c68dd45f65362f5d12e56f4224a17c9b.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0789239000000000 0.0789239000000000" offset="-0.0013758110000000 0.2292187000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_11 (1)" type="Model" res_type="custom" res_id="0" pos="1327.0000 4048.0000 -4401.0000" rot="-90.0010 -45.4116 0.0000" scale="1.7414 1.7414 2.3453">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/a1cdf87ebb660533176dd91d666f51c6.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0506723700000000 0.0506723700000000" offset="-0.0008646324000000 0.9037725000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_06 (1)" type="Model" res_type="custom" res_id="0" pos="2001.0000 3993.0000 -4870.0000" rot="-90.0010 0.0000 0.0000" scale="1.3465 1.3465 1.3465">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/0c91927455f73f14fc18ce0cf719c77d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0409465300000000 0.0409465300000000" offset="-0.0006926892000000 0.9530466000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05 (1)" type="Model" res_type="custom" res_id="0" pos="487.0000 3958.0000 -3042.0000" rot="89.9990 -78.7667 -180.0000" scale="0.8162 0.8162 1.1549">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0335159100000000 0.0335159100000000" offset="0.0555076700000000 -0.0006440302000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_11 (2)" type="Model" res_type="custom" res_id="0" pos="242.0000 4072.0000 -4152.0000" rot="89.9990 58.2071 -180.0000" scale="1.2528 1.2528 2.7661">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/a1cdf87ebb660533176dd91d666f51c6.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0461118600000000 0.0461118600000000" offset="0.0490178700000000 0.9038485000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_04 (1)" type="Model" res_type="custom" res_id="0" pos="443.0000 4263.0000 -3199.0000" rot="89.9990 -6.1271 0.0000" scale="0.6841 0.6841 1.1370">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/fc7f5f2f54810e169dc2f97abeb4b32f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0320181100000000 0.0320181100000000" offset="0.0887289300000000 -0.0006281977000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05 (2)" type="Model" res_type="custom" res_id="0" pos="3445.0000 4344.0000 -3700.0000" rot="89.9990 34.4840 0.0000" scale="0.6510 0.6510 1.6226">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0350393600000000 0.0350393600000000" offset="0.7920383000000000 -0.0006733043000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05 (3)" type="Model" res_type="custom" res_id="0" pos="-739.0000 4236.0000 -1650.0000" rot="89.9990 34.4840 0.0000" scale="0.3979 0.3979 1.2860">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0243752100000000 0.0243752100000000" offset="0.6081197000000000 0.0288284900000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05 (4)" type="Model" res_type="custom" res_id="0" pos="968.9999 4136.0000 -3762.0000" rot="-90.0010 -10.8988 180.0000" scale="0.2944 0.2944 0.9516">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0177735900000000 0.0177735900000000" offset="0.7550809000000000 0.0372561300000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_10 (1)" type="Model" res_type="custom" res_id="0" pos="-1233.0000 3944.0000 -3080.0000" rot="-90.0010 0.0000 0.0000" scale="0.8947 0.8947 1.3465">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/dfbb4fb5c841023d44d473c4f82ef83d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0290513900000000 0.0290513900000000" offset="0.6081755000000000 -0.0004123836000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08 (3)" type="Model" res_type="custom" res_id="0" pos="-605.0000 4162.0000 -3543.0000" rot="89.8453 -52.3011 2.3871" scale="0.5639 0.5906 2.1640">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0210927200000000 0.0210927200000000" offset="0.6375357000000000 0.0211919200000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_06 (2)" type="Model" res_type="custom" res_id="0" pos="3885.0000 3930.0000 -2908.0000" rot="-90.0010 0.0000 0.0000" scale="0.5717 0.5717 0.9670">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/0c91927455f73f14fc18ce0cf719c77d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0217370500000000 0.0217370500000000" offset="0.8596503000000000 0.0274615500000000" uv2_error="3" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="zhuz_ftj" type="Group">
+      <Entity name="Map_zhuz_ftj" type="Model" res_type="custom" res_id="0" pos="9940.0000 27.0000 -1150.0000" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.3454345000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (1)" type="Model" res_type="custom" res_id="0" pos="8990.0000 27.0000 -200.0000" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.4903966000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (2)" type="Model" res_type="custom" res_id="0" pos="8060.0000 27.0000 729.9999" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.7803209000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (3)" type="Model" res_type="custom" res_id="0" pos="11312.0000 27.0000 -3096.0000" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.7207948000000000 0.0555101800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (16)" type="Model" res_type="custom" res_id="0" pos="10770.0000 27.0000 -2180.0000" rot="-90.0010 -27.6843 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.3467714000000000 0.5666832000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (5)" type="Model" res_type="custom" res_id="0" pos="12078.0000 27.0000 -3954.0000" rot="-90.0010 -34.0275 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.3467714000000000 0.7116454000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (6)" type="Model" res_type="custom" res_id="0" pos="12237.0000 27.0000 -5160.0000" rot="-90.0010 26.5906 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.2004723000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_llw (3)" type="Model" res_type="custom" res_id="0" pos="4121.0000 36.0000 -1792.0000" rot="-90.0010 -76.7988 180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/c4aa89f7efe09f404978ff68855a63e4.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0878130900000000 0.0878130900000000" offset="-0.0016785970000000 0.4528838000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_llw (2)" type="Model" res_type="custom" res_id="0" pos="5333.0000 36.0000 -2014.0000" rot="89.9990 -45.0000 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/c4aa89f7efe09f404978ff68855a63e4.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0878130900000000 0.0878130900000000" offset="-0.0016785970000000 0.5383331000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_llw (1)" type="Model" res_type="custom" res_id="0" pos="11143.0000 27.0000 -6113.0000" rot="-90.0010 79.2706 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/c4aa89f7efe09f404978ff68855a63e4.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0888282700000000 0.0888282700000000" offset="-0.0016980020000000 0.3664428000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_llw" type="Model" res_type="custom" res_id="0" pos="10131.0000 27.0000 -5980.0000" rot="89.9990 62.3907 180.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/c4aa89f7efe09f404978ff68855a63e4.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0888282700000000 0.0888282700000000" offset="0.2384291000000000 0.8292953000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (9)" type="Model" res_type="custom" res_id="0" pos="9228.0000 27.0000 -5165.0000" rot="89.9990 39.7807 -180.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.6353588000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_llw (4)" type="Model" res_type="custom" res_id="0" pos="8290.0000 27.0000 -4670.0000" rot="-90.0010 -61.4856 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/c4aa89f7efe09f404978ff68855a63e4.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0888282700000000 0.0888282700000000" offset="0.2384291000000000 0.6720687000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (12)" type="Model" res_type="custom" res_id="0" pos="6260.0000 27.0000 -2930.0000" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.0948182100000000 0.0555101800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (13)" type="Model" res_type="custom" res_id="0" pos="7210.0000 27.0000 -3880.0000" rot="-90.0010 -45.0000 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.4307557000000000 0.0555101800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz_ftj (15)" type="Model" res_type="custom" res_id="0" pos="7762.0000 30.0000 1666.0000" rot="-90.0010 6.9373 0.0000" scale="-0.5076 -0.5076 -0.5076">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/f82b1112a4b5109eadf46ebbfd961dc2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1446957000000000 0.1446957000000000" offset="0.5757753000000000 0.0555101800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="shibei" type="Group" pos="9960.0000 -1263.9000 -3776.0000" rot="180.0000 -45.0000 180.0000" scale="0.3350 0.3350 0.3350">
+      <Entity name="shibei_01" type="Model" res_type="custom" res_id="0" pos="-350.0000 4358.0000 -2578.0000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/87bbf30cdf10a2343d69d5d3d3eee263.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0300350200000000 0.0300350200000000" offset="0.0557832700000000 0.7370452000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_02" type="Model" res_type="custom" res_id="0" pos="1276.0000 4057.4000 -3210.5000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/157e77ff4c921566ff38d61c22470010.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0191029300000000 0.0191029300000000" offset="0.8874539000000000 0.0212102500000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_03" type="Model" res_type="custom" res_id="0" pos="2676.0000 3957.0000 -3401.0000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/c68dd45f65362f5d12e56f4224a17c9b.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0187191300000000 0.0187191300000000" offset="0.0572908700000000 0.6580596000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_04" type="Model" res_type="custom" res_id="0" pos="780.9000 3990.2000 -2869.7000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/fc7f5f2f54810e169dc2f97abeb4b32f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0121973800000000 0.0121973800000000" offset="0.4375576000000000 0.0330453500000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_05" type="Model" res_type="custom" res_id="0" pos="4408.7000 3948.0000 -3399.1000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/cc37dbba2ac8ebece5712dc5b35e7e9f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0116797900000000 0.0116797900000000" offset="0.2321066000000000 0.0124708800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_06" type="Model" res_type="custom" res_id="0" pos="5272.5000 3959.0000 -3679.2000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/0c91927455f73f14fc18ce0cf719c77d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0101102500000000 0.0101102500000000" offset="0.2321603000000000 0.0247175300000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08" type="Model" res_type="custom" res_id="0" pos="496.0000 3888.0000 -2367.0000" rot="-90.0010 -25.7317 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0065286990000000 0.0065286990000000" offset="0.0814560300000000 0.0330767300000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_09" type="Model" res_type="custom" res_id="0" pos="50.0000 3888.5000 -2280.0000" rot="89.9990 31.5753 -180.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/d636fcd807b1181e6acf29bbf3e78b69.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0050388170000000 0.0050388170000000" offset="0.0619290700000000 0.0499925200000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_10" type="Model" res_type="custom" res_id="0" pos="4624.9000 3922.8000 3479.3000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/dfbb4fb5c841023d44d473c4f82ef83d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0090159490000000 0.0090159490000000" offset="0.2322031000000000 0.0438048300000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_11" type="Model" res_type="custom" res_id="0" pos="5207.8000 3911.2000 3879.5000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/a1cdf87ebb660533176dd91d666f51c6.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0081075800000000 0.0081075800000000" offset="0.2624319000000000 0.0384392000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_09 (1)" type="Model" res_type="custom" res_id="0" pos="366.0000 3899.0000 2121.0000" rot="89.9990 -0.4056 180.0000" scale="-1.0000 1.0000 1.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/d636fcd807b1181e6acf29bbf3e78b69.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0050388170000000 0.0050388170000000" offset="0.0560696900000000 0.0499925200000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_08 (1)" type="Model" res_type="custom" res_id="0" pos="601.9993 3937.9000 2507.0010" rot="89.9990 4.9664 180.0000" scale="-1.0000 1.0000 1.4323">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/57e7e67074d46bfe68fdbe6dd96021f2.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0075331140000000 0.0075331140000000" offset="0.2322310000000000 0.0355275800000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_04 (1)" type="Model" res_type="custom" res_id="0" pos="895.0000 3992.0000 3078.0000" rot="89.9990 -0.2144 -180.0000" scale="-1.0000 1.0000 1.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/fc7f5f2f54810e169dc2f97abeb4b32f.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0121973800000000 0.0121973800000000" offset="0.2320926000000000 -0.0002393134000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_03 (1)" type="Model" res_type="custom" res_id="0" pos="2679.0010 3957.9000 3607.0000" rot="89.9990 0.9763 -180.0000" scale="-1.0000 1.0000 1.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/c68dd45f65362f5d12e56f4224a17c9b.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0187191300000000 0.0187191300000000" offset="0.4184301000000000 0.0329583000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_02 (1)" type="Model" res_type="custom" res_id="0" pos="1323.0000 4061.0000 3418.0000" rot="89.9990 0.0238 180.0000" scale="-1.0000 1.0000 1.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/157e77ff4c921566ff38d61c22470010.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0191029300000000 0.0191029300000000" offset="0.2822674000000000 0.0236516600000000" uv2_error="3" />
+        </Component>
+      </Entity>
+      <Entity name="shibei_01 (1)" type="Model" res_type="custom" res_id="0" pos="-285.0000 4354.0000 2880.0000" rot="89.9990 -5.8819 -180.0000" scale="-1.0000 1.0000 1.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/19376ee616ac0bb980173a119565f0bf/87bbf30cdf10a2343d69d5d3d3eee263.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0300350200000000 0.0300350200000000" offset="0.0548067100000000 0.6821042000000000" uv2_error="3" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="zhu02_ftj" type="Group">
+      <Entity name="Map_zhuz02_ftj" type="Model" res_type="custom" res_id="0" pos="7553.0000 -1204.0000 -3033.0000" rot="89.9990 -45.0000 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.3624932000000000 -0.0004416319000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (1)" type="Model" res_type="custom" res_id="0" pos="6933.0000 -1204.0000 -2413.0000" rot="89.9990 -45.0000 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.0949967500000000 0.9251308000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (2)" type="Model" res_type="custom" res_id="0" pos="8173.0000 -1204.0000 -3653.0000" rot="89.9990 -45.0000 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="-0.0001108517000000 0.7369725000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (3)" type="Model" res_type="custom" res_id="0" pos="9105.0000 -1204.0000 -4318.0000" rot="89.9990 -67.8664 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.1208923000000000 -0.0004416319000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (4)" type="Model" res_type="custom" res_id="0" pos="10650.3000 -1204.0000 -5472.6330" rot="89.9990 -79.1745 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.5736760000000000 0.4027901000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (5)" type="Model" res_type="custom" res_id="0" pos="7414.0000 -1211.0000 866.0000" rot="-90.0010 -13.9382 -180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="-0.0001108517000000 -0.0004416319000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (6)" type="Model" res_type="custom" res_id="0" pos="5334.0000 -1211.0000 -1270.0000" rot="-90.0010 -80.2190 -180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.5736760000000000 0.4585897000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (7)" type="Model" res_type="custom" res_id="0" pos="10054.4000 -1204.0000 -5116.9720" rot="89.9990 -39.2268 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.2400163000000000 0.9166137000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (8)" type="Model" res_type="custom" res_id="0" pos="4546.0000 -1211.0000 -1645.0000" rot="-90.0010 -48.8435 180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="-0.0001108517000000 0.7927721000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (9)" type="Model" res_type="custom" res_id="0" pos="6313.0000 -1204.0000 -1793.0000" rot="89.9990 -45.0000 0.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.6849678000000000 0.4771755000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (10)" type="Model" res_type="custom" res_id="0" pos="4053.0000 -1211.0000 -2315.0000" rot="-90.0010 -22.2771 180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.1511491000000000 0.9251308000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (11)" type="Model" res_type="custom" res_id="0" pos="7844.0000 -1211.0000 1699.0000" rot="-90.0010 -39.9420 180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.3063408000000000 -0.0004416319000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Map_zhuz02_ftj (12)" type="Model" res_type="custom" res_id="0" pos="11424.0000 -1204.0000 -5453.0000" rot="-90.0010 -76.2632 -180.0000" scale="0.5000 0.5000 0.5000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/4b01f6a92cb15d061dee1c51e4cd61c8/6c862fe98613b7f68f242ea68ea981ed.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0554258200000000 0.0554258200000000" offset="0.6586323000000000 -0.0004416319000000" uv2_error="2" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="xinshoufuben 2" type="Group" pos="9960.0000 -1260.0000 -3770.0000" rot="180.0000 -45.0000 180.0000" scale="0.3341 0.3341 0.3341">
+      <Entity name="statue" type="Model" res_type="custom" res_id="0" pos="17356.0000 2949.0000 53.0000" rot="-90.0000 0.0000 -7.6243" scale="0.7127 0.7127 0.7127">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/d4b29e24e7596d1dafa0f515c2fe7ee8/d4b29e24e7596d1dafa0f515c2fe7ee8.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1107947000000000 0.1107947000000000" offset="0.5735652000000000 0.2005401000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="dragons" type="Group" pos="12247.0000 -767.0000 -6345.0000" rot="180.0000 -45.0000 180.0000" scale="0.2815 0.2815 0.2815">
+      <Entity name="Object649" type="Model" res_type="custom" res_id="0" pos="10753.0000 2241.9620 2598.0000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/87717322052be9e5f2bdddaf3ea0dd78/cba521ec8b58c0cc5c8d0aa94264889c.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1099856000000000 0.1099856000000000" offset="0.5735669000000000 0.2932546000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Object662" type="Model" res_type="custom" res_id="0" pos="10563.6400 2241.9620 2598.1000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/87717322052be9e5f2bdddaf3ea0dd78/37c5071d005445027a5448ac3ffd7f74.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.2768040000000000 0.2768040000000000" offset="0.6845250000000000 0.2002081000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Object663" type="Model" res_type="custom" res_id="0" pos="10075.1300 2262.9990 2511.0070" rot="-90.0010 -3.5704 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/87717322052be9e5f2bdddaf3ea0dd78/9bdfded23e65f8ace7b953fec38a6c8c.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.1228070000000000 0.1228070000000000" offset="0.8658581000000000 0.0347686900000000" uv2_error="2" />
+        </Component>
+      </Entity>
+      <Entity name="Object664" type="Model" res_type="custom" res_id="0" pos="10563.6400 2241.9620 2598.1000" rot="-90.0010 0.0000 0.0000">
+        <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/87717322052be9e5f2bdddaf3ea0dd78/d657e522801f74af5f15e6be603b211d.model">
+          <Lighting cast_shadow="1" recv_shadow="true" />
+          <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.2834286000000000 0.2834286000000000" offset="0.4915134000000000 0.5664057000000000" uv2_error="2" />
+        </Component>
+      </Entity>
+    </Entity>
+    <Entity name="Map_srbq_cxx" type="Model" res_type="custom" res_id="0" pos="11579.8800 931.2883 -5449.4060" rot="-90.0010 45.0000 0.0000" scale="0.2798 0.2798 0.2798">
+      <Component type="MAP" cell_type="model" res_pack="data/3dmap/shenjizhiting" res_file="model/fc89da8c759c621a3723401901a656ca/fc89da8c759c621a3723401901a656ca.model">
+        <Lighting cast_shadow="1" recv_shadow="true" />
+        <LightMap res_pack="data/3dmap/shenjizhiting" res_file="lightmap/lightmap.mtex" index="0" scale="0.0818822100000000 0.0818822100000000" offset="-0.0006605290000000 0.1503698000000000" uv2_error="3" />
+      </Component>
+    </Entity>
+  </Entity>
+	<Entity name="Important" type="Group">
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="6047.983 656.03 -4397.024" rot="180 87.603 180" scale="3.5 3.5 3.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="5581.032 390.293 -3752.823" rot="0 49.235 0" scale="2 2 2">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="4764.146 606.027 -3276.379" rot="0 4.647 0" scale="3 3 3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="3424.973 638.563 -3336.384" rot="0 322.91 0" scale="3 3 3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2856.417 219.354 -3755.515" rot="0 333.658 0">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2273.468 368.567 -4225.804" rot="180 43.43 180" scale="1.5 1.5 1.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="1983.941 723.52 -4550.427" rot="180 294.368 180" scale="2 3 2">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2095.572 210.252 -5401.130" rot="180 39.278 180">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="1658.995 210.253 -4782.459" rot="180 82.585 180">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="1893.934 367.812 -5956.649" rot="180 82.585 180" scale="2 2 2">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2403.930 403.089 -6763.349" rot="0 34.504 0" scale="2 2 2">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2880.809 325.530 -7070.198" rot="0 13.697 0" scale="1.5 1.5 1.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="3611.782 302.478 -7172.477" rot="0 2.936 0" scale="1.5 1.5 1.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="1861.757 301.88 -6799.886" rot="0 2.936 0" scale="1.5 1.5 1.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashsquare" type="Effect" res_id="maskflashsquare" pos="2878.322 204.66 -7300.444" rot="0 40.416 0">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashcircle" type="Effect" res_id="maskflashcircle" pos="3225.956 -125.675 -7354.908" rot="0 343.998 0">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashcircle" type="Effect" res_id="maskflashcircle" pos="2284.428 -142.604 -7288.265">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="maskflashcircle" type="Effect" res_id="maskflashcircle" pos="2457.273 -142.604 -7165.457" rot="0 72.223 0" scale="1.2 1.2 1.2">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="surfacegalaxy" type="Effect" res_id="surfacegalaxy" pos="6589.436 12.933 -7940.331" rot="0 44.946 0" scale="0.282 0.282 0.282">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="Model" type="Model" res_type="body" res_id="1801000000" pos="4171.702 -785.724 -5339.643" scale="0.178 0.178 0.178">
+			<Component type="SCRIPT" class="CEntity">
+				<Component class="CMotionPlay">
+					<Param t="3" k="motion" v="18010000100.000" />
+				</Component>
+			</Component>
+		</Entity>
+		<Entity name="Model" type="Model" res_type="body" res_id="1800000000" pos="9485.719 87.44 -11195.57" rot="0 -135 0" scale="0.285 0.285 0.285">
+			<Component type="SCRIPT" class="CEntity">
+				<Component class="CMotionPlay">
+					<Param t="3" k="motion" v="18000000100.000" />
+				</Component>
+			</Component>
+		</Entity>
+		<Entity name="Model" type="Model" res_type="body" res_id="1800000000" pos="10012.920 87.433 -10628.9" rot="0 -135 0" scale="0.285 0.285 0.285">
+			<Component type="SCRIPT" class="CEntity">
+				<Component class="CMotionPlay">
+					<Param t="3" k="motion" v="18000000100.000" />
+				</Component>
+			</Component>
+		</Entity>
+	</Entity>
+	<Entity name="Effect" type="Group">
+		<Entity name="dragonhead" type="Effect" res_id="dragonhead" pos="10762.867 -750 -12050.039" rot="-180 0.900 -180" scale="2.525 2.525 2.525">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="platformeff" type="Effect" res_id="platformeff" pos="3759.862 -1192.785 -5022.432">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="columneffect" type="Effect" res_id="columneffect" pos="10027.512 91.179 -10642.334">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="columneffect" type="Effect" res_id="columneffect" pos="9475.634 80.777 -11199.369" scale="1.050 1.050 1.050">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="4218.516 -2153.430 -6748.724" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="6337.47 -138.499 -4214.675" rot="180 74.75 180" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="5995.093 -8.43 -3539.255" rot="180 317.252 180" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="4165.649 -1163.492 -5356.607" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="5198.825 2.667 -2717.794" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="2785.406 2.753 -7537.79" rot="0 329.247 0" scale="3 3 3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="2246.496 10.93 -7377.744" rot="180 300.025 180" scale="3.5 3.5 3.5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="1549.503 2.760 -6663.373" rot="0 35.733 0" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="1829.215 2.743 -5369.796" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="2794.978 475.274 -3524.496" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="4013.865 2.679 -2923.225" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="8558.575 -1109.210 -7802.479" rot="0 85.43 0" scale="10 10 10">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="10665.768 -880.052 -9037.309" scale="10 10 10">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="7992.95 -1255.990 -10231.664" scale="10 10 10">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="1743.346 89.920 -4232.18" scale="5 5 5">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="9012.915 -878.970 -11483.054" scale="3 3 3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="4200.863 -1937.749 -9241.7" scale="14.486 14.486 14.486">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="blacksmoke" type="Effect" res_id="blacksmoke" pos="6856.655 -1870.832 -5256.12" scale="14.486 14.486 14.486">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="angelstatue" type="Effect" res_id="angelstatue" pos="4578.802 -1194.345 -5656.585" rot="0 180 0">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect" type="Effect" res_id="runeeffect" pos="4232.158 390.621 -3182.234" rot="0 7.075 0" scale="2.545 2.545 2.545">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect2" type="Effect" res_id="runeeffect2" pos="2037.906 182.848 -6328.553" rot="180 -69 180" scale="1.95 1.95 1.95">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect2" type="Effect" res_id="runeeffect2" pos="1560.075 273.402 -6823.904" rot="180 76 180" scale="2.2 2.75 2.75">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect2" type="Effect" res_id="runeeffect2" pos="2257.34 150.479 -7039.947" rot="180 76 180" scale="1 1.6 0.3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect2" type="Effect" res_id="runeeffect2" pos="854.383 211.136 -4741.707" rot="-180 74 -180" scale="2.232 2.232 4.3">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect2" type="Effect" res_id="runeeffect2" pos="3045.087 190.405 -3773.318" rot="180 345 180" scale="1.73 1.900 1.73">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="2286.703 94.26 -5199.583" rot="180 68.485 180" scale="2.475 0.950 2.475">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="2006.115 82.287 -4523.563" rot="180 66.782 180" scale="2.475 0.950 2.475">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="2719.973 77.022 -3829.490" rot="0 367 0" scale="1.82 0.950 1.82">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="3995.492 163.280 -3315.063" rot="0 42.885 0" scale="2.050 1.85 2.050">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="5356.207 77.203 -3268.742" rot="0 59.442 0" scale="1.75 0.950 1.75">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="5049.18 246.356 -3055.549" rot="0 352.882 0" scale="2.800 2.600 2.800">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect3" type="Effect" res_id="runeeffect3" pos="3326.628 386.976 -3266.124" rot="2.25 20 -180" scale="1.7 2.285 1.7">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="runeeffect" type="Effect" res_id="runeeffect" pos="9124.495 201.533 -9116.264" rot="180 88.520 180" scale="1.25 1.25 1.25">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+		<Entity name="streameredge" type="Effect" res_id="streameredge" pos="4555.904 -877.865 -5648.236" rot="180 0 180" scale="2.550 2.550 2.550">
+			<Component type="SCRIPT" class="CSceneEffect">
+				<Param t="1" k="no_cull_box" v="1" />
+				<Component class="CEffectPlay" />
+			</Component>
+		</Entity>
+	</Entity>
+</Scene>
