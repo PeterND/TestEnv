@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/yjxb_01_mu" res_file="model/rock2_15_31e38c5884cf99f68e4a7e812a592/c47e96029db0d08fca68e37986fe9578.png" />
+  </TextureParameters>
+</Material>
