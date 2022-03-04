@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/yjxb_shui_01" res_file="model/dhxb_shui_chuan_01_ac3cbd597bb0c4accc2d1a301858761f/0dffce99f1ff588e4cef1e584f5ab270.png" />
+  </TextureParameters>
+</Material>

@@ -1,0 +1,5 @@
+<Model>
+  <Mesh res_pack="data/3dmap/yjxb_02" res_file="model/sm_desert_tree_05_d3ca7b969fdc1e479e4bca9714add5f4/7952398ef1bd7b519a1dbd3e384d74b7.mesh">
+    <Material res_pack="data/3dmap/yjxb_02">model/sm_desert_tree_05_d3ca7b969fdc1e479e4bca9714add5f4/897a9fd3a71798fb56c83afb848f650.material</Material>
+  </Mesh>
+</Model>

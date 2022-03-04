@@ -1,0 +1,12 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/yjxb_shui_01" res_file="model/dhcz_shiku_shitou_01_01_85787fa5fd25ea498f9c4ccfd54265cb/95568448dc1a7ffef15f8623bd99c823.png" />
+  </TextureParameters>
+</Material>

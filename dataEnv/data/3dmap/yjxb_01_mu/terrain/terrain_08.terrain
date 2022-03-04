@@ -1,0 +1,9 @@
+<Terrain name="terrain_08" render_level="0" has_culldata="false">
+  <HMap>terrain_08_data.mesh</HMap>
+  <Textures>
+    <Tex type="detail" res_pack="data/3dmap/common" Tiling="1.0000 1.0000" Offset="0.0000 0.0000" UVOrder="0">terrain/02e6ebb50c58b735edf5873c730c8dde.png</Tex>
+    <Tex type="detail" Tiling="8.0000 8.0000" Offset="0.0000 0.0000" UVOrder="1">splatmap_2.png</Tex>
+    <Tex type="detail" res_pack="data/3dmap/common" Tiling="5.0000 5.0000" Offset="0.0000 0.0000" UVOrder="1">terrain/b38ed241814d9998af9c524fc201daf7.png</Tex>
+    <Tex type="detail" res_pack="data/3dmap/common" Tiling="10.0000 10.0000" Offset="0.0000 0.0000" UVOrder="1">terrain/92e1f8c124d989f764aaa18721146b00.png</Tex>
+  </Textures>
+</Terrain>

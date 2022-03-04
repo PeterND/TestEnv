@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="Geometry" CullFace="2" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.5</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/yjxb_02" res_file="model/sm_desert_build_thing_08_21_933355ccdeea3aaeccad975bdec3995c/95359577be6f4effb888b0bae62ec24f.png" />
+  </TextureParameters>
+</Material>
