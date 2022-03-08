@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model>
+  <Mesh res_pack="data/3dmap/common" res_file="common_20c1e63d0ecf5d8ae84958f09643eff9/b3132045c734aa40533c43748d529b6e.mesh">
+    <Material res_pack="data/3dmap/common">common_20c1e63d0ecf5d8ae84958f09643eff9/20c1e63d0ecf5d8ae84958f09643eff9.material</Material>
+  </Mesh>
+</Model>

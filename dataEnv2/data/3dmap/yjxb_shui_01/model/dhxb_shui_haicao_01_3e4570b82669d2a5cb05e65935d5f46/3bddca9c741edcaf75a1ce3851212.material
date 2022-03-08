@@ -1,0 +1,13 @@
+<Material Shader="C3/C3StandardShader" RenderQueueTag="AlphaTest" CullFace="0" AlphaTest="1">
+  <VectorParameters>
+    <Diff_C>1.0000 1.0000 1.0000 1.0000</Diff_C>
+    <Diff_T_Scale_Offset>1.0000 1.0000 0.0000 0.0000</Diff_T_Scale_Offset>
+  </VectorParameters>
+  <FloatParameters>
+    <alpha_ref>0.5</alpha_ref>
+    <alpha_tiling>0</alpha_tiling>
+  </FloatParameters>
+  <TextureParameters>
+    <Diff_T res_pack="data/3dmap/yjxb_shui_01" res_file="model/dhxb_shui_haicao_01_3e4570b82669d2a5cb05e65935d5f46/150caedb17981b533c30b2692f086b06.png" />
+  </TextureParameters>
+</Material>
